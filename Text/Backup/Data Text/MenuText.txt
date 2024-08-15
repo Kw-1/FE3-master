@@ -1,0 +1,5 @@
+## TransformNameID
+ Imitate[X]
+ 
+## TransformDescID
+Copy an ally's abilities.[X]

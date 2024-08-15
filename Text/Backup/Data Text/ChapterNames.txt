@@ -1,0 +1,68 @@
+## Ch1NameText
+The Grustian Expedition[X]
+
+## Ch2NameText
+Rebellion at Macedon[X]
+
+## Ch3NameText
+Abducted Princess[X]
+
+## Ch4NameText
+Joy and Sorrow[X]
+
+## Ch5NameText
+Liberation of Grust[X]
+
+## Ch6NameText
+The Nest of Evil[X]
+
+## Ch7NameText
+The Scarlet Sword[X]
+
+## Ch8NameText
+Soulful Bridge[X]
+
+## Ch9NameText
+Sanctuary of Sorcery[X]
+
+## Ch10NameText
+Two Sorcerers[X]
+
+## Ch11NameText
+Anri's Way[X]
+
+## Ch12NameText
+Graveyard of Fire Dragons[X]
+
+## Ch13NameText
+Frozen Land[X]
+
+## Ch14NameText
+A Mystery Revealed[X]
+
+## Ch15NameText
+Return of the Prince[X]
+
+## Ch16NameText
+Regaining the Capital[X]
+
+## Ch17NameText
+Gra's Sun Sets[X]
+
+## Ch18NameText
+Battle of the Pass[X]
+
+## Ch19NameText
+The Last Decisive Battle[X]
+
+## Ch20NameText
+Dark Emperor[X]
+
+## Endgame1NameText
+The Wyvern's Dale[X]
+
+## Endgame2NameText
+The Dragon's Altar[X]
+
+## EndgameNameText
+Endgame[X]

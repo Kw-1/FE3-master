@@ -1,0 +1,76 @@
+#define SoundRoomEntry(songid,length,name) "WORD songid length 0 name"
+#define SoundRoomTerminator "WORD 0xFFFFFFFF 0 0 0"
+
+ALIGN 4
+NewSoundRoom:
+//#incbin "SoundRoomVanilla.bin"
+
+// new entries here
+SoundRoomEntry(songmt,0,MainThemeName)
+SoundRoomEntry(song06,0,ANewJourneyName)
+SoundRoomEntry(song07,0,SeekingtheLegendName)
+SoundRoomEntry(song08,0,WarofHeroesName)
+SoundRoomEntry(song37,0,AdvanceName)
+SoundRoomEntry(song01,0,ExpeditionName)
+SoundRoomEntry(songlb,0,LiberationName)
+SoundRoomEntry(song2E,0,HolyWarName)
+SoundRoomEntry(song40,0,VictoryisOursName)
+SoundRoomEntry(song3A,0,InsurrectionName)
+SoundRoomEntry(song14,0,BeyondtheSilenceName)
+SoundRoomEntry(song15,0,ForWhoseSakeName)
+SoundRoomEntry(song0301,0,DragonsAltarName)
+SoundRoomEntry(song22,0,AttackName)
+SoundRoomEntry(song1A,0,DefenceName)
+SoundRoomEntry(song32,0,ConfrontName)
+SoundRoomEntry(song26,0,DarkEmperorName)
+SoundRoomEntry(song44,0,ImhulluName)
+SoundRoomEntry(song25,0,DarkEarthDragonName)
+SoundRoomEntry(starlight,0,StarlightName)
+SoundRoomEntry(song39,0,DancerName)
+SoundRoomEntry(song21,0,OtherName)
+SoundRoomEntry(songre,0,RecoveryName)
+SoundRoomEntry(song59,0,UnitChangeName)
+SoundRoomEntry(songof,0,OfftoWarName)
+SoundRoomEntry(song2A,0,ConspiracyName)
+SoundRoomEntry(song24,0,ThemeofLoveName)
+SoundRoomEntry(songDA,0,LegendoftheDivineDragonAName)
+SoundRoomEntry(song2F,0,LegendoftheDivineDragonBName)
+SoundRoomEntry(song30,0,LegendoftheDivineDragonMusicBoxName)
+SoundRoomEntry(song2C,0,AnotherWorldName)
+SoundRoomEntry(songVA,0,VillageAName)
+SoundRoomEntry(song38,0,VillageBName)
+SoundRoomEntry(songVG,0,VillageGirlName)
+SoundRoomEntry(song3B,0,SadVillagerName)
+SoundRoomEntry(songTo,0,ThemeofEncounterName)
+SoundRoomEntry(song36,0,ArmouryName)
+SoundRoomEntry(song35,0,VendorName)
+SoundRoomEntry(song3F,0,APainfullFairwellName)
+SoundRoomEntry(song1D,0,PhinaName)
+SoundRoomEntry(songspec,0,SpecialName)
+SoundRoomEntry(songaum,0,AumName)
+SoundRoomTerminator
+
+PUSH
+ORG 0x1BC14   
+POIN NewSoundRoom
+ORG 0x1BCC4
+POIN NewSoundRoom
+ORG 0xAECA8
+POIN NewSoundRoom
+ORG 0xAECD0
+POIN NewSoundRoom
+ORG 0xAED2C
+POIN NewSoundRoom
+ORG 0xAEEBC
+POIN NewSoundRoom
+ORG 0xAF438
+POIN NewSoundRoom
+ORG 0xAF830
+POIN NewSoundRoom
+ORG 0xAFE30
+POIN NewSoundRoom
+ORG 0xB0080
+POIN NewSoundRoom
+ORG 0xB042C
+POIN NewSoundRoom
+POP

@@ -1,0 +1,247 @@
+ALIGN 4
+
+ArcherS:
+#incbin "cache/ArcherS.dmp"
+ALIGN 4
+ 
+Armor_KnightS:
+#incbin "cache/Armor_KnightS.dmp"
+ALIGN 4
+
+BarbarianS:
+#incbin "cache/BarbarianS.dmp"
+ALIGN 4
+
+Divine_DragonS:
+#incbin "cache/Divine_DragonS.dmp"
+ALIGN 4
+
+DKMageS:
+#incbin "cache/DKMageS.dmp"
+ALIGN 4
+ 
+Earth_DragonS:
+#incbin "cache/Earth_DragonS.dmp"
+ALIGN 4
+
+Fire_DragonS:
+#incbin "cache/Fire_DragonS.dmp"
+ALIGN 4
+
+HunterS:
+#incbin "cache/HunterS.dmp"
+ALIGN 4
+
+Ice_DragonS:
+#incbin "cache/Ice_DragonS.dmp"
+ALIGN 4
+
+LordS:
+#incbin "cache/LordS.dmp"
+ALIGN 4
+
+Mage_DragonS:
+#incbin "cache/Mage_DragonS.dmp"
+ALIGN 4
+
+MageS:
+#incbin "cache/MageS.dmp"
+ALIGN 4
+
+ManaketeS:
+#incbin "cache/ManaketeS.dmp"
+ALIGN 4
+
+MercenaryS:
+#incbin "cache/MercenaryS.dmp"
+ALIGN 4
+
+PirateS:
+#incbin "cache/PirateS.dmp"
+ALIGN 4
+
+SageS:
+#incbin "cache/SageS.dmp"
+ALIGN 4
+
+Social_KnightS:
+#incbin "cache/Social_KnightS.dmp"
+ALIGN 4
+
+WyvernS:
+#incbin "cache/WyvernS.dmp"
+ALIGN 4
+
+
+//MMS Image Data 
+ 
+
+ALIGN 4
+
+ArcherM:
+#incbin "cache/ArcherM.dmp"
+ALIGN 4
+
+Armor_KnightM:
+#incbin "cache/Armor_KnightM.dmp"
+ALIGN 4
+
+BarbarianM:
+#incbin "cache/BarbarianM.dmp"
+ALIGN 4
+
+Divine_DragonM:
+#incbin "cache/Divine_DragonM.dmp"
+ALIGN 4
+
+Earth_DragonM:
+#incbin "cache/Earth_DragonM.dmp"
+ALIGN 4
+
+DKMageM:
+#incbin "cache/DKMageM.dmp"
+ALIGN 4
+
+Fire_DragonM:
+#incbin "cache/Fire_DragonM.dmp"
+ALIGN 4
+
+HunterM:
+#incbin "cache/HunterM.dmp"
+ALIGN 4
+
+Ice_DragonM:
+#incbin "cache/Ice_DragonM.dmp"
+ALIGN 4
+
+LordM:
+#incbin "cache/LordM.dmp"
+ALIGN 4
+
+Mage_DragonM:
+#incbin "cache/Mage_DragonM.dmp"
+ALIGN 4
+
+MageM:
+#incbin "cache/MageM.dmp"
+ALIGN 4
+
+ManaketeM:
+#incbin "cache/ManaketeM.dmp"
+ALIGN 4
+
+MercenaryM:
+#incbin "cache/MercenaryM.dmp"
+ALIGN 4
+
+PirateM:
+#incbin "cache/PirateM.dmp"
+ALIGN 4
+
+SageM:
+#incbin "cache/SageM.dmp"
+ALIGN 4
+
+Social_KnightM:
+#incbin "cache/Social_KnightM.dmp"
+ALIGN 4
+
+WyvernM:
+#incbin "cache/WyvernM.dmp"
+ALIGN 4
+
+DracoknightS:
+#incbin "cache/DracoknightS.dmp"
+ALIGN 4
+
+DracoknightM:
+#incbin "cache/DracoknightM.dmp"
+ALIGN 4
+
+Manakete_FemaleS:
+#incbin "cache/Manakete_FemaleS.dmp"
+ALIGN 4
+
+Manakete_FemaleM:
+#incbin "cache/Manakete_FemaleM.dmp"
+ALIGN 4
+
+SisterS:
+#incbin "cache/SisterS.dmp"
+ALIGN 4
+
+SisterM:
+#incbin "cache/SisterM.dmp"
+ALIGN 4
+
+SoldierS:
+#incbin "cache/SoldierS.dmp"
+ALIGN 4
+
+SoldierM:
+#incbin "cache/SoldierM.dmp"
+ALIGN 4
+
+HalberdierS:
+#incbin "cache/HalberdierS.dmp"
+ALIGN 4
+
+HalberdierM:
+#incbin "cache/HalberdierM.dmp"
+ALIGN 4
+
+BallisticianS:
+#incbin "cache/BallisticianS.dmp"
+ALIGN 4
+
+BallisticianM:
+#incbin "cache/BallisticianM.dmp"
+ALIGN 4
+
+Cavalier_FemaleS:
+#incbin "cache/Cavalier_FemaleS.dmp"
+ALIGN 4
+
+Cavalier_FemaleM:
+#incbin "cache/Cavalier_FemaleM.dmp"
+ALIGN 4
+
+Paladin_FemaleS:
+#incbin "cache/Paladin_FemaleS.dmp"
+ALIGN 4
+
+Paladin_FemaleM:
+#incbin "cache/Paladin_FemaleM.dmp"
+ALIGN 4
+
+EmperorS:
+#incbin "cache/EmperorS.dmp"
+ALIGN 4
+
+EmperorM:
+#incbin "cache/EmperorM.dmp"
+ALIGN 4
+
+Dark_Earth_DragonS:
+#incbin "cache/Dark_Earth_DragonS.dmp"
+ALIGN 4
+
+Dark_Earth_DragonM:
+#incbin "cache/Dark_Earth_DragonM.dmp"
+ALIGN 4
+
+BishopS:
+#incbin "cache/BishopS.dmp"
+ALIGN 4
+
+BishopM:
+#incbin "cache/BishopM.dmp"
+ALIGN 4
+
+BerserkerS:
+#incbin "cache/BerserkerS.dmp"
+ALIGN 4
+
+BerserkerM:
+#incbin "cache/BerserkerM.dmp"
+ALIGN 4

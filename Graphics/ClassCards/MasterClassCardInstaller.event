@@ -1,0 +1,100 @@
+#define setCardEntry(cardEntry,cardLocation,cardPaletteLocation) "PUSH; ORG PortraitTable+cardEntry*0x1C; POIN 0 0 cardPaletteLocation 0 cardLocation; POP"
+
+#define BallisticianClassCard 0x7e
+#define BarbarianClassCard 0x8b
+#define BerserkerClassCard 0x8d
+#define EarthDragonClassCard 0x83
+#define MageDragonClassCard 0x84
+#define FireDragonClassCard 0x82
+#define IceDragonClassCard 0x92
+#define WyvernClassCard 0x93
+#define DarkEarthDragonClassCard 0x95
+#define DivineDragonClassCard 0x98
+
+ALIGN 4
+BallisticianClassCardData:
+#incbin "Dmp/Ballistician.dmp"
+ALIGN 4
+BallisticianClassCardPal:
+#incbin "Dmp/Ballistician.png_pal.dmp"
+setCardEntry(BallisticianClassCard, BallisticianClassCardData, BallisticianClassCardPal)
+
+ALIGN 4
+BarbarianClassCardData:
+#incbin "Dmp/Barbarian.dmp"
+ALIGN 4
+BarbarianClassCardPal:
+#incbin "Dmp/Barbarian.png_pal.dmp"
+setCardEntry(BarbarianClassCard, BarbarianClassCardData, BarbarianClassCardPal)
+
+ALIGN 4
+BerserkerClassCardData:
+#incbin "Dmp/Berserker.dmp"
+ALIGN 4
+BerserkerClassCardPal:
+#incbin "Dmp/Berserker.png_pal.dmp"
+setCardEntry(BerserkerClassCard, BerserkerClassCardData, BerserkerClassCardPal)
+
+ALIGN 4
+EarthDragonClassCardData:
+#incbin "Dmp/EarthDragon.dmp"
+ALIGN 4
+EarthDragonClassCardPal:
+#incbin "Dmp/EarthDragon.png_pal.dmp"
+setCardEntry(EarthDragonClassCard, EarthDragonClassCardData, EarthDragonClassCardPal)
+
+ALIGN 4
+MageDragonClassCardData:
+#incbin "Dmp/MageDragon.dmp"
+ALIGN 4
+MageDragonClassCardPal:
+#incbin "Dmp/MageDragon.png_pal.dmp"
+setCardEntry(MageDragonClassCard, MageDragonClassCardData, MageDragonClassCardPal)
+
+ALIGN 4
+DivineDragonClassCardData:
+#incbin "Dmp/DivineDragon.dmp"
+ALIGN 4
+DivineDragonClassCardPal:
+#incbin "Dmp/DivineDragon.png_pal.dmp"
+setCardEntry(DivineDragonClassCard,DivineDragonClassCardData, DivineDragonClassCardPal)
+
+ALIGN 4
+FireDragonClassCardData:
+#incbin "Dmp/FireDragon.dmp"
+ALIGN 4
+FireDragonClassCardPal:
+#incbin "Dmp/FireDragon.png_pal.dmp"
+setCardEntry(FireDragonClassCard, FireDragonClassCardData, FireDragonClassCardPal)
+
+ALIGN 4
+IceDragonClassCardData:
+#incbin "Dmp/IceDragon.dmp"
+ALIGN 4
+IceDragonClassCardPal:
+#incbin "Dmp/IceDragon.png_pal.dmp"
+setCardEntry(IceDragonClassCard, IceDragonClassCardData, IceDragonClassCardPal)
+
+ALIGN 4
+WyvernClassCardData:
+#incbin "Dmp/Wyvern.dmp"
+ALIGN 4
+WyvernClassCardPal:
+#incbin "Dmp/Wyvern.png_pal.dmp"
+setCardEntry(WyvernClassCard, WyvernClassCardData, WyvernClassCardPal)
+
+ALIGN 4
+DarkEarthDragonClassCardData:
+#incbin "Dmp/DarkEarthDragon.dmp"
+ALIGN 4
+DarkEarthDragonClassCardPal:
+#incbin "Dmp/DarkEarthDragon.png_pal.dmp"
+setCardEntry(DarkEarthDragonClassCard, DarkEarthDragonClassCardData, DarkEarthDragonClassCardPal)
+
+
+
+
+
+
+
+

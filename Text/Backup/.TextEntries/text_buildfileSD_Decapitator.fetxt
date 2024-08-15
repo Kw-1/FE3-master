@@ -1,0 +1,3 @@
+Decapitator: Grants Atk = foe's missing HP[N]
+at start of combat. If foe is below 50%[N]
+HP, grants Hit/Crit +80.[X]

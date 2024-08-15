@@ -1,0 +1,325 @@
+//Event file generated from Sappy .s format.
+	#include "MPlayDef.event"
+
+	#define	songre_grp  voicegroup000
+	#define	songre_pri  0
+	#define	songre_rev  0
+	#define	songre_mvl  127
+	#define	songre_key  0
+	#define	songre_tbs  1
+	#define	songre_exg  0
+	#define	songre_cmp  1
+
+	// .rodata
+	//	songre
+	ALIGN 4
+
+
+//**************** Track 1 (Midi-Chn.0) ****************//
+
+songre_001:
+//  #01 //000   ----------------------------------------
+ BYTE   KEYSH   songre_key+0
+Label_561C5E:
+ BYTE   TEMPO   116*songre_tbs/2
+ BYTE   VOICE   52
+ BYTE   VOL   46*songre_mvl/mxv
+ BYTE   PAN   c_v+14
+ BYTE   W01
+ BYTE   N11  Gn3  v104
+ BYTE   W12
+ BYTE   Gs3
+ BYTE   W12
+ BYTE   As3
+ BYTE   W12
+ BYTE   Cn4
+ BYTE   W12
+ BYTE   Gn3
+ BYTE   W12
+ BYTE   Gs3
+ BYTE   W12
+ BYTE   As3
+ BYTE   W12
+ BYTE   Cn4
+ BYTE   W11
+//  #01 //001   ----------------------------------------
+ BYTE   GoTo
+  POIN2 Label_561C5E
+//  #01 //002   ----------------------------------------
+ BYTE   W01
+ BYTE   N11  Gn3  v104
+ BYTE   W12
+ BYTE   Gs3
+ BYTE   W12
+ BYTE   As3
+ BYTE   W12
+ BYTE   Cn4
+ BYTE   W12
+ BYTE   Gn3
+ BYTE   W12
+ BYTE   Gs3
+ BYTE   W12
+ BYTE   As3
+ BYTE   W12
+ BYTE   N09  Cn4
+ BYTE   W10
+ BYTE   FINE
+
+//**************** Track 2 (Midi-Chn.1) ****************//
+
+songre_002:
+//  #02 //000   ----------------------------------------
+ BYTE   KEYSH   songre_key+0
+Label_561C96:
+ BYTE   VOICE   52
+ BYTE   VOL   46*songre_mvl/mxv
+ BYTE   PAN   c_v+14
+ BYTE   W01
+ BYTE   N11  Cn3  v104
+ BYTE   W12
+ BYTE   Cs3
+ BYTE   W12
+ BYTE   Ds3
+ BYTE   W12
+ BYTE   Fn3
+ BYTE   W12
+ BYTE   Cn3
+ BYTE   W12
+ BYTE   Cs3
+ BYTE   W12
+ BYTE   Ds3
+ BYTE   W12
+ BYTE   Fn3
+ BYTE   W11
+//  #02 //001   ----------------------------------------
+ BYTE   GoTo
+  POIN2 Label_561C96
+//  #02 //002   ----------------------------------------
+ BYTE   W01
+ BYTE   N11  Cn3  v104
+ BYTE   W12
+ BYTE   Cs3
+ BYTE   W12
+ BYTE   Ds3
+ BYTE   W12
+ BYTE   Fn3
+ BYTE   W12
+ BYTE   Cn3
+ BYTE   W12
+ BYTE   Cs3
+ BYTE   W12
+ BYTE   Ds3
+ BYTE   W12
+ BYTE   N09  Fn3
+ BYTE   W10
+ BYTE   FINE
+
+//**************** Track 3 (Midi-Chn.2) ****************//
+
+songre_003:
+//  #03 //000   ----------------------------------------
+ BYTE   KEYSH   songre_key+0
+Label_561CCE:
+ BYTE   VOICE   52
+ BYTE   VOL   46*songre_mvl/mxv
+ BYTE   PAN   c_v-14
+ BYTE   W01
+ BYTE   N11  As3  v104
+ BYTE   W12
+ BYTE   Gs3
+ BYTE   W12
+ BYTE   Dn4
+ BYTE   W12
+ BYTE   Gn3
+ BYTE   W12
+ BYTE   As3
+ BYTE   W12
+ BYTE   Gs3
+ BYTE   W12
+ BYTE   Dn4
+ BYTE   W12
+ BYTE   Gn3
+ BYTE   W11
+//  #03 //001   ----------------------------------------
+ BYTE   GoTo
+  POIN2 Label_561CCE
+//  #03 //002   ----------------------------------------
+ BYTE   W01
+ BYTE   N11  As3  v104
+ BYTE   W12
+ BYTE   Gs3
+ BYTE   W12
+ BYTE   Dn4
+ BYTE   W12
+ BYTE   Gn3
+ BYTE   W12
+ BYTE   As3
+ BYTE   W12
+ BYTE   Gs3
+ BYTE   W12
+ BYTE   Dn4
+ BYTE   W12
+ BYTE   N09  Gn3
+ BYTE   W10
+ BYTE   FINE
+
+//**************** Track 4 (Midi-Chn.3) ****************//
+
+songre_004:
+//  #04 //000   ----------------------------------------
+ BYTE   KEYSH   songre_key+0
+Label_56183E:
+ BYTE   VOICE   52
+ BYTE   VOL   66*songre_mvl/mxv
+ BYTE   PAN   c_v+14
+ BYTE   N11  As3  v104
+ BYTE   W12
+ BYTE   Gs3
+ BYTE   W12
+ BYTE   Dn4
+ BYTE   W12
+ BYTE   Gn3
+ BYTE   W12
+ BYTE   As3
+ BYTE   W12
+ BYTE   Gs3
+ BYTE   W12
+ BYTE   Dn4
+ BYTE   W12
+ BYTE   Gn3
+ BYTE   W12
+//  #04 //001   ----------------------------------------
+ BYTE   GoTo
+  POIN2 Label_56183E
+//  #04 //002   ----------------------------------------
+ BYTE   N11  As3  v104
+ BYTE   W12
+ BYTE   Gs3
+ BYTE   W12
+ BYTE   Dn4
+ BYTE   W12
+ BYTE   Gn3
+ BYTE   W12
+ BYTE   As3
+ BYTE   W12
+ BYTE   Gs3
+ BYTE   W12
+ BYTE   Dn4
+ BYTE   W12
+ BYTE   Gn3
+ BYTE   W11
+ BYTE   FINE
+
+//**************** Track 5 (Midi-Chn.4) ****************//
+
+songre_005:
+//  #05 //000   ----------------------------------------
+ BYTE   KEYSH   songre_key+0
+Label_561872:
+ BYTE   VOICE   52
+ BYTE   VOL   66*songre_mvl/mxv
+ BYTE   PAN   c_v-14
+ BYTE   N11  Cn3  v104
+ BYTE   W12
+ BYTE   Cs3
+ BYTE   W12
+ BYTE   Ds3
+ BYTE   W12
+ BYTE   Fn3
+ BYTE   W12
+ BYTE   Cn3
+ BYTE   W12
+ BYTE   Cs3
+ BYTE   W12
+ BYTE   Ds3
+ BYTE   W12
+ BYTE   Fn3
+ BYTE   W12
+//  #05 //001   ----------------------------------------
+ BYTE   GoTo
+  POIN2 Label_561872
+//  #05 //002   ----------------------------------------
+ BYTE   N11  Cn3  v104
+ BYTE   W12
+ BYTE   Cs3
+ BYTE   W12
+ BYTE   Ds3
+ BYTE   W12
+ BYTE   Fn3
+ BYTE   W12
+ BYTE   Cn3
+ BYTE   W12
+ BYTE   Cs3
+ BYTE   W12
+ BYTE   Ds3
+ BYTE   W12
+ BYTE   Fn3
+ BYTE   W11
+ BYTE   FINE
+
+//**************** Track 6 (Midi-Chn.5) ****************//
+
+songre_006:
+//  #06 //000   ----------------------------------------
+ BYTE   KEYSH   songre_key+0
+Label_5618A6:
+ BYTE   VOICE   52
+ BYTE   VOL   66*songre_mvl/mxv
+ BYTE   PAN   c_v-14
+ BYTE   N11  Gn3  v104
+ BYTE   W12
+ BYTE   Gs3
+ BYTE   W12
+ BYTE   As3
+ BYTE   W12
+ BYTE   Cn4
+ BYTE   W12
+ BYTE   Gn3
+ BYTE   W12
+ BYTE   Gs3
+ BYTE   W12
+ BYTE   As3
+ BYTE   W12
+ BYTE   Cn4
+ BYTE   W12
+//  #06 //001   ----------------------------------------
+ BYTE   GoTo
+  POIN2 Label_5618A6
+//  #06 //002   ----------------------------------------
+ BYTE   N11  Gn3  v104
+ BYTE   W12
+ BYTE   Gs3
+ BYTE   W12
+ BYTE   As3
+ BYTE   W12
+ BYTE   Cn4
+ BYTE   W12
+ BYTE   Gn3
+ BYTE   W12
+ BYTE   Gs3
+ BYTE   W12
+ BYTE   As3
+ BYTE   W12
+ BYTE   Cn4
+ BYTE   W11
+ BYTE   FINE
+
+//******************************************************//
+	ALIGN 4
+
+songre:
+	BYTE	6	// NumTrks
+	BYTE	0	// NumBlks
+	BYTE	songre_pri	// Priority
+	BYTE	songre_rev	// Reverb.
+    
+	POIN2	songre_grp
+    
+	POIN2	songre_001
+	POIN2	songre_002
+	POIN2	songre_003
+	POIN2	songre_004
+	POIN2	songre_005
+	POIN2	songre_006
+
+	

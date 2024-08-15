@@ -1,0 +1,85 @@
+#ifdef _FE8_
+	#include "Extensions/Hack Installation.txt"
+
+		#ifndef Free_Space
+		#define Free_Space 0x010B64A0
+		ORG Free_Space
+	#endif
+
+	#define  FreelancerClassID 0x73		//The ID of the class you want to be able to transform
+	#define  FreelancerCharacterID 0x21	//The ID of the playable character
+	#define  FreelancerTempCloneID 0x60	//The ID of an unused unit to handle the stat swapping between transformations in the background, will never become playable.
+	#define  FreelancerTurns 0x07	    //How many turns do you want the transformation to last
+	
+	#define  TransformCommID 0x20				//ID of the menu command
+	#define  UnitMenuCommandsTable 0x13D5E18		//Vanilla location, change if your table isn't here
+	#define  TransformMenuEntryID 0x27 			//This is the entry number of the command,
+												//expand your table and adjust the entry to an unused one.
+	PUSH
+		//This inserts the menu command data in the unit table
+		ORG   UnitMenuCommandsTable+(TransformMenuEntryID*0x24)
+		WORD  0x080D7E18        //door jp pointer name, we won't use this
+		SHORT TransformNameID   //text string ID to use for english menu name
+		SHORT TransformDescID   //text string ID to use for menu description
+		BYTE  0x00          	//Menu Color
+		BYTE  TransformCommID   //Menu command ID
+		SHORT 0x0000   //Padding
+		POIN  TransformCommandUsability|1
+		WORD  0x00000000
+		POIN  TransformCommandEffect|1
+		WORD  0x00000000
+		WORD  0x00000000
+		WORD  0x00000000
+		
+		ORG   0x153B8//player phase initializator routine
+		jumpToHack(TransformCountdown)
+		ORG   0x9DC4//map end routine
+		jumpToHack(TransformChapterEnd)
+	POP
+	
+	
+	ALIGN 4
+	
+	FreelancerTargetSelectRoutineList:
+	WORD 0x00000000						//creation func
+	WORD 0x0804E884|1					//erase func, CLEAR BG0 BG1
+	WORD 0x00000000						//creation func 2
+	WORD 0x00000000						//targetswap func
+	WORD 0x00000000						//targetswap func2
+	POIN TransformAPress|1				//A press func
+	WORD 0x08022748|1					//B press func, GenericSelection_BackToUM
+	WORD 0x00000000						//R press func
+	
+
+	ALIGN 4
+	TransformCommandUsability:
+	BYTE FreelancerClassID 0x21 0x0 0x0//r1 has charID
+	#incbin "TransformCommandUsability.dmp"
+	
+	ALIGN 4
+	POIN FreelancerTargetSelectRoutineList
+	TransformCommandEffect:
+	BYTE 0x7B 0x46 0x00 0x00//mov r3,r15 + nop
+	#incbin "TransformCommandEffect.dmp"
+
+	ALIGN 4
+	TransformAPress:
+	BYTE FreelancerCharacterID 0x23 FreelancerTempCloneID 0x22 FreelancerTurns 0x20 0x00 0x00
+	//r0 has turns to transform, r1 has charID, r2 has cloneID
+	#incbin "TransformCommandAPress.dmp"
+
+	ALIGN 4
+	TransformCountdown:
+	BYTE FreelancerCharacterID 0x23 FreelancerClassID 0x20 FreelancerTempCloneID 0x21 0x00 0x00
+	//r3 has charID, r1 has cloneID, r0 freelancer classID
+	#incbin "TransformCountdown.dmp"
+
+	ALIGN 4
+	TransformChapterEnd:
+	BYTE FreelancerCharacterID 0x23 FreelancerClassID 0x20 FreelancerTempCloneID 0x21 0x00 0x00
+	//r3 has charID, r1 has cloneID, r0 freelancer classID
+	#incbin "TransformChapterEnd.dmp"
+	
+#else
+	ERROR "Select FE8!"
+#endif

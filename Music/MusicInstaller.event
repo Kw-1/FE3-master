@@ -1,0 +1,153 @@
+#define SongTableOffset  0x224470
+//2263B0 is the end maybe?
+#include "drumfix_fe8.event"
+voicegroup000:
+#incbin "FE8_NI_2.bin"
+
+#define SongTable(index,SongPointer,Group) "PUSH; ORG SongTableOffset+(8*index); POIN SongPointer; SHORT Group Group; POP"
+#define BattleMusicGroup 0
+#define MapMusicGroup 1
+#define SFXGroup 6
+
+#include "MainTheme.event"
+SongTable(2,songmt,1)
+SongTable(0x43,songmt,1)
+
+#include "ANewJourney.event"
+SongTable(4,song06,1)
+
+#include "SeekingTheLegend.event"
+SongTable(5,song07,1)
+
+#include "WarOfHeroes.event"
+SongTable(6,song08,1)
+
+#include "March.event"
+SongTable(9,song37,1)
+
+#include "Expedition.event"
+SongTable(10,song01,1)
+
+#include "Liberation.event"
+SongTable(11,songlb,1)
+
+#include "HolyWar.event"
+SongTable(12,song2E,1)
+
+#include "VictoryIsOurs.event"
+SongTable(16,song40,1)
+
+#include "Insurrection.event"
+SongTable(19,song3A,1)
+
+#include "BeyondTheSilence.event"
+SongTable(20,song14,1)
+
+#include "ForWhoseSake.event"
+SongTable(21,song15,1)
+
+#include "DragonsAltar.event"
+SongTable(22,song0301,1)
+
+#include "Attack.event"
+SongTable(25,song22,1)
+
+#include "Defense.event"
+SongTable(26,song1A,1)
+
+#include "Confront.event"
+SongTable(27,song32,1)
+
+#include "DarkEmperor.event"
+SongTable(28,song26,1)
+
+#include "Maph.event"
+SongTable(29,song44,1)
+
+#include "DarkEarthDragon.event"
+SongTable(30,song25,1)
+
+#include "Starlight.event"
+SongTable(31,starlight,1)
+
+#include "Dancer.event"
+SongTable(32,song39,1)
+
+#include "Other.event"
+SongTable(33,song21,1)
+
+#include "Recovery.event"
+SongTable(34,songre,1)
+
+#include "UnitChange.event"
+SongTable(35,song59,1)
+
+#include "OffToWar.event"
+SongTable(36,songof,1)
+
+#include "Conspiracy.event"
+SongTable(37,song2A,1)
+
+#include "ThemeOfLove.event"
+SongTable(38,song24,1)
+
+#include "DragonLegendA.event"
+SongTable(39,songDA,1)
+
+#include "DragonLegendB.event"
+SongTable(40,song2F,1)
+
+#include "DragonLegendMB.event"
+SongTable(41,song30,1)
+
+#include "AnotherWorld.event"
+SongTable(42,song2C,1)
+
+#include "VillageA.event"
+SongTable(43,songVA,1)
+
+#include "VillageB.event"
+SongTable(44,song38,1)
+
+#include "VillageGirl.event"
+SongTable(45,songVG,1)
+
+#include "SadVillager.event"
+SongTable(0x44,song3B,1)
+
+#include "ThemeOfEncounter.event"
+SongTable(48,songTo,1)
+
+#include "Armoury.event"
+SongTable(54,song36,1)
+
+#include "Vendor.event"
+SongTable(53,song35,1)
+
+#include "APainfulFarewell.event"
+SongTable(63,song3F,1)
+
+#include "Phina.event"
+SongTable(0x2E,song1D,1)
+
+#include "Special.event"
+SongTable(0x3C,songspec,1)
+
+#include "Aum.event"
+SongTable(0x3D,songaum,1)
+
+
+
+
+
+
+FE8SoundMixer:
+#incbin "FE8_Improved_Sound_Mixer.bin"
+PUSH
+ORG $D01CC 
+POIN FE8SoundMixer
+ORG $D01D0
+BYTE $B0 $6C $00 $03 $18 $02
+ORG $CF53C
+BYTE $B1 $6C $00 $03
+POP

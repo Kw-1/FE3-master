@@ -1,0 +1,1756 @@
+//Event file generated from Sappy .s format.
+	#include "MPlayDef.event"
+
+	#define	songaum_grp  voicegroup000
+	#define	songaum_pri  0
+	#define	songaum_rev  0
+	#define	songaum_mvl  127
+	#define	songaum_key  0
+	#define	songaum_tbs  1
+	#define	songaum_exg  0
+	#define	songaum_cmp  1
+
+	// .rodata
+	//	songaum
+	ALIGN 4
+
+
+//**************** Track 1 (Midi-Chn.0) ****************//
+
+songaum_001:
+//  #01 //000   ----------------------------------------
+ BYTE   KEYSH   songaum_key+0
+ BYTE   TEMPO   68*songaum_tbs/2
+ BYTE   VOICE   49
+ BYTE   VOL   75*songaum_mvl/mxv
+ BYTE   PAN   c_v+14
+ BYTE   W24
+ BYTE   VOL   45*songaum_mvl/mxv
+ BYTE   N23  Dn3  v092
+ BYTE   W01
+ BYTE   VOL   50*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   54*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   59*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   64*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   68*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   73*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   75*songaum_mvl/mxv
+ BYTE   W28
+ BYTE   W01
+ BYTE   VOL   45*songaum_mvl/mxv
+ BYTE   N32  Gn3
+ BYTE   W01
+ BYTE   VOL   50*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   54*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   59*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   64*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   68*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   73*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   75*songaum_mvl/mxv
+ BYTE   W28
+ BYTE   W01
+//  #01 //001   ----------------------------------------
+ BYTE   VOL   45*songaum_mvl/mxv
+ BYTE   N23
+ BYTE   W01
+ BYTE   VOL   50*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   54*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   59*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   64*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   68*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   73*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   75*songaum_mvl/mxv
+ BYTE   W28
+ BYTE   W01
+ BYTE   VOL   45*songaum_mvl/mxv
+ BYTE   N23  Ds4
+ BYTE   W01
+ BYTE   VOL   50*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   54*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   59*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   64*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   68*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   73*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   75*songaum_mvl/mxv
+ BYTE   W17
+ BYTE   VOL   45*songaum_mvl/mxv
+ BYTE   N23  Cn4
+ BYTE   W01
+ BYTE   VOL   50*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   54*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   59*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   64*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   68*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   73*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   75*songaum_mvl/mxv
+ BYTE   W17
+ BYTE   VOL   45*songaum_mvl/mxv
+ BYTE   N23  As3
+ BYTE   W01
+ BYTE   VOL   50*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   54*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   59*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   64*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   68*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   73*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   75*songaum_mvl/mxv
+ BYTE   W05
+//  #01 //002   ----------------------------------------
+ BYTE   W12
+ BYTE   VOL   45*songaum_mvl/mxv
+ BYTE   N23
+ BYTE   W01
+ BYTE   VOL   50*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   54*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   59*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   64*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   68*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   73*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   75*songaum_mvl/mxv
+ BYTE   W28
+ BYTE   W01
+ BYTE   VOL   45*songaum_mvl/mxv
+ BYTE   N23  Fn4
+ BYTE   W01
+ BYTE   VOL   50*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   54*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   59*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   64*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   68*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   73*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   75*songaum_mvl/mxv
+ BYTE   W17
+ BYTE   VOL   45*songaum_mvl/mxv
+ BYTE   N32  Dn4
+ BYTE   W01
+ BYTE   VOL   50*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   54*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   59*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   64*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   68*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   73*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   75*songaum_mvl/mxv
+ BYTE   W17
+//  #01 //003   ----------------------------------------
+ BYTE   W12
+ BYTE   VOL   45*songaum_mvl/mxv
+ BYTE   N23
+ BYTE   W01
+ BYTE   VOL   50*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   54*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   59*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   64*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   68*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   73*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   75*songaum_mvl/mxv
+ BYTE   W17
+ BYTE   VOL   45*songaum_mvl/mxv
+ BYTE   N23  As3
+ BYTE   W01
+ BYTE   VOL   50*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   54*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   59*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   64*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   68*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   73*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   75*songaum_mvl/mxv
+ BYTE   W28
+ BYTE   W01
+ BYTE   VOL   45*songaum_mvl/mxv
+ BYTE   N23  Cn5
+ BYTE   W01
+ BYTE   VOL   50*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   54*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   59*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   64*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   68*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   73*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   75*songaum_mvl/mxv
+ BYTE   W17
+//  #01 //004   ----------------------------------------
+ BYTE   VOL   45*songaum_mvl/mxv
+ BYTE   N23  Gn4
+ BYTE   W01
+ BYTE   VOL   50*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   54*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   59*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   64*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   68*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   73*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   75*songaum_mvl/mxv
+ BYTE   W17
+ BYTE   TEMPO   68*songaum_tbs/2
+ BYTE   VOL   45*songaum_mvl/mxv
+ BYTE   N23  En4
+ BYTE   W01
+ BYTE   TEMPO   66*songaum_tbs/2
+ BYTE   VOL   50*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   TEMPO   66*songaum_tbs/2
+ BYTE   VOL   54*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   TEMPO   66*songaum_tbs/2
+ BYTE   VOL   59*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   TEMPO   66*songaum_tbs/2
+ BYTE   VOL   64*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   TEMPO   66*songaum_tbs/2
+ BYTE   VOL   68*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   TEMPO   66*songaum_tbs/2
+ BYTE   VOL   73*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   TEMPO   66*songaum_tbs/2
+ BYTE   VOL   75*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   TEMPO   64*songaum_tbs/2
+ BYTE   W01
+ BYTE   TEMPO   64*songaum_tbs/2
+ BYTE   W01
+ BYTE   TEMPO   64*songaum_tbs/2
+ BYTE   W01
+ BYTE   TEMPO   64*songaum_tbs/2
+ BYTE   W01
+ BYTE   TEMPO   64*songaum_tbs/2
+ BYTE   W01
+ BYTE   TEMPO   64*songaum_tbs/2
+ BYTE   W01
+ BYTE   TEMPO   64*songaum_tbs/2
+ BYTE   W01
+ BYTE   TEMPO   62*songaum_tbs/2
+ BYTE   W01
+ BYTE   TEMPO   62*songaum_tbs/2
+ BYTE   W01
+ BYTE   TEMPO   62*songaum_tbs/2
+ BYTE   W01
+ BYTE   TEMPO   62*songaum_tbs/2
+ BYTE   W01
+ BYTE   TEMPO   62*songaum_tbs/2
+ BYTE   W01
+ BYTE   TEMPO   62*songaum_tbs/2
+ BYTE   W01
+ BYTE   TEMPO   62*songaum_tbs/2
+ BYTE   W01
+ BYTE   TEMPO   60*songaum_tbs/2
+ BYTE   W01
+ BYTE   TEMPO   60*songaum_tbs/2
+ BYTE   W01
+ BYTE   TEMPO   60*songaum_tbs/2
+ BYTE   VOL   45*songaum_mvl/mxv
+ BYTE   N23  Cn4
+ BYTE   W01
+ BYTE   TEMPO   60*songaum_tbs/2
+ BYTE   VOL   50*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   TEMPO   60*songaum_tbs/2
+ BYTE   VOL   54*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   TEMPO   60*songaum_tbs/2
+ BYTE   VOL   59*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   TEMPO   60*songaum_tbs/2
+ BYTE   VOL   64*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   TEMPO   58*songaum_tbs/2
+ BYTE   VOL   68*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   TEMPO   58*songaum_tbs/2
+ BYTE   VOL   73*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   TEMPO   58*songaum_tbs/2
+ BYTE   VOL   75*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   TEMPO   58*songaum_tbs/2
+ BYTE   W01
+ BYTE   TEMPO   58*songaum_tbs/2
+ BYTE   W01
+ BYTE   TEMPO   58*songaum_tbs/2
+ BYTE   W01
+ BYTE   TEMPO   58*songaum_tbs/2
+ BYTE   W01
+ BYTE   TEMPO   58*songaum_tbs/2
+ BYTE   W01
+ BYTE   TEMPO   56*songaum_tbs/2
+ BYTE   W01
+ BYTE   TEMPO   56*songaum_tbs/2
+ BYTE   W01
+ BYTE   TEMPO   56*songaum_tbs/2
+ BYTE   W01
+ BYTE   TEMPO   56*songaum_tbs/2
+ BYTE   W01
+ BYTE   TEMPO   56*songaum_tbs/2
+ BYTE   W01
+ BYTE   TEMPO   56*songaum_tbs/2
+ BYTE   W01
+ BYTE   TEMPO   56*songaum_tbs/2
+ BYTE   W01
+ BYTE   TEMPO   54*songaum_tbs/2
+ BYTE   W01
+ BYTE   TEMPO   54*songaum_tbs/2
+ BYTE   W01
+ BYTE   TEMPO   54*songaum_tbs/2
+ BYTE   W01
+ BYTE   TEMPO   54*songaum_tbs/2
+ BYTE   W01
+ BYTE   TEMPO   54*songaum_tbs/2
+ BYTE   VOL   45*songaum_mvl/mxv
+ BYTE   N44  Gn3
+ BYTE   W01
+ BYTE   TEMPO   54*songaum_tbs/2
+ BYTE   VOL   50*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   TEMPO   54*songaum_tbs/2
+ BYTE   VOL   54*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   TEMPO   52*songaum_tbs/2
+ BYTE   VOL   59*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   TEMPO   52*songaum_tbs/2
+ BYTE   VOL   64*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   TEMPO   52*songaum_tbs/2
+ BYTE   VOL   68*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   TEMPO   52*songaum_tbs/2
+ BYTE   VOL   73*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   TEMPO   52*songaum_tbs/2
+ BYTE   VOL   75*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   TEMPO   52*songaum_tbs/2
+ BYTE   W01
+ BYTE   TEMPO   52*songaum_tbs/2
+ BYTE   W01
+ BYTE   TEMPO   50*songaum_tbs/2
+ BYTE   W01
+ BYTE   TEMPO   50*songaum_tbs/2
+ BYTE   W01
+ BYTE   TEMPO   50*songaum_tbs/2
+ BYTE   W01
+ BYTE   TEMPO   50*songaum_tbs/2
+ BYTE   W01
+ BYTE   TEMPO   50*songaum_tbs/2
+ BYTE   W01
+ BYTE   TEMPO   50*songaum_tbs/2
+ BYTE   W01
+ BYTE   TEMPO   50*songaum_tbs/2
+ BYTE   W01
+ BYTE   TEMPO   48*songaum_tbs/2
+ BYTE   W01
+ BYTE   TEMPO   48*songaum_tbs/2
+ BYTE   W01
+ BYTE   TEMPO   48*songaum_tbs/2
+ BYTE   W01
+ BYTE   TEMPO   48*songaum_tbs/2
+ BYTE   W01
+ BYTE   TEMPO   48*songaum_tbs/2
+ BYTE   W01
+ BYTE   TEMPO   48*songaum_tbs/2
+ BYTE   W01
+ BYTE   TEMPO   48*songaum_tbs/2
+ BYTE   W01
+//  #01 //005   ----------------------------------------
+ BYTE   TEMPO   46*songaum_tbs/2
+ BYTE   W01
+ BYTE   TEMPO   46*songaum_tbs/2
+ BYTE   W01
+ BYTE   TEMPO   46*songaum_tbs/2
+ BYTE   W01
+ BYTE   TEMPO   46*songaum_tbs/2
+ BYTE   W01
+ BYTE   TEMPO   46*songaum_tbs/2
+ BYTE   W01
+ BYTE   TEMPO   46*songaum_tbs/2
+ BYTE   W01
+ BYTE   TEMPO   46*songaum_tbs/2
+ BYTE   W01
+ BYTE   TEMPO   44*songaum_tbs/2
+ BYTE   W01
+ BYTE   TEMPO   44*songaum_tbs/2
+ BYTE   W01
+ BYTE   TEMPO   44*songaum_tbs/2
+ BYTE   W01
+ BYTE   TEMPO   44*songaum_tbs/2
+ BYTE   W01
+ BYTE   TEMPO   44*songaum_tbs/2
+ BYTE   W01
+ BYTE   TEMPO   44*songaum_tbs/2
+ BYTE   W01
+ BYTE   TEMPO   44*songaum_tbs/2
+ BYTE   W01
+ BYTE   TEMPO   44*songaum_tbs/2
+ BYTE   W01
+ BYTE   TEMPO   42*songaum_tbs/2
+ BYTE   W01
+ BYTE   TEMPO   42*songaum_tbs/2
+ BYTE   W01
+ BYTE   TEMPO   42*songaum_tbs/2
+ BYTE   W01
+ BYTE   TEMPO   42*songaum_tbs/2
+ BYTE   W01
+ BYTE   TEMPO   42*songaum_tbs/2
+ BYTE   W01
+ BYTE   TEMPO   42*songaum_tbs/2
+ BYTE   W01
+ BYTE   TEMPO   42*songaum_tbs/2
+ BYTE   W01
+ BYTE   TEMPO   40*songaum_tbs/2
+ BYTE   W01
+ BYTE   TEMPO   40*songaum_tbs/2
+ BYTE   FINE
+
+//**************** Track 2 (Midi-Chn.1) ****************//
+
+songaum_002:
+//  #02 //000   ----------------------------------------
+ BYTE   KEYSH   songaum_key+0
+ BYTE   VOICE   49
+ BYTE   VOL   75*songaum_mvl/mxv
+ BYTE   PAN   c_v+14
+ BYTE   W12
+ BYTE   VOL   45*songaum_mvl/mxv
+ BYTE   N23  En3  v092
+ BYTE   W01
+ BYTE   VOL   50*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   54*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   59*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   64*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   68*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   73*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   75*songaum_mvl/mxv
+ BYTE   W17
+ BYTE   VOL   45*songaum_mvl/mxv
+ BYTE   N32  Cn3
+ BYTE   W01
+ BYTE   VOL   50*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   54*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   59*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   64*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   68*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   73*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   75*songaum_mvl/mxv
+ BYTE   W40
+ BYTE   W01
+ BYTE   VOL   45*songaum_mvl/mxv
+ BYTE   N23  Fn3
+ BYTE   W01
+ BYTE   VOL   50*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   54*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   59*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   64*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   68*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   73*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   75*songaum_mvl/mxv
+ BYTE   W05
+//  #02 //001   ----------------------------------------
+ BYTE   W12
+ BYTE   VOL   45*songaum_mvl/mxv
+ BYTE   N32  Cn4
+ BYTE   W01
+ BYTE   VOL   50*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   54*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   59*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   64*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   68*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   73*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   75*songaum_mvl/mxv
+ BYTE   W28
+ BYTE   W01
+ BYTE   VOL   45*songaum_mvl/mxv
+ BYTE   N23  Fn4
+ BYTE   W01
+ BYTE   VOL   50*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   54*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   59*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   64*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   68*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   73*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   75*songaum_mvl/mxv
+ BYTE   W17
+ BYTE   VOL   43*songaum_mvl/mxv
+ BYTE   N23  Dn4
+ BYTE   W01
+ BYTE   VOL   48*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   53*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   57*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   62*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   68*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   73*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   75*songaum_mvl/mxv
+ BYTE   W17
+//  #02 //002   ----------------------------------------
+ BYTE   VOL   45*songaum_mvl/mxv
+ BYTE   N23  Ds4
+ BYTE   W01
+ BYTE   VOL   50*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   54*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   59*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   64*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   68*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   73*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   75*songaum_mvl/mxv
+ BYTE   W17
+ BYTE   VOL   45*songaum_mvl/mxv
+ BYTE   N32  Cn4
+ BYTE   W01
+ BYTE   VOL   50*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   54*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   59*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   64*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   68*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   73*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   75*songaum_mvl/mxv
+ BYTE   W28
+ BYTE   W01
+ BYTE   VOL   45*songaum_mvl/mxv
+ BYTE   N23
+ BYTE   W01
+ BYTE   VOL   50*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   54*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   59*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   64*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   68*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   73*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   75*songaum_mvl/mxv
+ BYTE   W28
+ BYTE   W01
+//  #02 //003   ----------------------------------------
+ BYTE   VOL   45*songaum_mvl/mxv
+ BYTE   N23  Gn4
+ BYTE   W01
+ BYTE   VOL   50*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   54*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   59*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   64*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   68*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   73*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   75*songaum_mvl/mxv
+ BYTE   W17
+ BYTE   VOL   45*songaum_mvl/mxv
+ BYTE   N23  Ds4
+ BYTE   W01
+ BYTE   VOL   50*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   54*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   59*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   64*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   68*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   73*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   75*songaum_mvl/mxv
+ BYTE   W17
+ BYTE   VOL   45*songaum_mvl/mxv
+ BYTE   N32  Cn4
+ BYTE   W01
+ BYTE   VOL   50*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   54*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   59*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   64*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   68*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   73*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   75*songaum_mvl/mxv
+ BYTE   W28
+ BYTE   W01
+ BYTE   VOL   45*songaum_mvl/mxv
+ BYTE   N23  As4
+ BYTE   W01
+ BYTE   VOL   50*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   54*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   59*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   64*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   68*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   73*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   75*songaum_mvl/mxv
+ BYTE   W05
+//  #02 //004   ----------------------------------------
+ BYTE   W12
+ BYTE   VOL   45*songaum_mvl/mxv
+ BYTE   N23  Dn4
+ BYTE   W01
+ BYTE   VOL   50*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   54*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   59*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   64*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   68*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   73*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   75*songaum_mvl/mxv
+ BYTE   W17
+ BYTE   VOL   45*songaum_mvl/mxv
+ BYTE   N23  Gn3
+ BYTE   W01
+ BYTE   VOL   50*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   54*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   59*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   64*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   68*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   73*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   75*songaum_mvl/mxv
+ BYTE   W17
+ BYTE   VOL   45*songaum_mvl/mxv
+ BYTE   N23  En3
+ BYTE   W01
+ BYTE   VOL   50*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   54*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   59*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   64*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   68*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   73*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   75*songaum_mvl/mxv
+ BYTE   W28
+ BYTE   W01
+//  #02 //005   ----------------------------------------
+ BYTE   W23
+ BYTE   FINE
+
+//**************** Track 3 (Midi-Chn.2) ****************//
+
+songaum_003:
+//  #03 //000   ----------------------------------------
+ BYTE   KEYSH   songaum_key+0
+ BYTE   VOICE   49
+ BYTE   VOL   75*songaum_mvl/mxv
+ BYTE   PAN   c_v+0
+ BYTE   W24
+ BYTE   VOL   45*songaum_mvl/mxv
+ BYTE   N23  Dn2  v112
+ BYTE   W01
+ BYTE   VOL   50*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   54*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   59*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   64*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   68*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   73*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   75*songaum_mvl/mxv
+ BYTE   W28
+ BYTE   W01
+ BYTE   VOL   45*songaum_mvl/mxv
+ BYTE   N32  Gn2
+ BYTE   W01
+ BYTE   VOL   50*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   54*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   59*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   64*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   68*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   73*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   75*songaum_mvl/mxv
+ BYTE   W28
+ BYTE   W01
+//  #03 //001   ----------------------------------------
+ BYTE   VOL   45*songaum_mvl/mxv
+ BYTE   N23
+ BYTE   W01
+ BYTE   VOL   50*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   54*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   59*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   64*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   68*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   73*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   75*songaum_mvl/mxv
+ BYTE   W28
+ BYTE   W01
+ BYTE   VOL   45*songaum_mvl/mxv
+ BYTE   N23  Ds3
+ BYTE   W01
+ BYTE   VOL   50*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   54*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   59*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   64*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   68*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   73*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   75*songaum_mvl/mxv
+ BYTE   W17
+ BYTE   VOL   45*songaum_mvl/mxv
+ BYTE   N23  Cn3
+ BYTE   W01
+ BYTE   VOL   50*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   54*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   59*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   64*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   68*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   73*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   75*songaum_mvl/mxv
+ BYTE   W17
+ BYTE   VOL   45*songaum_mvl/mxv
+ BYTE   N23  As2
+ BYTE   W01
+ BYTE   VOL   50*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   54*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   59*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   64*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   68*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   73*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   75*songaum_mvl/mxv
+ BYTE   W05
+//  #03 //002   ----------------------------------------
+ BYTE   W12
+ BYTE   VOL   45*songaum_mvl/mxv
+ BYTE   N23
+ BYTE   W01
+ BYTE   VOL   50*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   54*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   59*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   64*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   68*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   73*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   75*songaum_mvl/mxv
+ BYTE   W28
+ BYTE   W01
+ BYTE   VOL   45*songaum_mvl/mxv
+ BYTE   N23  Fn3
+ BYTE   W01
+ BYTE   VOL   50*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   54*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   59*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   64*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   68*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   73*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   75*songaum_mvl/mxv
+ BYTE   W17
+ BYTE   VOL   45*songaum_mvl/mxv
+ BYTE   N32  Dn3
+ BYTE   W01
+ BYTE   VOL   50*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   54*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   59*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   64*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   68*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   73*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   75*songaum_mvl/mxv
+ BYTE   W17
+//  #03 //003   ----------------------------------------
+ BYTE   W12
+ BYTE   VOL   45*songaum_mvl/mxv
+ BYTE   N23
+ BYTE   W01
+ BYTE   VOL   50*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   54*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   59*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   64*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   68*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   73*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   75*songaum_mvl/mxv
+ BYTE   W17
+ BYTE   VOL   45*songaum_mvl/mxv
+ BYTE   N23  As2
+ BYTE   W01
+ BYTE   VOL   50*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   54*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   59*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   64*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   68*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   73*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   75*songaum_mvl/mxv
+ BYTE   W28
+ BYTE   W01
+ BYTE   VOL   45*songaum_mvl/mxv
+ BYTE   N23  Cn4
+ BYTE   W01
+ BYTE   VOL   50*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   54*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   59*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   64*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   68*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   73*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   75*songaum_mvl/mxv
+ BYTE   W17
+//  #03 //004   ----------------------------------------
+ BYTE   VOL   45*songaum_mvl/mxv
+ BYTE   N23  Gn3
+ BYTE   W01
+ BYTE   VOL   50*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   54*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   59*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   64*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   68*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   73*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   75*songaum_mvl/mxv
+ BYTE   W17
+ BYTE   VOL   45*songaum_mvl/mxv
+ BYTE   N23  En3
+ BYTE   W01
+ BYTE   VOL   50*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   54*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   59*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   64*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   68*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   73*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   75*songaum_mvl/mxv
+ BYTE   W17
+ BYTE   VOL   45*songaum_mvl/mxv
+ BYTE   N23  Cn3
+ BYTE   W01
+ BYTE   VOL   50*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   54*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   59*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   64*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   68*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   73*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   75*songaum_mvl/mxv
+ BYTE   W17
+ BYTE   VOL   45*songaum_mvl/mxv
+ BYTE   N44  Gn2
+ BYTE   W01
+ BYTE   VOL   50*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   54*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   59*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   64*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   68*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   73*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   75*songaum_mvl/mxv
+ BYTE   W17
+//  #03 //005   ----------------------------------------
+ BYTE   W23
+ BYTE   FINE
+
+//**************** Track 4 (Midi-Chn.3) ****************//
+
+songaum_004:
+//  #04 //000   ----------------------------------------
+ BYTE   KEYSH   songaum_key+0
+ BYTE   VOICE   49
+ BYTE   VOL   75*songaum_mvl/mxv
+ BYTE   PAN   c_v+0
+ BYTE   W12
+ BYTE   VOL   45*songaum_mvl/mxv
+ BYTE   N23  En2  v112
+ BYTE   W01
+ BYTE   VOL   50*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   54*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   59*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   64*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   68*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   73*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   75*songaum_mvl/mxv
+ BYTE   W17
+ BYTE   VOL   45*songaum_mvl/mxv
+ BYTE   N32  Cn2
+ BYTE   W01
+ BYTE   VOL   50*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   54*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   59*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   64*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   68*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   73*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   75*songaum_mvl/mxv
+ BYTE   W40
+ BYTE   W01
+ BYTE   VOL   45*songaum_mvl/mxv
+ BYTE   N23  Fn2
+ BYTE   W01
+ BYTE   VOL   50*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   54*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   59*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   64*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   68*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   73*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   75*songaum_mvl/mxv
+ BYTE   W05
+//  #04 //001   ----------------------------------------
+ BYTE   W12
+ BYTE   VOL   45*songaum_mvl/mxv
+ BYTE   N32  Cn3
+ BYTE   W01
+ BYTE   VOL   50*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   54*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   59*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   64*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   68*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   73*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   75*songaum_mvl/mxv
+ BYTE   W28
+ BYTE   W01
+ BYTE   VOL   45*songaum_mvl/mxv
+ BYTE   N23  Fn3
+ BYTE   W01
+ BYTE   VOL   50*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   54*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   59*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   64*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   68*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   73*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   75*songaum_mvl/mxv
+ BYTE   W17
+ BYTE   VOL   43*songaum_mvl/mxv
+ BYTE   N23  Dn3
+ BYTE   W01
+ BYTE   VOL   48*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   53*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   57*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   62*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   68*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   73*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   75*songaum_mvl/mxv
+ BYTE   W17
+//  #04 //002   ----------------------------------------
+ BYTE   VOL   45*songaum_mvl/mxv
+ BYTE   N23  Ds3
+ BYTE   W01
+ BYTE   VOL   50*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   54*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   59*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   64*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   68*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   73*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   75*songaum_mvl/mxv
+ BYTE   W17
+ BYTE   VOL   45*songaum_mvl/mxv
+ BYTE   N32  Cn3
+ BYTE   W01
+ BYTE   VOL   50*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   54*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   59*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   64*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   68*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   73*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   75*songaum_mvl/mxv
+ BYTE   W28
+ BYTE   W01
+ BYTE   VOL   45*songaum_mvl/mxv
+ BYTE   N23
+ BYTE   W01
+ BYTE   VOL   50*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   54*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   59*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   64*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   68*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   73*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   75*songaum_mvl/mxv
+ BYTE   W28
+ BYTE   W01
+//  #04 //003   ----------------------------------------
+ BYTE   VOL   45*songaum_mvl/mxv
+ BYTE   N23  Gn3
+ BYTE   W01
+ BYTE   VOL   50*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   54*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   59*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   64*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   68*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   73*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   75*songaum_mvl/mxv
+ BYTE   W17
+ BYTE   VOL   45*songaum_mvl/mxv
+ BYTE   N23  Ds3
+ BYTE   W01
+ BYTE   VOL   50*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   54*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   59*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   64*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   68*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   73*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   75*songaum_mvl/mxv
+ BYTE   W17
+ BYTE   VOL   45*songaum_mvl/mxv
+ BYTE   N32  Cn3
+ BYTE   W01
+ BYTE   VOL   50*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   54*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   59*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   64*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   68*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   73*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   75*songaum_mvl/mxv
+ BYTE   W28
+ BYTE   W01
+ BYTE   VOL   45*songaum_mvl/mxv
+ BYTE   N23  As3
+ BYTE   W01
+ BYTE   VOL   50*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   54*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   59*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   64*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   68*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   73*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   75*songaum_mvl/mxv
+ BYTE   W05
+//  #04 //004   ----------------------------------------
+ BYTE   W12
+ BYTE   VOL   45*songaum_mvl/mxv
+ BYTE   N23  Dn3
+ BYTE   W01
+ BYTE   VOL   50*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   54*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   59*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   64*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   68*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   73*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   75*songaum_mvl/mxv
+ BYTE   W17
+ BYTE   VOL   45*songaum_mvl/mxv
+ BYTE   N23  Gn2
+ BYTE   W01
+ BYTE   VOL   50*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   54*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   59*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   64*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   68*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   73*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   75*songaum_mvl/mxv
+ BYTE   W17
+ BYTE   VOL   45*songaum_mvl/mxv
+ BYTE   N23  En2
+ BYTE   W01
+ BYTE   VOL   50*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   54*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   59*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   64*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   68*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   73*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   75*songaum_mvl/mxv
+ BYTE   W28
+ BYTE   W01
+//  #04 //005   ----------------------------------------
+ BYTE   W23
+ BYTE   FINE
+
+//**************** Track 5 (Midi-Chn.4) ****************//
+
+songaum_005:
+//  #05 //000   ----------------------------------------
+ BYTE   KEYSH   songaum_key+0
+ BYTE   VOICE   42
+ BYTE   VOL   66*songaum_mvl/mxv
+ BYTE   PAN   c_v-14
+ BYTE   W24
+ BYTE   VOL   35*songaum_mvl/mxv
+ BYTE   N44  En3  v104
+ BYTE   W01
+ BYTE   VOL   39*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   43*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   47*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   51*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   56*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   59*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   64*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   66*songaum_mvl/mxv
+ BYTE   W40
+ BYTE   VOL   35*songaum_mvl/mxv
+ BYTE   N44  Dn3
+ BYTE   W01
+ BYTE   VOL   39*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   43*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   47*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   51*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   56*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   59*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   64*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   66*songaum_mvl/mxv
+ BYTE   W16
+//  #05 //001   ----------------------------------------
+ BYTE   W24
+ BYTE   VOL   35*songaum_mvl/mxv
+ BYTE   N44  As2
+ BYTE   W01
+ BYTE   VOL   39*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   43*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   47*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   51*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   56*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   59*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   64*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   66*songaum_mvl/mxv
+ BYTE   W40
+ BYTE   VOL   35*songaum_mvl/mxv
+ BYTE   N44
+ BYTE   W01
+ BYTE   VOL   39*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   43*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   47*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   51*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   56*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   59*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   64*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   66*songaum_mvl/mxv
+ BYTE   W16
+//  #05 //002   ----------------------------------------
+ BYTE   W24
+ BYTE   VOL   35*songaum_mvl/mxv
+ BYTE   N44  Gs2
+ BYTE   W01
+ BYTE   VOL   39*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   43*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   47*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   51*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   56*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   59*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   64*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   66*songaum_mvl/mxv
+ BYTE   W40
+ BYTE   VOL   35*songaum_mvl/mxv
+ BYTE   N44  As2
+ BYTE   W01
+ BYTE   VOL   39*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   43*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   47*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   51*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   56*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   59*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   64*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   66*songaum_mvl/mxv
+ BYTE   W16
+//  #05 //003   ----------------------------------------
+ BYTE   W24
+ BYTE   VOL   35*songaum_mvl/mxv
+ BYTE   N44  Cn3
+ BYTE   W01
+ BYTE   VOL   39*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   43*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   47*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   51*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   56*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   59*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   64*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   66*songaum_mvl/mxv
+ BYTE   W64
+//  #05 //004   ----------------------------------------
+ BYTE   VOL   35*songaum_mvl/mxv
+ BYTE   TIE
+ BYTE   W01
+ BYTE   VOL   39*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   43*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   47*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   51*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   56*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   59*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   64*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   66*songaum_mvl/mxv
+ BYTE   W88
+//  #05 //005   ----------------------------------------
+ BYTE   W23
+ BYTE   EOT
+ BYTE   FINE
+
+//**************** Track 6 (Midi-Chn.5) ****************//
+
+songaum_006:
+//  #06 //000   ----------------------------------------
+ BYTE   KEYSH   songaum_key+0
+ BYTE   VOICE   42
+ BYTE   VOL   66*songaum_mvl/mxv
+ BYTE   PAN   c_v+0
+ BYTE   VOL   35*songaum_mvl/mxv
+ BYTE   N44  Fn3  v104
+ BYTE   W01
+ BYTE   VOL   39*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   43*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   47*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   51*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   56*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   59*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   64*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   66*songaum_mvl/mxv
+ BYTE   W40
+ BYTE   VOL   35*songaum_mvl/mxv
+ BYTE   N44  Ds3
+ BYTE   W01
+ BYTE   VOL   39*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   43*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   47*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   51*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   56*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   59*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   64*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   66*songaum_mvl/mxv
+ BYTE   W40
+//  #06 //001   ----------------------------------------
+ BYTE   VOL   35*songaum_mvl/mxv
+ BYTE   N44  Cn3
+ BYTE   W01
+ BYTE   VOL   39*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   43*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   47*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   51*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   56*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   59*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   64*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   66*songaum_mvl/mxv
+ BYTE   W40
+ BYTE   VOL   35*songaum_mvl/mxv
+ BYTE   N44  An2
+ BYTE   W01
+ BYTE   VOL   39*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   43*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   47*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   51*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   56*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   59*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   64*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   66*songaum_mvl/mxv
+ BYTE   W40
+//  #06 //002   ----------------------------------------
+ BYTE   VOL   35*songaum_mvl/mxv
+ BYTE   N44  Gn2
+ BYTE   W01
+ BYTE   VOL   39*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   43*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   47*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   51*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   56*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   59*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   64*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   66*songaum_mvl/mxv
+ BYTE   W40
+ BYTE   VOL   35*songaum_mvl/mxv
+ BYTE   N44  An2
+ BYTE   W01
+ BYTE   VOL   39*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   43*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   47*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   51*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   56*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   59*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   64*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   66*songaum_mvl/mxv
+ BYTE   W40
+//  #06 //003   ----------------------------------------
+ BYTE   VOL   35*songaum_mvl/mxv
+ BYTE   N44  Bn2
+ BYTE   W01
+ BYTE   VOL   39*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   43*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   47*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   51*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   56*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   59*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   64*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   66*songaum_mvl/mxv
+ BYTE   W40
+ BYTE   VOL   35*songaum_mvl/mxv
+ BYTE   N76  Cs3
+ BYTE   W01
+ BYTE   VOL   39*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   43*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   47*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   51*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   56*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   59*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   64*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   66*songaum_mvl/mxv
+ BYTE   W40
+//  #06 //004   ----------------------------------------
+ BYTE   W72
+ BYTE   VOL   34*songaum_mvl/mxv
+ BYTE   N44  Gn3
+ BYTE   W01
+ BYTE   VOL   37*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   40*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   42*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   45*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   49*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   51*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   54*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   57*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   60*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   62*songaum_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   66*songaum_mvl/mxv
+ BYTE   W13
+//  #06 //005   ----------------------------------------
+ BYTE   W23
+ BYTE   FINE
+
+//******************************************************//
+	ALIGN 4
+
+songaum:
+	BYTE	6	// NumTrks
+	BYTE	0	// NumBlks
+	BYTE	songaum_pri	// Priority
+	BYTE	songaum_rev	// Reverb.
+    
+	POIN2	songaum_grp
+    
+	POIN2	songaum_001
+	POIN2	songaum_002
+	POIN2	songaum_003
+	POIN2	songaum_004
+	POIN2	songaum_005
+	POIN2	songaum_006
+
+	

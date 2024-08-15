@@ -1,0 +1,30 @@
+#define BossBGMEntry(UnitId,SongId) "BYTE UnitId 0 0 0; SHORT SongId 0"
+#define BossBGMTerminator "BYTE 0xFF 0xFF 0xFF 0xFF 0xFF 0xFF 0xFF 0xFF 0xFF"
+
+ALIGN 4
+BossBGMTable:
+BossBGMEntry(Lorenz,0x1b)
+BossBGMEntry(Rumel,0x1b)
+BossBGMEntry(Lykke,0x1b)
+BossBGMEntry(Gail,0x1b)
+BossBGMEntry(Toras,0x1b)
+BossBGMEntry(Lang,0x1b)
+BossBGMEntry(Dahl,0x1b)
+BossBGMEntry(Eibel,0x1b)
+BossBGMEntry(Willow,0x1b)
+BossBGMEntry(Wolf,0x1b)
+BossBGMEntry(Sedgar,0x1b)
+BossBGMEntry(Vyland,0x1b)
+BossBGMEntry(Roshea_Boss,0x1b)
+BossBGMEntry(Nehring,0x1b)
+BossBGMEntry(Hardin,0x1c)
+BossBGMEntry(Gharnef,0x1d)
+BossBGMEntry(Medeus,0x1e)
+BossBGMTerminator
+
+PUSH
+
+ORG $72908
+POIN BossBGMTable
+
+POP

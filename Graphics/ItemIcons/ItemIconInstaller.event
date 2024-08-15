@@ -1,0 +1,284 @@
+PUSH
+ORG 0x5926F4
+#incbin "dmp/Iron Sword.dmp"
+
+ORG 0x5927F4
+#incbin "dmp/Steel Sword.dmp"
+
+ORG 0x592874
+#incbin "dmp/Silver Sword.dmp"
+
+ORG 0x592AF4
+#incbin "dmp/Rapier.dmp"
+
+ORG 0x592B74
+#incbin "dmp/Meisterschwert.dmp"
+
+ORG 0x597FF4
+#incbin "dmp/Ladyblade.dmp"
+
+ORG 0x592CF4
+#incbin "dmp/Killing Edge.dmp"
+
+ORG 0x592D74
+#incbin "dmp/Armorslayer.dmp"
+
+ORG 0x592DF4
+#incbin "dmp/Wyrmslayer.dmp"
+
+ORG 0x592E74
+#incbin "dmp/Levin Sword.dmp"
+
+ORG 0x592EF4
+#incbin "dmp/Devil Sword.dmp"
+
+ORG 0x593074
+#incbin "dmp/Iron Lance.dmp"
+
+ORG 0x5930F4
+#incbin "dmp/Slim Lance.dmp"
+
+ORG 0x593174
+#incbin "dmp/Steel Lance.dmp"
+
+ORG 0x5931F4
+#incbin "dmp/Silver Lance.dmp"
+
+ORG 0x593374
+#incbin "dmp/Killer Lance.dmp"
+
+ORG 0x5933F4
+#incbin "dmp/Ridersbane.dmp"
+
+ORG 0x593474
+#incbin "dmp/Javelin.dmp"
+
+ORG 0x5935F4
+#incbin "dmp/Iron Axe.dmp"
+
+ORG 0x593674
+#incbin "dmp/Steel Axe.dmp"
+
+ORG 0x5936F4
+#incbin "dmp/Silver Axe.dmp"
+
+ORG 0x593974
+#incbin "dmp/Hammer.dmp"
+
+ORG 0x5939F4
+#incbin "dmp/Devil Axe.dmp"
+
+ORG 0x593A74
+#incbin "dmp/Hand Axe.dmp"
+
+ORG 0x593BF4
+#incbin "dmp/Sword Killer.dmp"
+
+ORG 0x593C74
+#incbin "dmp/Iron Bow.dmp"
+
+ORG 0x593CF4
+#incbin "dmp/Steel Bow.dmp"
+
+ORG 0x593D74
+#incbin "dmp/Silver Bow.dmp"
+
+ORG 0x593E74
+#incbin "dmp/Killer Bow.dmp"
+
+ORG 0x593F74
+#incbin "dmp/Thunderbolt.dmp"
+
+ORG 0x593FF4
+#incbin "dmp/Arrowspate.dmp"
+
+ORG 0x594074
+#incbin "dmp/Stonehoist.dmp"
+
+ORG 0x5940F4
+#incbin "dmp/Hoistflamme.dmp"
+
+ORG 0x594174
+#incbin "dmp/Pachyderm.dmp"
+
+ORG 0x5941F4
+#incbin "dmp/Fire.dmp"
+
+ORG 0x594274
+#incbin "dmp/Thunder.dmp"
+
+ORG 0x5942F4
+#incbin "dmp/Elfire.dmp"
+
+ORG 0x594374
+#incbin "dmp/Swarm.dmp"
+
+ORG 0x5943F4
+#incbin "dmp/Blizzard.dmp"
+
+ORG 0x5943F4
+#incbin "dmp/Blizzard.dmp"
+
+ORG 0x594474
+#incbin "dmp/Bolganone.dmp"
+
+ORG 0x5944F4
+#incbin "dmp/Excalibur.dmp"
+
+ORG 0x594574
+#incbin "dmp/Meteor.dmp"
+
+ORG 0x5945F4
+#incbin "dmp/Thoron.dmp"
+
+ORG 0x594674
+#incbin "dmp/Cutting Gale.dmp"
+
+ORG 0x594774
+#incbin "dmp/Aura.dmp"
+
+ORG 0x5947F4
+#incbin "dmp/Dulam.dmp"
+
+ORG 0x594974
+#incbin "dmp/Nosferatu.dmp"
+
+ORG 0x594B74
+#incbin "dmp/Heal.dmp"
+
+ORG 0x594BF4
+#incbin "dmp/Mend.dmp"
+
+ORG 0x594C74
+#incbin "dmp/Recover.dmp"
+
+ORG 0x594CF4
+#incbin "dmp/Physic.dmp"
+
+ORG 0x594D74
+#incbin "dmp/Fortify.dmp"
+
+ORG 0x594E74
+#incbin "dmp/Silence.dmp"
+
+ORG 0x594FF4
+#incbin "dmp/Warp.dmp"
+
+ORG 0x595074
+#incbin "dmp/Rescue.dmp"
+
+ORG 0x595174
+#incbin "dmp/Hammerne.dmp"
+
+ORG 0x5951F4
+#incbin "dmp/Unlock.dmp"
+
+ORG 0x595274
+#incbin "dmp/Barrier.dmp"
+
+ORG 0x595374
+#incbin "dmp/Angelic Robe.dmp"
+
+ORG 0x5953F4
+#incbin "dmp/Power Ring.dmp"
+
+ORG 0x595474
+#incbin "dmp/Skill Book.dmp"
+
+ORG 0x5954F4
+#incbin "dmp/Speed Ring.dmp"
+
+ORG 0x595574
+#incbin "dmp/Goddess Icon.dmp"
+
+ORG 0x5955F4
+#incbin "dmp/Dracoshield.dmp"
+
+ORG 0x595674
+#incbin "dmp/Talisman.dmp"
+
+ORG 0x5956F4
+#incbin "dmp/Boots.dmp"
+
+ORG 0x596CF4
+#incbin "dmp/Arms Scroll.dmp"
+
+ORG 0x595A74
+#incbin "dmp/Chest Key.dmp"
+
+ORG 0x595AF4
+#incbin "dmp/Door Key.dmp"
+
+ORG 0x595BF4
+#incbin "dmp/Vulnerary.dmp"
+
+ORG 0x5993F4
+#incbin "dmp/Iote's Shield.dmp"
+
+ORG 0x5968F4
+#incbin "dmp/Member Card.dmp"
+
+ORG 0x596974
+#incbin "dmp/Silver Card.dmp"
+
+ORG 0x595CF4
+#incbin "dmp/Pure Water.dmp"
+
+ORG 0x597EF4
+#incbin "dmp/Falchion.dmp"
+
+ORG 0x597F74
+#incbin "dmp/Mercurius.dmp"
+
+ORG 0x598174
+#incbin "dmp/Gradivus.dmp"
+
+ORG 0x598274
+#incbin "dmp/Hauteclere.dmp"
+
+ORG 0x598574
+#incbin "dmp/Imhullu.dmp"
+
+ORG 0x5983F4
+#incbin "dmp/Parthia.dmp"
+
+ORG 0x598474
+#incbin "dmp/Starlight.dmp"
+
+ORG 0x599274
+#incbin "dmp/Skydrake Whip.dmp"
+
+ORG 0x5992F4
+#incbin "dmp/Fell Contract.dmp"
+
+ORG 0x598F74
+#incbin "dmp/Fire Breath.dmp"
+
+ORG 0x598FF4
+#incbin "dmp/Ice Breath.dmp"
+
+ORG 0x599074
+#incbin "dmp/Dark Breath.dmp"
+
+ORG 0x5990F4
+#incbin "dmp/Breath of Fog.dmp"
+
+ORG 0x599174
+#incbin "dmp/Firestone.dmp"
+
+ORG 0x5991F4
+#incbin "dmp/Icestone.dmp"
+
+ORG 0x5991F4
+#incbin "dmp/Icestone.dmp"
+
+ORG 0x5985F4
+#incbin "dmp/Wyvernstone.dmp"
+
+ORG 0x5986F4
+#incbin "dmp/Divinestone.dmp"
+
+ORG 0x598874
+#incbin "dmp/Aum.dmp"
+
+POP

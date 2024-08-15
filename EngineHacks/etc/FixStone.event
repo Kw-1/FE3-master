@@ -1,0 +1,8 @@
+PUSH 
+//Damage
+ORG 0x2B3DA
+BYTE 0x00
+//Crit
+ORG 0x02ACB6
+BYTE 0x00
+POP

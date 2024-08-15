@@ -1,0 +1,230 @@
+/*Note: You can go up to 7, but only 5 display normally in the status screen, so the 6th and 7th entries of these are zeroed out
+Technically, vanilla uses a support count. I'm technically not using it, but Builder will scream at you if it's not used
+properly, so I'm doing it anyway with SupportCountAmount. 
+The last two zeroes are for termination purposes and padding*/
+#define SupportDataCharacters(char1,char2,char3,char4,char5) "BYTE char1 char2 char3 char4 char5 0 0"
+#define SupportDataInitialValues(value1,value2,value3,value4,value5) "BYTE value1 value2 value3 value4 value5 0 0"
+#define SupportDataGrowths(growth1,growth2,growth3,growth4,growth5) "BYTE growth1 growth2 growth3 growth4 growth5 0 0"
+#define SupportCountAmount(supportCount) "BYTE supportCount 0 0"
+#define CSupportLevel 81
+#define BSupportLevel 161
+#define ASupportLevel 241
+
+ALIGN 4
+MarthSupportPointer:
+SupportDataCharacters(Caeda,Catria,0,0,0) 
+SupportDataInitialValues(ASupportLevel,CSupportLevel,0,0,0)
+SupportDataGrowths(0,0,0,0,0)
+SupportCountAmount(2)
+
+ALIGN 4
+CecilSupportPointer:
+SupportDataCharacters(Roderick,Luke,0,0,0) 
+SupportDataInitialValues(BSupportLevel,CSupportLevel,0,0,0)
+SupportDataGrowths(0,0,0,0,0)
+SupportCountAmount(2)
+
+ALIGN 4
+LukeSupportPointer:
+SupportDataCharacters(Cecil,0,0,0,0) 
+SupportDataInitialValues(CSupportLevel,0,0,0,0)
+SupportDataGrowths(0,0,0,0,0)
+SupportCountAmount(1)
+
+ALIGN 4
+RoderickSupportPointer:
+SupportDataCharacters(Cecil,0,0,0,0) 
+SupportDataInitialValues(BSupportLevel,0,0,0,0)
+SupportDataGrowths(0,0,0,0,0)
+SupportCountAmount(1)
+
+ALIGN 4
+RyanSupportPointer:
+SupportDataCharacters(Gordin,0,0,0,0) 
+SupportDataInitialValues(CSupportLevel,0,0,0,0)
+SupportDataGrowths(0,0,0,0,0)
+SupportCountAmount(1)
+
+ALIGN 4
+GordinSupportPointer:
+SupportDataCharacters(Ryan,0,0,0,0) 
+SupportDataInitialValues(CSupportLevel,0,0,0,0)
+SupportDataGrowths(0,0,0,0,0)
+SupportCountAmount(1)
+
+ALIGN 4
+CatriaSupportPointer:
+SupportDataCharacters(Minerva,Marth,0,0,0) 
+SupportDataInitialValues(CSupportLevel,CSupportLevel,0,0,0)
+SupportDataGrowths(0,0,0,0,0)
+SupportCountAmount(2)
+
+ALIGN 4
+LindeSupportPointer:
+SupportDataCharacters(Merric,0,0,0,0) 
+SupportDataInitialValues(CSupportLevel,0,0,0,0)
+SupportDataGrowths(0,0,0,0,0)
+SupportCountAmount(1)
+
+ALIGN 4
+PallaSupportPointer:
+SupportDataCharacters(Minerva,Abel,0,0,0) 
+SupportDataInitialValues(CSupportLevel,CSupportLevel,0,0,0)
+SupportDataGrowths(0,0,0,0,0)
+SupportCountAmount(2)
+
+ALIGN 4
+JulianSupportPointer:
+SupportDataCharacters(Lena,0,0,0,0) 
+SupportDataInitialValues(BSupportLevel,0,0,0,0)
+SupportDataGrowths(0,0,0,0,0)
+SupportCountAmount(1)
+
+ALIGN 4
+OgmaSupportPointer:
+SupportDataCharacters(Caeda,0,0,0,0) 
+SupportDataInitialValues(BSupportLevel,0,0,0,0)
+SupportDataGrowths(0,0,0,0,0)
+SupportCountAmount(1)
+
+ALIGN 4
+YuliyaSupportPointer:
+SupportDataCharacters(Jubelo,0,0,0,0) 
+SupportDataInitialValues(BSupportLevel,0,0,0,0)
+SupportDataGrowths(0,0,0,0,0)
+SupportCountAmount(1)
+
+ALIGN 4
+JubeloSupportPointer:
+SupportDataCharacters(Yuliya,0,0,0,0) 
+SupportDataInitialValues(BSupportLevel,0,0,0,0)
+SupportDataGrowths(0,0,0,0,0)
+SupportCountAmount(1)
+
+ALIGN 4
+SiriusSupportPointer:
+SupportDataCharacters(Nyna,0,0,0,0) 
+SupportDataInitialValues(BSupportLevel,0,0,0,0)
+SupportDataGrowths(0,0,0,0,0)
+SupportCountAmount(1)
+
+ALIGN 4
+CaedaSupportPointer:
+SupportDataCharacters(Marth,Ogma,0,0,0) 
+SupportDataInitialValues(ASupportLevel,BSupportLevel,0,0,0)
+SupportDataGrowths(0,0,0,0,0)
+SupportCountAmount(2)
+
+ALIGN 4
+NavarreSupportPointer:
+SupportDataCharacters(Phina,0,0,0,0) 
+SupportDataInitialValues(CSupportLevel,0,0,0,0)
+SupportDataGrowths(0,0,0,0,0)
+SupportCountAmount(1)
+
+ALIGN 4
+PhinaSupportPointer:
+SupportDataCharacters(Navarre,0,0,0,0) 
+SupportDataInitialValues(CSupportLevel,0,0,0,0)
+SupportDataGrowths(0,0,0,0,0)
+SupportCountAmount(1)
+
+ALIGN 4
+BantuSupportPointer:
+SupportDataCharacters(Tiki,0,0,0,0) 
+SupportDataInitialValues(BSupportLevel,0,0,0,0)
+SupportDataGrowths(0,0,0,0,0)
+SupportCountAmount(1)
+
+ALIGN 4
+MinervaSupportPointer:
+SupportDataCharacters(Maria, Palla, Catria, Est,0) 
+SupportDataInitialValues(BSupportLevel,CSupportLevel,CSupportLevel,CSupportLevel,0)
+SupportDataGrowths(0,0,0,0,0)
+SupportCountAmount(4)
+
+ALIGN 4
+MerricSupportPointer:
+SupportDataCharacters(Elice, Linde,0,0,0) 
+SupportDataInitialValues(BSupportLevel,CSupportLevel,0,0,0)
+SupportDataGrowths(0,0,0,0,0)
+SupportCountAmount(2)
+
+ALIGN 4
+TikiSupportPointer:
+SupportDataCharacters(Bantu,0,0,0,0) 
+SupportDataInitialValues(BSupportLevel,0,0,0,0)
+SupportDataGrowths(0,0,0,0,0)
+SupportCountAmount(1)
+
+ALIGN 4
+AbelSupportPointer:
+SupportDataCharacters(Est, Palla,0,0,0) 
+SupportDataInitialValues(ASupportLevel,CSupportLevel,0,0,0)
+SupportDataGrowths(0,0,0,0,0)
+SupportCountAmount(2)
+
+ALIGN 4
+EstSupportPointer:
+SupportDataCharacters(Abel, Minerva,0,0,0) 
+SupportDataInitialValues(ASupportLevel,CSupportLevel,0,0,0)
+SupportDataGrowths(0,0,0,0,0)
+SupportCountAmount(2)
+
+ALIGN 4
+AstramSupportPointer:
+SupportDataCharacters(Midia,0,0,0,0) 
+SupportDataInitialValues(ASupportLevel,0,0,0,0)
+SupportDataGrowths(0,0,0,0,0)
+SupportCountAmount(1)
+
+ALIGN 4
+SheenaSupportPointer:
+SupportDataCharacters(Samson,0,0,0,0) 
+SupportDataInitialValues(BSupportLevel,0,0,0,0)
+SupportDataGrowths(0,0,0,0,0)
+SupportCountAmount(1)
+
+ALIGN 4
+SamsonSupportPointer:
+SupportDataCharacters(Sheena,0,0,0,0) 
+SupportDataInitialValues(BSupportLevel,0,0,0,0)
+SupportDataGrowths(0,0,0,0,0)
+SupportCountAmount(1)
+
+ALIGN 4
+MidiaSupportPointer:
+SupportDataCharacters(Astram,0,0,0,0) 
+SupportDataInitialValues(ASupportLevel,0,0,0,0)
+SupportDataGrowths(0,0,0,0,0)
+SupportCountAmount(1)
+
+ALIGN 4
+LenaSupportPointer:
+SupportDataCharacters(Julian,0,0,0,0) 
+SupportDataInitialValues(BSupportLevel,0,0,0,0)
+SupportDataGrowths(0,0,0,0,0)
+SupportCountAmount(1)
+
+ALIGN 4
+MariaSupportPointer:
+SupportDataCharacters(Minerva,0,0,0,0) 
+SupportDataInitialValues(BSupportLevel,0,0,0,0)
+SupportDataGrowths(0,0,0,0,0)
+SupportCountAmount(1)
+
+ALIGN 4
+NynaSupportPointer:
+SupportDataCharacters(Sirius,0,0,0,0) 
+SupportDataInitialValues(BSupportLevel,0,0,0,0)
+SupportDataGrowths(0,0,0,0,0)
+SupportCountAmount(1)
+
+ALIGN 4
+EliceSupportPointer:
+SupportDataCharacters(Merric,0,0,0,0) 
+SupportDataInitialValues(BSupportLevel,0,0,0,0)
+SupportDataGrowths(0,0,0,0,0)
+SupportCountAmount(1)
+
+BYTE 0x0 0x0

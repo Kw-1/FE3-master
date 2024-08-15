@@ -1,0 +1,15 @@
+Bolganone.txt
+BreathofFog.txt
+CuttingGale.txt
+DarkBreathDarkDragon.txt
+DarkBreathEarthDragon.txt
+Dulam.txt
+FireBreathMageDragon.txt
+IceBreath.txt
+Imhullu.txt
+Meteor.txt
+Pachyderm.txt
+Parthia.txt
+Starlight.txt
+Swarm.txt
+Thoron.txt

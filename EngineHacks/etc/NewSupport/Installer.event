@@ -1,0 +1,222 @@
+
+#include "NewSupports.lyn.event"
+
+/*
+PUSH
+ORG 0x87698
+jumpToHack(New_DrawUnitScreenSupportList)
+POP
+*/
+PUSH
+ORG 0x87698
+jumpToHack(New_DrawUnitScreenSupportList)
+POP
+
+ALIGN 4
+NewSupportTable:
+#include "NewSupportTable.event"
+
+#define SupportEntry(partner, rank, atk, def, hit, avo, crit, ddg) "BYTE partner rank atk def hit avo crit ddg"
+#define SupportTerm "WORD 0 0"
+#define SetUnitSupportList(unit, list) "PUSH; ORG NewSupportTable + (unit*4); POIN list; POP"
+
+/*
+#define CSupportLevel 81
+#define BSupportLevel 161
+#define ASupportLevel 241
+*/
+
+ALIGN 4
+MarthSupportList:
+SupportEntry(Caeda,ASupportLevel,0,0,10,10,10,0)
+
+SupportEntry(Catria,CSupportLevel,0,0,0,0,0,0)
+SupportTerm
+
+ALIGN 4
+CecilSupportList:
+SupportEntry(Luke,CSupportLevel,0,0,0,0,0,0)
+
+SupportEntry(Roderick,BSupportLevel,0,0,10,10,10,0)
+SupportTerm
+
+ALIGN 4
+LukeSupportList:
+SupportEntry(Cecil,CSupportLevel,0,0,5,5,5,0)
+SupportTerm
+
+ALIGN 4
+RoderickSupportList:
+SupportEntry(Cecil,BSupportLevel,0,0,5,5,5,0)
+SupportTerm
+
+ALIGN 4
+RyanSupportList:
+SupportEntry(Gordin,CSupportLevel,0,0,5,5,5,0)
+SupportTerm
+
+ALIGN 4
+GordinSupportList:
+SupportEntry(Ryan,CSupportLevel,0,0,5,5,5,0)
+SupportTerm
+
+ALIGN 4
+CatriaSupportList:
+SupportEntry(Marth,CSupportLevel,0,0,10,10,10,0)
+SupportEntry(Minerva,CSupportLevel,0,0,10,10,10,0)
+SupportTerm
+
+ALIGN 4
+LindeSupportList:
+SupportEntry(Merric,CSupportLevel,0,0,10,10,10,0)
+SupportTerm
+
+ALIGN 4
+PallaSupportList:
+SupportEntry(Minerva,CSupportLevel,0,0,10,10,10,0)
+SupportEntry(Abel,CSupportLevel,0,0,10,10,10,0)
+SupportTerm
+
+ALIGN 4
+JulianSupportList:
+SupportEntry(Lena,BSupportLevel,0,0,10,10,10,0)
+SupportTerm
+
+ALIGN 4
+OgmaSupportList:
+SupportEntry(Caeda,BSupportLevel,0,0,10,10,10,0)
+SupportTerm
+
+ALIGN 4
+YuliyaSupportList:
+SupportEntry(Jubelo,BSupportLevel,0,0,10,10,10,0)
+SupportTerm
+
+ALIGN 4
+JubeloSupportList:
+SupportEntry(Yuliya,BSupportLevel,0,0,10,10,10,0)
+SupportTerm
+
+ALIGN 4
+SiriusSupportList:
+SupportEntry(Nyna,BSupportLevel,0,0,10,10,10,0)
+SupportTerm
+
+ALIGN 4
+CaedaSupportList:
+SupportEntry(Marth,ASupportLevel,0,0,10,10,10,0)
+SupportEntry(Ogma,BSupportLevel,0,0,0,0,0,0)
+SupportTerm
+
+ALIGN 4
+NavarreSupportList:
+SupportEntry(Phina,CSupportLevel,0,0,0,0,0,0)
+SupportTerm
+
+ALIGN 4
+PhinaSupportList:
+SupportEntry(Navarre,CSupportLevel,0,0,10,10,10,0)
+SupportTerm
+
+ALIGN 4
+BantuSupportList:
+SupportEntry(Tiki,BSupportLevel,0,0,10,10,10,0)
+SupportTerm
+
+ALIGN 4
+MinervaSupportList:
+SupportEntry(Maria,BSupportLevel,0,0,10,10,10,0)
+SupportEntry(Catria,CSupportLevel,0,0,0,0,0,0)
+SupportEntry(Palla,CSupportLevel,0,0,0,0,0,0)
+SupportEntry(Est,CSupportLevel,0,0,0,0,0,0)
+SupportTerm
+
+ALIGN 4
+MerricSupportList:
+SupportEntry(Linde,CSupportLevel,0,0,0,0,0,0)
+SupportEntry(Elice,BSupportLevel,0,0,10,10,10,0)
+SupportTerm
+
+ALIGN 4
+AbelSupportList:
+SupportEntry(Palla,CSupportLevel,0,0,0,0,0,0)
+SupportEntry(Est,ASupportLevel,0,0,10,10,10,0)
+SupportTerm
+
+ALIGN 4
+EstSupportList:
+SupportEntry(Minerva,CSupportLevel,0,0,10,10,10,0)
+SupportEntry(Est,ASupportLevel,0,0,10,10,10,0)
+SupportTerm
+
+ALIGN 4
+AstramSupportList:
+SupportEntry(Midia,ASupportLevel,0,0,10,10,10,0)
+SupportTerm
+
+ALIGN 4
+SheenaSupportList:
+SupportEntry(Samson,BSupportLevel,0,0,10,10,10,0)
+SupportTerm
+
+ALIGN 4
+SamsonSupportList:
+SupportEntry(Sheena,BSupportLevel,0,0,10,10,10,0)
+SupportTerm
+
+ALIGN 4
+MidiaSupportList:
+SupportEntry(Astram,ASupportLevel,0,0,10,10,10,0)
+SupportTerm
+
+ALIGN 4
+LenaSupportList:
+SupportEntry(Julian,BSupportLevel,0,0,10,10,10,0)
+SupportTerm
+
+ALIGN 4
+MariaSupportList:
+SupportEntry(Minerva,BSupportLevel,0,0,0,0,0,0)
+SupportTerm
+
+ALIGN 4
+NynaSupportList:
+SupportEntry(Sirius,BSupportLevel,0,0,0,0,0,0)
+SupportTerm
+
+ALIGN 4
+EliceSupportList:
+SupportEntry(Merric,BSupportLevel,0,0,0,0,0,0)
+SupportTerm
+
+
+SetUnitSupportList(Marth,MarthSupportList)
+SetUnitSupportList(Cecil,CecilSupportList)
+SetUnitSupportList(Luke,LukeSupportList)
+SetUnitSupportList(Roderick,RoderickSupportList)
+SetUnitSupportList(Ryan,RyanSupportList)
+SetUnitSupportList(Gordin,GordinSupportList)
+SetUnitSupportList(Catria,CatriaSupportList)
+SetUnitSupportList(Linde,LindeSupportList)
+SetUnitSupportList(Palla,PallaSupportList)
+SetUnitSupportList(Julian,JulianSupportList)
+SetUnitSupportList(Ogma,OgmaSupportList)
+SetUnitSupportList(Yuliya,YuliyaSupportList)
+SetUnitSupportList(Jubelo,JubeloSupportList)
+SetUnitSupportList(Sirius,SiriusSupportList)
+SetUnitSupportList(Caeda,CaedaSupportList)
+SetUnitSupportList(Navarre,NavarreSupportList)
+SetUnitSupportList(Phina,PhinaSupportList)
+SetUnitSupportList(Bantu,BantuSupportList)
+SetUnitSupportList(Minerva,MinervaSupportList)
+SetUnitSupportList(Merric,MerricSupportList)
+SetUnitSupportList(Abel,AbelSupportList)
+SetUnitSupportList(Est,EstSupportList)
+SetUnitSupportList(Astram,AstramSupportList)
+SetUnitSupportList(Sheena,SheenaSupportList)
+SetUnitSupportList(Samson,SamsonSupportList)
+SetUnitSupportList(Midia,MidiaSupportList)
+SetUnitSupportList(Lena,LenaSupportList)
+SetUnitSupportList(Maria,MariaSupportList)
+SetUnitSupportList(Nyna,NynaSupportList)
+SetUnitSupportList(Elice,EliceSupportList)

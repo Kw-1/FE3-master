@@ -1,0 +1,167 @@
+## TapestryName
+Tapestry[X]
+
+## MainThemeName
+Main Theme[X]
+
+## ArchaneaOvertureName
+Archanea Overture[X]
+
+## MysteryoftheEmblemName
+Mystery of the Emblem[X]
+
+## ANewJourneyName
+A New Journey[X]
+
+## OfftoWarName
+Off to War[X]
+
+## AdvanceName
+Advance[X]
+
+## AttackName
+Attack[X]
+
+## DancerName
+Dancer[X]
+
+## PhinaName
+Phina[X]
+
+## VillageGirlName
+Village Girl[X]
+
+## SadVillagerName
+Sad Villager[X]
+
+## ThemeofEncounterName
+Theme of Encounter[X]
+
+## InsurrectionName
+Insurrection[X]
+
+## DefenceName
+Defence[X]
+
+## VictoryisOursName
+Victory is Ours[X]
+
+## ConfrontName
+Confront[X]
+
+## VictoryName
+Victory[X]
+
+## ConspiracyName
+Conspiracy[X]
+
+## RickardName
+Rickard[X]
+
+## SeekingtheLegendName
+Seeking the Legend[X]
+
+## AnotherWorldName
+Another World[X]
+
+## BeyondtheSilenceName
+Beyond the Silence[X]
+
+## ExpeditionName
+Expedition[X]
+
+## ThemeofLoveName
+Theme of Love[X]
+
+## LegendoftheDivineDragonAName *
+Legend of the Divine Dragon B[X]
+
+## LegendoftheDivineDragonBName *
+Legend of the Divine Dragon B[X]
+
+## WarofHeroesName
+War of Heroes[X]
+
+## LiberationName
+Liberation[X]
+
+## ForWhoseSakeName
+For Whose Sake[X]
+
+## EvilOneName
+Evil One[X]
+
+## DarkEmperorName
+Dark Emperor[X]
+
+## EpilogueName
+Epilogue[X]
+
+## WarriorsPreludeName
+Warrior's Prelude[X]
+
+## LegendoftheDivineDragonMusicBoxName *
+Legend of the Divine Dragon MB[X]
+
+## DragonsAltarName
+Dragon's Altar[X]
+
+## HolyWarName
+Holy War[X]
+
+## DarkEarthDragonName
+Dark Earth Dragon[X]
+
+## GameOverName
+Game Over[X]
+
+## AndName
+And...[X]
+
+## EndingMedleyName
+Ending Medley[X]
+
+## WarriorsRequiemName
+Warrior's Requiem[X]
+
+## ArchaneaGenesisName
+Archanea Genesis[X]
+
+## UnitChangeName
+Unit Change[X]
+
+## WallStairwayName
+Wall! Stairway![X]
+
+## RecoveryName
+Recovery[X]
+
+## OtherName
+Other[X]
+
+## SpecialName
+Special[X]
+
+## AumName
+Aum[X]
+
+## ImhulluName
+Imhullu[X]
+
+## StarlightName
+Starlight[X]
+
+## VillageAName
+Village A[X]
+
+## VillageBName
+Village B[X]
+
+## ArmouryName
+Armoury[X]
+
+## VendorName
+Vendor[X]
+
+## APainfullFairwellName
+A Painfull Fairwell[X]

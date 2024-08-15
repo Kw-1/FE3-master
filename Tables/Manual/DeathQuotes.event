@@ -1,0 +1,60 @@
+#define AlwaysDeathQuote(arg000,arg001,arg002) "BYTE arg000 0x0 0xff 0xff arg001 0x0 ;SHORT arg002 ;WORD 0x0 "
+#define ChapterDeathQuote(arg000,arg001,arg002,arg003) "BYTE arg000 0x0 0xff arg001 arg002 0x0 ;SHORT arg003 ;WORD 0x0 "
+#define EndDeathQuote "BYTE 0xff 0xff 0x0 0x0 0x0 0x0 ;SHORT 0x0 ;WORD 0x0 "
+#define DefeatBossFlag 0x2
+#define GameOverFlag 0x65
+
+ALIGN 4
+DeathQuoteTable:
+
+// Always
+AlwaysDeathQuote(Marth,GameOverFlag,MarthDeath)
+AlwaysDeathQuote(Cecil,0x0,CecilDeath)
+AlwaysDeathQuote(Luke,0x0,LukeDeath)
+AlwaysDeathQuote(Roderick,0x0,RoderickDeath)
+AlwaysDeathQuote(Ryan,0x0,RyanDeath)
+AlwaysDeathQuote(Arran,0x0,ArranDeath)
+AlwaysDeathQuote(Gordin,0x0,GordinDeath)
+AlwaysDeathQuote(Draug,0x0,DraugDeath)
+AlwaysDeathQuote(Marisha,0x0,MarishaDeath)
+AlwaysDeathQuote(Catria,0x0,CatriaDeath)
+AlwaysDeathQuote(Warren,0x0,WarrenDeath)
+AlwaysDeathQuote(Linde,0x0,LindeDeath)
+AlwaysDeathQuote(Palla,0x0,PallaDeath)
+AlwaysDeathQuote(Julian,0x0,JulianDeath)
+AlwaysDeathQuote(Matthis,0x0,MatthisDeath)
+AlwaysDeathQuote(Ogma,0x0,OgmaDeath)
+AlwaysDeathQuote(Yuliya,0x0,YuliyaDeath)
+AlwaysDeathQuote(Jubelo,0x0,JubeloDeath)
+AlwaysDeathQuote(Sirius,0x0,SiriusDeath)
+AlwaysDeathQuote(Castor,0x0,CastorDeath)
+AlwaysDeathQuote(Caeda,0x0,CaedaDeath)
+AlwaysDeathQuote(Rickard,0x0,RickardDeath)
+AlwaysDeathQuote(Samuel,0x0,SamuelDeath)
+AlwaysDeathQuote(Wendell,0x0,WendellDeath)
+AlwaysDeathQuote(Navarre,0x0,NavarreDeath)
+AlwaysDeathQuote(Phina,0x0,PhinaDeath)
+AlwaysDeathQuote(Cain,0x0,CainDeath)
+AlwaysDeathQuote(Jeorge,0x0,JeorgeDeath)
+AlwaysDeathQuote(Bantu,0x0,BantuDeath)
+AlwaysDeathQuote(Minerva,0x0,MinervaDeath)
+AlwaysDeathQuote(Merric,0x0,MerricDeath)
+AlwaysDeathQuote(Arlen,0x0,ArlenDeath)
+AlwaysDeathQuote(Xane,0x0,XaneDeath)
+AlwaysDeathQuote(Tiki,0x0,TikiDeath)
+AlwaysDeathQuote(Abel,0x0,AbelDeath)
+AlwaysDeathQuote(Est,0x0,EstDeath)
+AlwaysDeathQuote(Astram,0x0,AstramDeath)
+AlwaysDeathQuote(Sheena,0x0,SheenaDeath)
+AlwaysDeathQuote(Samson,0x0,SamsonDeath)
+AlwaysDeathQuote(Roshea,0x0,RosheaDeath)
+AlwaysDeathQuote(Midia,0x0,MidiaDeath)
+AlwaysDeathQuote(Maria,0x0,MariaDeath)
+AlwaysDeathQuote(Elice,0x0,EliceDeath)
+AlwaysDeathQuote(Lena,0x0,LenaDeath)
+EndDeathQuote
+
+PUSH
+ORG $8472C
+POIN DeathQuoteTable
+POP

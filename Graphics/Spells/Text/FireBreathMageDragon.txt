@@ -1,0 +1,140 @@
+C000040
+O FireBreathMageDragon_o_000.png
+B FireBreathMageDragon_b_001.png
+1
+
+C100029
+O FireBreathMageDragon_o_000.png
+B FireBreathMageDragon_b_001.png
+1
+
+C00002A
+C000051
+C011F48
+C00001A
+~~~
+C00001F
+C000014
+O FireBreathMageDragon_o_002.png
+B FireBreathMageDragon_b_003.png
+1
+
+O FireBreathMageDragon_o_002.png
+B FireBreathMageDragon_b_004.png
+1
+
+O FireBreathMageDragon_o_002.png
+B FireBreathMageDragon_b_005.png
+1
+
+O FireBreathMageDragon_o_002.png
+B FireBreathMageDragon_b_006.png
+1
+
+O FireBreathMageDragon_o_002.png
+B FireBreathMageDragon_b_007.png
+1
+
+O FireBreathMageDragon_o_002.png
+B FireBreathMageDragon_b_008.png
+1
+
+O FireBreathMageDragon_o_002.png
+B FireBreathMageDragon_b_009.png
+1
+
+O FireBreathMageDragon_o_002.png
+B FireBreathMageDragon_b_010.png
+1
+
+C000014
+O FireBreathMageDragon_o_002.png
+B FireBreathMageDragon_b_011.png
+1
+
+O FireBreathMageDragon_o_012.png
+B FireBreathMageDragon_b_013.png
+1
+
+O FireBreathMageDragon_o_000.png
+B FireBreathMageDragon_b_014.png
+1
+
+C000014
+O FireBreathMageDragon_o_000.png
+1
+
+O FireBreathMageDragon_o_000.png
+1
+
+
+O FireBreathMageDragon_o_000.png
+1
+
+O FireBreathMageDragon_o_000.png
+B FireBreathMageDragon_b_020.png
+1
+
+O FireBreathMageDragon_o_021.png
+B FireBreathMageDragon_b_022.png
+1
+
+C000014
+O FireBreathMageDragon_o_000.png
+B FireBreathMageDragon_b_023.png
+1
+
+O FireBreathMageDragon_o_000.png
+B FireBreathMageDragon_b_024.png
+1
+
+O FireBreathMageDragon_o_000.png
+B FireBreathMageDragon_b_025.png
+1
+
+O FireBreathMageDragon_o_000.png
+B FireBreathMageDragon_b_026.png
+1
+
+O FireBreathMageDragon_o_021.png
+B FireBreathMageDragon_b_027.png
+1
+
+C000014
+O FireBreathMageDragon_o_000.png
+B FireBreathMageDragon_b_028.png
+1
+
+O FireBreathMageDragon_o_000.png
+B FireBreathMageDragon_b_029.png
+1
+
+O FireBreathMageDragon_o_000.png
+B FireBreathMageDragon_b_030.png
+1
+
+O FireBreathMageDragon_o_000.png
+B FireBreathMageDragon_b_031.png
+1
+
+O FireBreathMageDragon_o_000.png
+B FireBreathMageDragon_b_032.png
+2
+
+C000014
+O FireBreathMageDragon_o_000.png
+B FireBreathMageDragon_b_032.png
+5
+
+C000014
+O FireBreathMageDragon_o_000.png
+B FireBreathMageDragon_b_032.png
+5
+
+C000014
+O FireBreathMageDragon_o_000.png
+B FireBreathMageDragon_b_032.png
+3
+
+C10102A
+/// - End of animation

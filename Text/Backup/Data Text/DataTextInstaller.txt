@@ -1,0 +1,7 @@
+#include "CharacterText.txt"
+#include "ItemText.txt"
+#include "ClassText.txt"
+#include "SongText.txt"
+#include "ChapterNames.txt"
+#include "MenuText.txt"
+#include "DeathQuotes.txt"

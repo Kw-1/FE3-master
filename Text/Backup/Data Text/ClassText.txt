@@ -1,0 +1,111 @@
+## BarbarianNameText
+Barbarian[X]
+
+## BarbarianDescText
+Vicious fighters with high defenses.[NL]
+Can cross harsh terrain.[X]
+
+## HunterNameText
+Hunter[X]
+
+## HunterDescText
+Strong and agile bowfighters.[NL]
+Lacking in defenses.[X]
+
+## KnightNameText
+Knight[X]
+
+## KnightDescText
+A dismounted knight.[X]
+
+## DUMMYNameText
+DUMMY[X]
+
+## EmperorNameText
+Emperor[X]
+
+## EmperorDescText
+The ruler of Archanea.[NL]
+Strong in all fields.[X]
+
+## BallisticianNameText
+Ballistician[X]
+
+## BallisticianDescText
+Archers who use seige[NL]
+weapons to attack from afar.[X]
+
+## FireDragonNameText
+Fire Dragon[X]
+
+## FireDragonDescText
+Dragons who expell fire to[NL]
+incinerate their enemies.[X]
+
+## IceDragonNameText
+Ice Dragon[X]
+
+## IceDragonDesctText
+Dragons who freeze foes[NL]
+using ice breath.[X]
+
+## WyvernNameText
+Wyvern[X]
+
+## WyvernDescText
+High flying dragons.[NL]
+Use claws to tear foes.[X]
+
+## MageDragonNameText
+Mage Dragon[X]
+
+## MageDragonDescText
+Demonic Dragons who resist[NL]
+magic attacks.[X]
+
+## DivineDragonNameText *
+Divine Dragon[X]
+
+## DivineDragonDescText
+Mythical dragons who's breath[NL]
+is strong against other dragons.[X]
+
+## EarthDragonNameText *
+Earth Dragon[X]
+
+## EarthDragonDescText
+Powerful dragons that spew[NL]
+toxic breath to attack enemies.[X]
+
+## DarkDragonNameText *
+Dark Dragon[X]
+
+## DarkDragonDescText
+The resurrected Earth Dragon[NL]
+Medeus.[X]
+
+## Armour_KnightNameText *
+Armour Knight[X]
+
+## FreelancerNameText
+Freelancer[X]
+
+## FreelancerDescText
+Units who can assume[NL]
+an ally's form.[X]
+
+## BrigandNameText
+Brigand[X]
+
+## PegasusKnightNameText *
+Pegasus Knight[X]
+
+## DracoKnightNameText
+Dracoknight[X]
+
+## DarkMageNameText
+Dark Mage[X]
+
+## HorsemanNameText
+Horseman[X]
+

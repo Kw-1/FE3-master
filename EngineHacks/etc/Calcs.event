@@ -1,0 +1,57 @@
+PUSH
+ORG $2C574
+BYTE $00 //Reduce exp gain to 0 when dealing no damage
+
+ORG $2ABEE //Change Avoid Formula to Speed+Luck
+BYTE $00
+BYTE $00
+BYTE $11
+BYTE $1C
+BYTE $57
+BYTE $31
+BYTE $09
+BYTE $78
+BYTE $09
+BYTE $06
+BYTE $09
+BYTE $16
+BYTE $09
+BYTE $18
+BYTE $19
+BYTE $20
+BYTE $10
+BYTE $56
+
+ORG $2C3FA //Boss Bonus from 40 to 30
+BYTE $1E
+
+//Weapon Triangle Overhaul
+
+ORG $59BA92 //Sword vs Lance
+BYTE $FB
+BYTE $00
+
+ORG $59BA96 //Sword vs Axe
+BYTE $05
+BYTE $00
+
+ORG $59BA9A //Lance vs Axe
+BYTE $FB
+BYTE $00
+
+ORG $59BA9E //Lance vs Sword
+BYTE $05
+BYTE $00
+
+ORG $59BAA2 //Axe vs Sword
+BYTE $FB
+BYTE $00
+
+ORG $59BAA6 //Axe vs Lance
+BYTE $05
+BYTE $00
+
+
+
+POP
+

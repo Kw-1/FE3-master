@@ -1,0 +1,12 @@
+
+//#ifdef USE_FIXED_DAMAGE_WEAPONS
+#define ENABLE_FixedDamageWeapons
+#include "FixedDamageWeapons.lyn.event"
+
+ALIGN 4
+FixedDamageWeaponList:
+BYTE LevinSword
+BYTE 0
+
+
+//#endif // USE_FIXED_DAMAGE_WEAPONS

@@ -1,0 +1,47 @@
+// Spells
+#define Bolganone_index 0x48
+#define CuttingGale_index 0x49
+#define Dulam_index 0x4A
+#define Imhullu_index 0x4B
+#define Meteor_index 0x4C
+#define Pachyderm_index 0x4D
+#define Parthia_index 0x4E
+#define Starlight_index 0x4F
+#define Swarm_index 0x50
+#define Thoron_index 0x51
+#define IceBreath_index 0x51
+#define DarkBreathDarkDragon_index 0x52
+#define DarkBreathEarthDragon_index 0x53
+#define FireBreathMageDragon_index 0x54
+#define BreathofFog_index 0x55
+
+
+
+
+
+#include "CSA System FE8/Master Spell Animation Installer.event"
+
+#include "Event/Bolganone.event"
+#include "Event/CuttingGale.event"
+#include "Event/Dulam.event"
+#include "Event/Imhullu.event"
+#include "Event/Meteor.event"
+#include "Event/Pachyderm.event"
+#include "Event/Parthia.event"
+#include "Event/Starlight.event"
+#include "Event/Swarm.event"
+#include "Event/Thoron.event"
+#include "Event/IceBreath.event"
+#include "Event/DarkBreathDarkDragon.event"
+#include "Event/DarkBreathEarthDragon.event"
+#include "Event/FireBreathMageDragon.event"
+#include "Event/BreathofFog.event"
+
+
+
+
+
+
+
+
+

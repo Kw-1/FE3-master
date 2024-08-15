@@ -1,0 +1,116 @@
+//Made by Camtech075 of SerenesForest
+//Modified by Nintenlord
+
+#include EAstdlib.event
+
+EventPointerTable(0x07,ThisChapter)
+
+ALIGN 4
+
+ThisChapter:
+POIN TurnBasedEvents
+POIN CharacterBasedEvents
+POIN LocationBasedEvents
+POIN MiscBasedEvents
+POIN Dunno Dunno Dunno
+POIN Tutorial
+POIN TrapData TrapData
+POIN Units Units
+POIN $0 $0 $0 $0 $0 $0
+POIN BeginningScene EndingScene
+
+TurnBasedEvents:
+END_MAIN
+ALIGN 32 //For some reason, CharacterBasedEvents have to be 32-Aligned?
+
+CharacterBasedEvents:
+END_MAIN
+
+LocationBasedEvents:
+END_MAIN
+
+MiscBasedEvents:
+CauseGameOverIfLordDies
+END_MAIN
+
+Dunno:
+END_MAIN
+
+Tutorial:
+END_MAIN
+
+TrapData:
+ENDTRAP
+
+ALIGN 4
+
+Units:
+UNIT Marth Lord 0x0 Level(3,Ally,0) [0,4] 0x0 0x0 0x0 0x0 [Rapier, Falchion] NoAI
+UNIT Cecil Cavalier_F Marth Level(3,Ally,0) [1,4] 0x0 0x0 0x0 0x0 [SlimLance, IronSword] NoAI
+UNIT Luke Cavalier Marth Level(2,Ally,0) [2,4] 0x0 0x0 0x0 0x0 [Javelin, IronSword] NoAI
+UNIT Roderick Cavalier Marth Level(1,Ally,0) [3,4] 0x0 0x0 0x0 0x0 [IronLance, IronSword] NoAI
+UNIT Ryan Archer Marth Level(1,Ally,0) [4,4] 0x0 0x0 0x0 0x0 [IronBow] NoAI
+UNIT Gordin Archer Marth Level(5,Ally,0) [5,4] 0x0 0x0 0x0 0x0 [SteelBow] NoAI
+UNIT Draug Armor_Knight Marth Level(6,Ally,0) [6,4] 0x0 0x0 0x0 0x0 [SteelLance] NoAI
+UNIT Arran Paladin Marth Level(3,Ally,0) [7,4] 0x0 0x0 0x0 0x0 [SilverLance, SteelSword] NoAI
+UNIT Marisha Cleric Marth Level(2,Ally,0) [8,4] 0x0 0x0 0x0 0x0 [Heal] NoAI
+UNIT Catria PegasusKnight Marth Level(4,Ally,0) [9,4] 0x0 0x0 0x0 0x0 [IronLance, IronSword] NoAI
+UNIT Warren Hunter Marth Level(2,Ally,0) [10,4] 0x0 0x0 0x0 0x0 [IronBow, DoorKey] NoAI
+UNIT Linde Mage_F Marth Level(4,Ally,0) [11,4] 0x0 0x0 0x0 0x0 [Aura, Nosferatu] NoAI
+UNIT Palla PegasusKnight Marth Level(10,Ally,0) [12,4] 0x0 0x0 0x0 0x0 [SilverLance, IronSword, Vulnerary] NoAI
+UNIT Julian Thief Marth Level(6,Ally,0) [13,4] 0x0 0x0 0x0 0x0 [IronSword, Mend] NoAI
+UNIT Matthis Cavalier Marth Level(4,Ally,0) [14,4] 0x0 0x0 0x0 0x0 [Javelin] NoAI
+UNIT Ogma Mercenary Marth Level(7,Ally,0) [0,5] 0x0 0x0 0x0 0x0 [SteelSword] NoAI
+UNIT Yuliya Cleric Marth Level(2,Ally,0) [1,5] 0x0 0x0 0x0 0x0 [Rescue] NoAI
+UNIT Jubelo Mage Marth Level(1,Ally,0) [2,5] 0x0 0x0 0x0 0x0 [Fire] NoAI
+UNIT Sirius Paladin Marth Level(4,Ally,0) [3,5] 0x0 0x0 0x0 0x0 [IronLance, IronSword] NoAI
+UNIT Castor Hunter Marth Level(7,Ally,0) [4,5] 0x0 0x0 0x0 0x0 [KillerBow] NoAI
+UNIT Caeda PegasusKnight Marth Level(4,Ally,0) [5,5] 0x0 0x0 0x0 0x0 [KillerLance, IronSword] NoAI
+UNIT Rickard Thief Marth Level(3,Ally,0) [6,5] 0x0 0x0 0x0 0x0 [IronSword, MemberCard] NoAI
+UNIT Samuel Myrmidon Marth Level(5,Ally,0) [7,5] 0x0 0x0 0x0 0x0 [KillingEdge] NoAI
+UNIT Wendell Bishop Marth Level(7,Ally,0) [8,5] 0x0 0x0 0x0 0x0 [Starlight] NoAI
+UNIT Navarre Myrmidon Marth Level(8,Ally,0) [9,5] 0x0 0x0 0x0 0x0 [KillingEdge] NoAI
+UNIT Phina Dancer Marth Level(1,Ally,0) [10,5] 0x0 0x0 0x0 0x0 [Rapier] NoAI
+UNIT Cain Cavalier Marth Level(9,Ally,0) [11,5] 0x0 0x0 0x0 0x0 [KillerLance, IronSword] NoAI
+UNIT Bantu Manakete Marth Level(3,Ally,0) [12,5] 0x0 0x0 0x0 0x0 [] NoAI
+UNIT Jeorge Sniper Marth Level(5,Ally,0) [13,5] 0x0 0x0 0x0 0x0 [Parthia] NoAI
+UNIT Minerva Draco_Knight Marth Level(8,Ally,0) [14,5] 0x0 0x0 0x0 0x0 [Hauteclere, IronLance] NoAI
+UNIT Merric Mage Marth Level(10,Ally,0) [0,6] 0x0 0x0 0x0 0x0 [Excalibur] NoAI
+UNIT Arlen Mage Marth Level(12,Ally,0) [1,6] 0x0 0x0 0x0 0x0 [Thoron] NoAI
+UNIT Xane Freelancer Marth Level(5,Ally,0) [2,6] 0x0 0x0 0x0 0x0 [IronSword] NoAI
+UNIT Tiki Manakete_F Marth Level(6,Ally,0) [3,6] 0x0 0x0 0x0 0x0 [DivineDragonStone] NoAI
+UNIT Abel Paladin Marth Level(1,Ally,0) [4,6] 0x0 0x0 0x0 0x0 [Ridersbane] NoAI
+UNIT Est PegasusKnight Marth Level(10,Ally,0) [5,6] 0x0 0x0 0x0 0x0 [IronLance] NoAI
+UNIT Astram Hero Marth Level(5,Ally,0) [6,6] 0x0 0x0 0x0 0x0 [Mercurius] NoAI
+UNIT Sheena General_F Marth Level(1,Ally,0) [7,6] 0x0 0x0 0x0 0x0 [SilverLance, EnergyRing] NoAI
+UNIT Samson Hero Marth Level(5,Ally,0) [8,6] 0x0 0x0 0x0 0x0 [SilverAxe] NoAI
+UNIT Roshea Paladin Marth Level(8,Ally,0) [9,6] 0x0 0x0 0x0 0x0 [SilverLance] NoAI
+UNIT Midia Paladin_F Marth Level(16,Ally,0) [10,6] 0x0 0x0 0x0 0x0 [IronLance] NoAI
+UNIT Lena Bishop_F Marth Level(7,Ally,0) [11,6] 0x0 0x0 0x0 0x0 [Bolganone] NoAI
+UNIT Maria Bishop_F Marth Level(1,Ally,0) [12,6] 0x0 0x0 0x0 0x0 [Recover] NoAI
+UNIT Nyna Bishop_F Marth Level(3,Ally,0) [13,6] 0x0 0x0 0x0 0x0 [Thoron, Recover] NoAI
+UNIT Elice Bishop_F Marth Level(5,Ally,0) [14,6] 0x0 0x0 0x0 0x0 [Fortify] NoAI
+
+
+Enemies:
+UNIT DarkTribe Dark_Mage 0x0 Level(1,Enemy,0) [1,2] 0x0 0x0 0x0 0x0 [Dulam] NoAI
+UNIT DarkTribe Barbarian 0x0 Level(1,Enemy,0) [2,2] 0x0 0x0 0x0 0x0 [DevilAxe] NoAI
+UNIT EarthDragon_Generic EarthDragon 0x0 Level(1,Enemy,0) [3,3] 0x0 0x0 0x0 0x0 [DarkBreathEarthDragon] NoAI
+
+
+
+UNIT
+
+BeginningScene:
+LOAD1 0x1 Units
+ENUN
+LOAD1 0x1 Enemies
+ENUN
+
+ENDA
+
+EndingScene:
+MoveToChapter(1)
+ENDA
+
+MESSAGE Events end at offset CURRENTOFFSET

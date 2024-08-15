@@ -1,0 +1,6 @@
+#include "SoundRoom.event"
+#include "DeathQuotes.event"
+#include "BossMusic.event"
+#include "PromotionItems.event"
+#include "SupportPointersTable.event"
+//#include "ForcedDeployment.event"

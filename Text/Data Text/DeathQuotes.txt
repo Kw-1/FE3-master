@@ -1,0 +1,192 @@
+## MarthDeath
+[MidRight][LoadMarth]
+Forgive me...[N]
+my friends...[Die][X]
+
+## CecilDeath
+[MidRight][LoadCecil]
+Lord Marth...[Die][X]
+
+## LukeDeath
+[MidRight][LoadLuke]
+Urgh, it hurts...[N]
+I'm done for![Die][X]
+
+## RoderickDeath
+[MidRight][LoadRoderick]
+Cecil... I'm sorry.[Die][X]
+
+## RyanDeath
+[MidRight][LoadRyan]
+Gordin, brother...[Die][X]
+
+## ArranDeath
+[MidRight][LoadArran]
+To die in battle is my wish...[Die][X]
+
+## GordinDeath
+[MidRight][LoadGordin]
+Ryan, forgive me...[Die][X]
+
+## DraugDeath
+[MidRight][LoadDraug]
+Lord Marth, good luck...[Die][X]
+
+## MarishaDeath
+[MidRight][LoadMarisha]
+How annoying, why here?[N] 
+Lord Marth...[Die][X]
+
+## CatriaDeath
+[MidRight][LoadCatria]
+Prince Marth...[Die][X]
+
+## WarrenDeath
+[MidRight][LoadWarren]
+Damn...[N]
+How could this be...[Die][X]
+
+## LindeDeath
+[MidRight][LoadLinde]
+Ah, Nyna...[Die][X]
+
+## PallaDeath
+[MidRight][LoadPalla]
+Abel...[Die][X]
+
+## JulianDeath
+[MidRight][LoadJulian]
+Miss Lena...[N]
+I'm sorry.[Die][X]
+
+## MatthisDeath
+[MidRight][LoadMatthis]
+Lena...[N]
+Forgive this useless brother.[Die][X]
+
+## OgmaDeath
+[MidRight][LoadOgma]
+This is the end...[Die][X]
+
+## YuliyaDeath
+[MidRight][LoadYuliya]
+Ahh... Jubelo...[Die][X]
+
+## JubeloDeath
+[MidRight][LoadJubelo]
+Yuliya... I'm sorry...[Die][X]
+
+## SiriusDeath
+[MidRight][LoadSirius]
+I'm sorry...[Die][X]
+
+## CastorDeath
+[MidRight][LoadCastor]
+Mother...[N]
+I can't send any more gold...[Die][X]
+
+## CaedaDeath
+[MidRight][LoadCaeda]
+Marth...[N]
+Please take care...[Die][X]
+
+## RickardDeath
+[MidRight][LoadRickard]
+Big bro, I won't be around[N]
+anymore. Don't be lonely...[Die][X]
+
+## SamuelDeath
+[MidRight][LoadSamuel]
+Pretty boys don't have it easy...[Die][X]
+
+## WendellDeath
+[MidRight][LoadWendell]
+This is fate...[Die][X]
+
+## NavarreDeath
+[MidRight][LoadNavarre]
+Prince Marth... Don't die.[Die][X]
+
+## PhinaDeath
+[MidRight][LoadPhina]
+Navarre...[N]
+Save me...[Die][X]
+
+## CainDeath
+[MidRight][LoadCain]
+Lord Marth...[N]
+Good luck.[Die][X]
+
+## JeorgeDeath
+[MidRight][LoadJeorge]
+Nyna, please forgive me...[Die][X]
+
+## BantuDeath
+[MidRight][LoadBantu]
+Tiki, forgive me...[Die][X]
+
+## MinervaDeath
+[MidRight][LoadMinerva]
+Maria... I'm sorry...[Die][X]
+
+## MerricDeath
+[MidRight][LoadMerric]
+Elice...[N]
+You must be safe...[Die][X]
+
+## ArlenDeath
+[MidRight][LoadArlen]
+Master Wendell...[Die][X]
+
+## XaneDeath
+[MidRight][LoadXane]
+Prince Marth,[N]
+we won't meet again...[Die][X]
+
+## TikiDeath
+[MidRight][LoadTiki]
+Marth...[Die][X]
+
+## AbelDeath
+[MidRight][LoadAbel]
+Est...[Die][X]
+
+## EstDeath
+[MidRight][LoadEst]
+Ah, Abel...[Die][X]
+
+## AstramDeath
+[MidRight][LoadAstram]
+Midia...[Die][X]
+
+## SheenaDeath
+[MidRight][LoadSheena]
+Samson... I'm sorry...[Die][X]
+
+## SamsonDeath
+[MidRight][LoadSamson]
+Sheena...[Die][X]
+
+## RosheaDeath
+[MidRight][LoadRoshea]
+Glory to Aurelis!![Die][X]
+
+## MidiaDeath
+[MidRight][LoadMidia]
+Ah, Astram...[Die][X]
+
+## MariaDeath
+[MidRight][LoadMaria]
+Ah... Minerva, sister...[Die][X]
+
+## EliceDeath
+[MidRight][LoadElice]
+Ah, Merric...[Die][X]
+
+## LenaDeath
+[MidRight][LoadLena]
+Ah, Julian...[Die][X]
+
+## NynaDeath
+[MidRight][LoadNyna]
+Ah, Camus...[Die][X]

@@ -1,0 +1,531 @@
+## MarthNameText
+Marth[X]
+
+## MarthDescText
+The prince of Altea.[NL]
+A skilled and altruistic leader.[X]
+
+## CecilNameText
+Cecil[X]
+
+## CecilDescText
+A young dame of Altea. Renown as[NL]
+swift and agile among her peers.[X]
+
+## LukeNameText
+Luke[X]
+
+## LukeDescText
+A former gambler who became an Altean[NL]
+knight. Frivilous and laid back.
+
+## RodyNameText
+Rody[X]
+
+## RoderickNameText 
+Roderick[X]
+
+## RoderickDescText
+A new Altean recruit.[NL]
+Serious and dutiful.[X]
+
+## RyanNameText
+Ryan[X]
+
+## RyanDescText
+A fresh Altean recruit.[NL]
+Admires his older brother Gordin.[X]
+
+## GordinNameText
+Gordin[X]
+
+## GordinDescText
+An experienced Altean soldier.[NL]
+Studies archery under Jeorge.[X]
+
+## DraugNameText
+Draug[X]
+
+## DraugDescText
+A veteran Altean armor knight.[NL]
+Well known for his reliability.[X]
+
+## ArranNameText
+Arran[X]
+
+## ArranDescText
+The captain of the Altean Knights.[NL]
+Suffering from a long illness.[X]
+
+## MarishaNameText
+Marisha[X]
+
+## MarishaDescText
+A Grustian cleric who trains[NL]
+under Lena.[X]
+
+## CatriaNameText
+Catria[X]
+
+## CatriaDescText
+A member of the Macedonian Whitewings[NL]
+and middle sibling of the pegasus sisters.[X]
+
+## WarrenNameText
+Warren[X]
+
+## WarrenDescText
+A reclusive hunter from Macedon.[X]
+
+## LindeNameText
+Linde[X]
+
+## LindeDescText
+Daughter of the late Bishop Miloa.[NL]
+Wields the tome of Aura.[X]
+
+## PallaNameText
+Palla[X]
+
+## PallaDescText
+A member of the Macedonian Whitewings[NL]
+and eldest of the pegasus sisters.[X]
+
+## JulianNameText
+Julian[X]
+
+## JulianDescText
+A former thief in search of Lena.[X]
+
+## MatthisNameText
+Matthis[X]
+
+## MatthisDescText
+A Macedonian nobleman and[NL]
+Lena's older brother.[X]
+
+## OgmaNameText
+Ogma[X]
+
+## OgmaDescText
+A mercenary hired by King Talys.[NL]
+Vowed to protect Yuliya and Jubello.[X]
+
+## YuliyaNameText
+Yuliya[X]
+
+## YuliyaDescText
+The princess of Grust. She is[NL]
+stubborn and iron-willed.[X]
+
+## JubeloNameText
+Jubelo[X]
+
+## JubeloDescText
+The prince of Grust. He is shy[NL]
+and timid.[X]
+
+## SiriusNameText
+Sirius[X]
+
+## SiriusDescText
+An enigmatic paladin.[X]
+
+## CastorNameText
+Castor[X]
+
+## CastorDescText
+A hunter from Talys.[NL]
+Needs money  for his sick mother.[X]
+
+## CaedaNameText
+Caeda[X]
+
+## CaedaDescText
+The princess of Talys.[NL]
+Marth's fiancee.[X]
+
+## RickardNameText
+Rickard[X]
+
+## RickardDescText
+A young thief who adores Julian.[X]
+
+## SamuelNameText
+Samuel[X]
+
+## SamuelDescText
+A former gladiator.[NL]
+Looks like Navarre.[X]
+
+## WendellNameText
+Wendell[X]
+
+## WendellDescText
+A travelling bishop from Khadein.[NL]
+On a mission from Gotoh.[X]
+
+## NavarreNameText
+Navarre[X]
+
+## NavarreDescText
+A famous swordfighter, known as the[NL]
+'Scarlet Swordsman'.[X]
+
+## PhinaNameText
+Phina[X]
+
+## PhinaDescText
+A young travelling dancer attached to[NL]
+Navarre. Cheerful and energetic.[X]
+
+## CainNameText
+Cain[X]
+
+## CainDescText
+A veteran Altean knight.[NL]
+Known as "The Bull".[X]
+
+## BantuNameText
+Bantu[X]
+
+## BantuDescText
+An elderly member of the Fire Dragon[NL]
+tribe.[X]
+
+## JeorgeNameText
+Jeorge[X]
+
+## JeorgeDescText
+An Archanean noble known as the[NL]
+continent's greatest bowman.[X]
+
+## MinervaNameText
+Minerva[X]
+
+## MinervaDescText
+The princess of Macedon.[NL]
+In search of her sister Maria.[X]
+
+## MerricNameText
+Merric[X]
+
+## MerricDescText
+An Altean mage and Wendell's[NL]
+successor. Inherited the tome Excalibur.[X]
+
+## ArlenNameText
+Arlen[X]
+
+## ArlenDescText
+A mage who studies under Wendell.[NL]
+Merric's rival.[X]
+
+## XaneNameText
+Xane[X]
+
+## XaneDescText
+A Divine Dragon who[NL]
+sealed his dragonstone.[X]
+
+## TikiNameText
+Tiki[X]
+
+## TikiDescText
+A manakete of the Divine Dragon tribe.[NL]
+Cheerful and immature.[X]
+
+## AbelNameText
+Abel[X]
+
+## AbelDescText
+A former Altean knight, known as[NL]
+'The Panther'.[X]
+
+## EstNameText
+Est[X]
+
+## EstDescText
+A member of the Macedonian Whitewings[NL]
+and youngest of the pegasus sisters.[X]
+
+## AstramNameText
+Astram[X]
+
+## AstramDescText
+One of Archanea's finest knights.[NL]
+Feircly loyal to Nyna. Midia's fiance.[X]
+
+## SheenaNameText
+Sheena[X]
+
+## SheenaDescText
+The daughter of Gra's late King Jiol.[X]
+
+## SamsonNameText
+Samson[X]
+
+## SamsonDescText
+A renown mercenary. Devoutly[NL]
+loyal to Sheena.[X]
+
+## RosheaNameText
+Roshea[X]
+
+## RosheaDescText
+A former member of the Coyote's Men.[NL]
+Unwilling to fight against Altea.[X]
+
+## MidiaNameText
+Midia[X]
+
+## MidiaDescText
+An Archanean noble.[NL]
+Astram's fiancee.[X]
+
+## LenaNameText
+Lena[X]
+
+## LenaDescText
+A Macedon noblewoman who was[NL]
+captured by Gharnef.[X]
+
+## MariaNameText
+Maria[X]
+
+## MariaDescText
+A princess of Macedon who was[NL]
+captured by Gharnef.[X]
+
+## NynaNameText
+Nyna[X]
+
+## NynaDescText
+The Empress of Archanea who was[NL]
+captured by Gharnef.[X]
+
+## EliceNameText
+Elice[X]
+
+## EliceDescText
+The princess of Altea who was[NL]
+captured by Gharnef.[X]
+
+## LorenzNameText
+Lorenz[X]
+
+## LorenzDescText
+The leader of the Grustian Rebellion.[NL]
+Fought with Marth in the previous war.[X]
+
+## RumelNameText
+Rumel[X]
+
+## RumelDescText
+A commander of Rucke's rebellion army.[X]
+
+## LykkeNameText
+Lykke[X]
+
+## LykkeDescText
+The leader of Macedon's rebellion army.[NL]
+A former Macedonian general.[X]
+
+## GailNameText
+Gail[X]
+
+## GailDescText
+The leader of the Macedonian Vikings.[X]
+
+
+## TorasNameText
+Toras[X]
+
+## TorasDescText
+A cowardly ballistician who defends[NL]
+Olbern castle.[X]
+
+## LangNameText
+Lang[X]
+
+## LangDescText
+The vile leader of the[NL]
+Grustian occupation.[X]
+
+## DahlNameText
+Dahl[X]
+
+## DahlDescText
+One of the thieves who ransacked[NL]
+the Raman temple.[X]
+
+## YodelNameText
+Yodel[X]
+
+## YodelDescText
+One of Khadein's bishops. Works for Arlen.[X]
+
+## EibelNameText
+Eibel[X]
+
+## EibelDescText
+An Archanean general. He used Est to force[NL]
+Abel into fighting against the Altean army.[X]
+
+## WillowNameText
+Willow[X]
+
+## WillowDescText
+An Archanean bishop tasked with[NL]
+defending castle Altea.[X]
+
+## WolfNameText
+Wolf[X]
+
+## WolfDescText
+The leader of the Coyote's Men who fought[NL]
+under Marth's banner in the previous war.[X]
+
+## SedgarNameText
+Sedgar[X]
+
+## SedgarDescText
+The Coyote's Men's second in command.[NL]
+Devoted to Emperor Hardin.[X]
+
+## VylandNameText
+Vyland[X]
+
+## VylandDescText
+A member of the Coyote's Men.[NL]
+A close friend of Roshea's.[X]
+
+## NehringNameText
+Nehring[X]
+
+## NehringDescText
+An Archanean general who defends[NL]
+the Millennium Court.[X]
+
+## HardinNameText
+Hardin[X]
+
+## HardinDescText
+The Emperor of Archanea.[NL]
+He has been possessed by the Darksphere.[X]
+
+## GharnefNameText
+Gharnef[X]
+
+## GharnefDescText
+Known as 'The Dark Pontifex'.[NL]
+Attempting to resurrect Medeus.[X]
+
+## MedeusNameText
+Medeus[X]
+
+## MedeusDescText
+The Earth Dragon King.[NL]
+He has been resurrected as a Dark Dragon.[X]
+
+## BanditNameText
+Bandit[X]
+
+## BanditDescText
+A group of bandits who[NL]
+terrorize the nearby region.[X]
+
+## MacedonNameText
+Macedon[X]
+
+## MacedonDescText
+A soldier of the[NL]
+Macedonian rebellion.[X]
+
+## VikingNameText
+Viking[X]
+
+## VikingDescText
+One of the feared Macedonian[NL]
+Vikings who roam the coast.[X]
+
+## OccupantNameText
+Occupant[X]
+
+## OccupantDescText
+One of Lang's men[NL]
+who occupy Grust.[X]
+
+## ArchaneaNameText
+Archanea[X]
+
+## ArchaneaDescText
+The Archanean army, the[NL]
+strongest in the continent.[X]
+
+## KhadeinNameText
+Khadein[X]
+
+## KhadeinDescText
+The army of Khadein,[NL]
+known for its sorcery.[X]
+
+## DesertTribeNameText
+Desert Tribe[X]
+
+## DesertTribeDescText
+The feared clan that[NL]
+terrorizes this region.[X]
+
+## FireTribeNameText
+Fire Tribe[X]
+
+## FireTribeDescText
+The feared clan that[NL]
+terrorizes this region.[X]
+
+## IceTribeNameText
+Ice Tribe[X]
+
+## IceTribeDescText
+The feared clan that[NL]
+terrorizes this region.[X]
+
+## GraNameText
+Gra[X]
+
+## GraDescText
+The army of Gra, a[NL]
+shadow of its former self.[X]
+
+## AurelisNameText
+Aurelis[X]
+
+## AurelisDescText
+The Aurelian army,[NL]
+loyal to Archanea.[X]
+
+## MountainTribeNameText
+Rock Tribe[X]
+
+## MountainTribeDescText
+The feared clan that[NL]
+terrorizes this region.[X]
+
+## HereticNameText
+Heretic[X]
+
+## HereticDescText
+The heretics who intend[NL]
+to resurrect Medeus.[X]
+
+## DarkTribeNameText
+Dark Tribe[X]
+
+## DarkTribeDescText
+Bandits who are being[NL]
+controlled by Gharnef.[X]
+
+
+
+

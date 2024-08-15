@@ -1,0 +1,2395 @@
+//Event file generated from Sappy .s format.
+	#include "MPlayDef.event"
+
+	#define	songDA_grp  voicegroup000
+	#define	songDA_pri  10
+	#define	songDA_rev  128
+	#define	songDA_mvl  127
+	#define	songDA_key  0
+	#define	songDA_tbs  1
+	#define	songDA_exg  0
+	#define	songDA_cmp  1
+
+	// .rodata
+	//	songDA
+	ALIGN 4
+
+
+//**************** Track 1 (Midi-Chn.0) ****************//
+
+songDA_001:
+//  #01 //000   ----------------------------------------
+ BYTE   KEYSH   songDA_key+0
+ BYTE   TEMPO   102*songDA_tbs/2
+ BYTE   W72
+Label_5697E1:
+ BYTE   W72
+//  #01 //001   ----------------------------------------
+ BYTE   W72
+ BYTE   W72
+//  #01 //002   ----------------------------------------
+ BYTE   W72
+ BYTE   W72
+//  #01 //003   ----------------------------------------
+ BYTE   W72
+ BYTE   W72
+//  #01 //004   ----------------------------------------
+ BYTE   W72
+ BYTE   W72
+//  #01 //005   ----------------------------------------
+ BYTE   W72
+ BYTE   W72
+//  #01 //006   ----------------------------------------
+ BYTE   W72
+ BYTE   W72
+//  #01 //007   ----------------------------------------
+ BYTE   W72
+ BYTE   W72
+//  #01 //008   ----------------------------------------
+ BYTE   W72
+ BYTE   W72
+//  #01 //009   ----------------------------------------
+ BYTE   W72
+ BYTE   VOICE   1
+ BYTE   W24
+//  #01 //010   ----------------------------------------
+ BYTE   VOL   73*songDA_mvl/mxv
+ BYTE   W06
+ BYTE   PAN   c_v-14
+ BYTE   W06
+ BYTE   N15  Bn3  v080
+ BYTE   W12
+ BYTE   Cn4
+ BYTE   W12
+ BYTE   Dn4
+ BYTE   W12
+ BYTE   N24  En4
+ BYTE   W24
+ BYTE   Dn4
+ BYTE   W24
+//  #01 //011   ----------------------------------------
+ BYTE   En4
+ BYTE   W24
+ BYTE   N48  Dn4
+ BYTE   W48
+ BYTE   N36  Bn3
+ BYTE   W17
+ BYTE   VOL   72*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   70*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   68*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   66*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   64*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   62*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   59*songDA_mvl/mxv
+ BYTE   W01
+//  #01 //012   ----------------------------------------
+ BYTE   VOL   56*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   54*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   51*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   48*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   46*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   42*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   38*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   36*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   31*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   26*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   24*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   18*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   13*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   9*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   2*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   0*songDA_mvl/mxv
+ BYTE   W09
+ BYTE   VOL   73*songDA_mvl/mxv
+ BYTE   N12  En4
+ BYTE   W12
+ BYTE   Dn4
+ BYTE   W12
+ BYTE   En4
+ BYTE   W12
+ BYTE   N24  Gn4
+ BYTE   W12
+Label_569862:
+ BYTE   W24
+//  #01 //013   ----------------------------------------
+ BYTE   N24  Dn4  v080
+ BYTE   W24
+ BYTE   Cn4
+ BYTE   W24
+ BYTE   PEND 
+//  #01 //014   ----------------------------------------
+ BYTE   PATT
+  POIN2 Label_569862
+//  #01 //015   ----------------------------------------
+ BYTE   W24
+ BYTE   N24  Cn4  v080
+ BYTE   W24
+ BYTE   As3
+ BYTE   W24
+ BYTE   VOL   64*songDA_mvl/mxv
+ BYTE   TIE  Cn4  v088
+ BYTE   W20
+ BYTE   VOL   64*songDA_mvl/mxv
+ BYTE   W10
+//  #01 //016   ----------------------------------------
+ BYTE   VOL   65*songDA_mvl/mxv
+ BYTE   W10
+ BYTE   VOL   66*songDA_mvl/mxv
+ BYTE   W05
+ BYTE   VOL   66*songDA_mvl/mxv
+ BYTE   W05
+ BYTE   VOL   67*songDA_mvl/mxv
+ BYTE   W05
+ BYTE   VOL   68*songDA_mvl/mxv
+ BYTE   W05
+ BYTE   VOL   68*songDA_mvl/mxv
+ BYTE   W05
+ BYTE   VOL   69*songDA_mvl/mxv
+ BYTE   W05
+ BYTE   VOL   70*songDA_mvl/mxv
+ BYTE   W02
+ BYTE   W03
+ BYTE   VOL   72*songDA_mvl/mxv
+ BYTE   W05
+ BYTE   VOL   74*songDA_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   74*songDA_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   73*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   72*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   72*songDA_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   71*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   70*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   70*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   69*songDA_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   68*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   68*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   67*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   66*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   66*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   65*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   64*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   64*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   63*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   62*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   62*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   61*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   60*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   60*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   58*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   58*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   56*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   56*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   55*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   54*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   53*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   52*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   51*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   50*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   49*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   48*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   46*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   45*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   44*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   43*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   41*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   40*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   38*songDA_mvl/mxv
+ BYTE   W01
+//  #01 //017   ----------------------------------------
+ BYTE   VOL   36*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   36*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   34*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   32*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   30*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   28*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   25*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   24*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   22*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   19*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   16*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   14*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   12*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   9*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   6*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   EOT
+ BYTE   VOL   2*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   0*songDA_mvl/mxv
+ BYTE   W02
+ BYTE   GoTo
+  POIN2 Label_5697E1
+ BYTE   FINE
+
+//**************** Track 2 (Midi-Chn.1) ****************//
+
+songDA_002:
+//  #02 //000   ----------------------------------------
+ BYTE   KEYSH   songDA_key+0
+ BYTE   VOICE   2
+ BYTE   VOL   66*songDA_mvl/mxv
+ BYTE   PAN   c_v+10
+ BYTE   N23  An1  v080
+ BYTE   W24
+ BYTE   N18  An1  v032
+ BYTE   W48
+Label_0102D1FC:
+ BYTE   VOL   66*songDA_mvl/mxv
+ BYTE   N24  An1  v080
+ BYTE   W24
+//  #02 //001   ----------------------------------------
+ BYTE   N18  An1  v032
+ BYTE   W48
+Label_0102D206:
+ BYTE   N24  An1  v080
+ BYTE   W24
+ BYTE   N18  An1  v032
+ BYTE   W48
+ BYTE   PEND 
+//  #02 //002   ----------------------------------------
+ BYTE   PATT
+  POIN2 Label_0102D206
+//  #02 //003   ----------------------------------------
+ BYTE   PATT
+  POIN2 Label_0102D206
+//  #02 //004   ----------------------------------------
+ BYTE   PATT
+  POIN2 Label_0102D206
+//  #02 //005   ----------------------------------------
+ BYTE   PATT
+  POIN2 Label_0102D206
+//  #02 //006   ----------------------------------------
+Label_0102D223:
+ BYTE   N24  Dn2  v080
+ BYTE   W24
+ BYTE   N18  Dn2  v032
+ BYTE   W48
+ BYTE   PEND 
+//  #02 //007   ----------------------------------------
+ BYTE   PATT
+  POIN2 Label_0102D223
+//  #02 //008   ----------------------------------------
+ BYTE   PATT
+  POIN2 Label_0102D206
+//  #02 //009   ----------------------------------------
+ BYTE   PATT
+  POIN2 Label_0102D206
+//  #02 //010   ----------------------------------------
+ BYTE   PATT
+  POIN2 Label_0102D206
+//  #02 //011   ----------------------------------------
+ BYTE   PATT
+  POIN2 Label_0102D206
+//  #02 //012   ----------------------------------------
+ BYTE   PATT
+  POIN2 Label_0102D206
+//  #02 //013   ----------------------------------------
+ BYTE   PATT
+  POIN2 Label_0102D206
+//  #02 //014   ----------------------------------------
+ BYTE   PATT
+  POIN2 Label_0102D206
+//  #02 //015   ----------------------------------------
+Label_0102D254:
+ BYTE   N24  As1  v080
+ BYTE   W24
+ BYTE   N18  As1  v032
+ BYTE   W48
+ BYTE   PEND 
+//  #02 //016   ----------------------------------------
+ BYTE   PATT
+  POIN2 Label_0102D254
+//  #02 //017   ----------------------------------------
+ BYTE   PATT
+  POIN2 Label_0102D206
+//  #02 //018   ----------------------------------------
+ BYTE   PATT
+  POIN2 Label_0102D206
+//  #02 //019   ----------------------------------------
+ BYTE   N24  Fn1  v088
+ BYTE   W24
+ BYTE   N18  Fn1  v032
+ BYTE   W48
+ BYTE   N24  En1  v088
+ BYTE   W24
+//  #02 //020   ----------------------------------------
+ BYTE   N18  En1  v032
+ BYTE   W48
+ BYTE   N12  Fn1  v092
+ BYTE   W12
+ BYTE   Cn2
+ BYTE   W12
+ BYTE   N42  En2
+ BYTE   W48
+//  #02 //021   ----------------------------------------
+ BYTE   N12  En1
+ BYTE   W12
+ BYTE   Bn1
+ BYTE   W12
+ BYTE   N42  Dn2
+ BYTE   W48
+ BYTE   N12  Ds1
+ BYTE   W12
+ BYTE   As1
+ BYTE   W12
+//  #02 //022   ----------------------------------------
+ BYTE   N42  Dn2
+ BYTE   W48
+ BYTE   N12  Cs1
+ BYTE   W12
+ BYTE   Gs1
+ BYTE   W12
+ BYTE   N42  Cn2
+ BYTE   W48
+//  #02 //023   ----------------------------------------
+ BYTE   VOL   57*songDA_mvl/mxv
+ BYTE   TIE  Cn1  v088
+ BYTE   W14
+ BYTE   VOL   58*songDA_mvl/mxv
+ BYTE   W07
+ BYTE   VOL   58*songDA_mvl/mxv
+ BYTE   W07
+ BYTE   VOL   59*songDA_mvl/mxv
+ BYTE   W08
+ BYTE   VOL   60*songDA_mvl/mxv
+ BYTE   W07
+ BYTE   VOL   60*songDA_mvl/mxv
+ BYTE   W03
+ BYTE   VOL   61*songDA_mvl/mxv
+ BYTE   W04
+ BYTE   VOL   62*songDA_mvl/mxv
+ BYTE   W04
+ BYTE   VOL   62*songDA_mvl/mxv
+ BYTE   W03
+ BYTE   VOL   63*songDA_mvl/mxv
+ BYTE   W04
+ BYTE   VOL   64*songDA_mvl/mxv
+ BYTE   W03
+ BYTE   VOL   66*songDA_mvl/mxv
+ BYTE   W04
+ BYTE   VOL   67*songDA_mvl/mxv
+ BYTE   W04
+ BYTE   VOL   68*songDA_mvl/mxv
+ BYTE   W03
+ BYTE   VOL   71*songDA_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   70*songDA_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   70*songDA_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   69*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   68*songDA_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   68*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   67*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   66*songDA_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   66*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   65*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   64*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   64*songDA_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   63*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   62*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   62*songDA_mvl/mxv
+ BYTE   W01
+//  #02 //024   ----------------------------------------
+ BYTE   VOL   61*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   60*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   60*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   59*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   58*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   58*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   57*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   56*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   56*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   55*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   54*songDA_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   52*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   52*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   51*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   50*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   48*songDA_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   47*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   46*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   45*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   44*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   42*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   42*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   40*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   38*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   38*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   36*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   34*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   34*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   32*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   30*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   29*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   27*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   25*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   24*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   22*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   19*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   18*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   15*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   12*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   11*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   8*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   4*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   3*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   0*songDA_mvl/mxv
+ BYTE   W03
+ BYTE   EOT
+ BYTE   GoTo
+  POIN2 Label_0102D1FC
+ BYTE   FINE
+
+//**************** Track 3 (Midi-Chn.2) ****************//
+
+songDA_003:
+//  #03 //000   ----------------------------------------
+ BYTE   KEYSH   songDA_key+0
+ BYTE   W72
+Label_0102D387:
+ BYTE   W72
+//  #03 //001   ----------------------------------------
+ BYTE   W72
+ BYTE   W72
+//  #03 //002   ----------------------------------------
+ BYTE   W72
+ BYTE   W72
+//  #03 //003   ----------------------------------------
+ BYTE   W72
+ BYTE   W72
+//  #03 //004   ----------------------------------------
+ BYTE   W72
+ BYTE   W72
+//  #03 //005   ----------------------------------------
+ BYTE   W72
+ BYTE   W72
+//  #03 //006   ----------------------------------------
+ BYTE   W72
+ BYTE   W72
+//  #03 //007   ----------------------------------------
+ BYTE   W72
+ BYTE   W72
+//  #03 //008   ----------------------------------------
+ BYTE   W72
+ BYTE   W72
+//  #03 //009   ----------------------------------------
+ BYTE   W72
+ BYTE   VOICE   1
+ BYTE   W24
+//  #03 //010   ----------------------------------------
+ BYTE   VOL   66*songDA_mvl/mxv
+ BYTE   W24
+ BYTE   PAN   c_v-5
+ BYTE   W24
+ BYTE   N24  Cn4  v080
+ BYTE   W24
+ BYTE   N18  Cn4  v032
+ BYTE   W48
+//  #03 //011   ----------------------------------------
+ BYTE   N24  Bn3  v080
+ BYTE   W24
+ BYTE   N18  Bn3  v032
+ BYTE   W48
+ BYTE   W72
+//  #03 //012   ----------------------------------------
+ BYTE   W72
+ BYTE   W72
+//  #03 //013   ----------------------------------------
+ BYTE   W72
+ BYTE   VOL   53*songDA_mvl/mxv
+ BYTE   TIE  Gn3  v072
+ BYTE   W11
+ BYTE   VOL   54*songDA_mvl/mxv
+ BYTE   W06
+ BYTE   VOL   54*songDA_mvl/mxv
+ BYTE   W09
+//  #03 //014   ----------------------------------------
+ BYTE   VOL   55*songDA_mvl/mxv
+ BYTE   W06
+ BYTE   VOL   56*songDA_mvl/mxv
+ BYTE   W06
+ BYTE   VOL   56*songDA_mvl/mxv
+ BYTE   W03
+ BYTE   VOL   57*songDA_mvl/mxv
+ BYTE   W06
+ BYTE   VOL   58*songDA_mvl/mxv
+ BYTE   W03
+ BYTE   VOL   58*songDA_mvl/mxv
+ BYTE   W03
+ BYTE   VOL   59*songDA_mvl/mxv
+ BYTE   W03
+ BYTE   VOL   60*songDA_mvl/mxv
+ BYTE   W03
+ BYTE   VOL   60*songDA_mvl/mxv
+ BYTE   W03
+ BYTE   VOL   61*songDA_mvl/mxv
+ BYTE   W03
+ BYTE   VOL   62*songDA_mvl/mxv
+ BYTE   W03
+ BYTE   VOL   63*songDA_mvl/mxv
+ BYTE   W03
+ BYTE   VOL   64*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   W02
+ BYTE   VOL   65*songDA_mvl/mxv
+ BYTE   W03
+ BYTE   VOL   66*songDA_mvl/mxv
+ BYTE   W03
+ BYTE   VOL   68*songDA_mvl/mxv
+ BYTE   W03
+ BYTE   VOL   70*songDA_mvl/mxv
+ BYTE   W03
+ BYTE   VOL   72*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   72*songDA_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   71*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   70*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   70*songDA_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   69*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   68*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   68*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   67*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   66*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   66*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   65*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   64*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   64*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   63*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   62*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   62*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   61*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   60*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   60*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   58*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   58*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   57*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   56*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   55*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   54*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   53*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   52*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   51*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   50*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   49*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   48*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   46*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   45*songDA_mvl/mxv
+ BYTE   W01
+//  #03 //015   ----------------------------------------
+ BYTE   VOL   44*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   42*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   41*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   39*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   38*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   36*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   34*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   32*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   30*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   29*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   26*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   24*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   22*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   20*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   17*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   14*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   12*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   9*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   6*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   EOT
+ BYTE   VOL   2*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   0*songDA_mvl/mxv
+ BYTE   W02
+ BYTE   GoTo
+  POIN2 Label_0102D387
+ BYTE   FINE
+
+//**************** Track 4 (Midi-Chn.3) ****************//
+
+songDA_004:
+//  #04 //000   ----------------------------------------
+ BYTE   KEYSH   songDA_key+0
+ BYTE   W72
+Label_0102D4A7:
+ BYTE   VOICE   48
+ BYTE   W24
+//  #04 //001   ----------------------------------------
+ BYTE   VOL   73*songDA_mvl/mxv
+ BYTE   W24
+ BYTE   PAN   c_v+7
+ BYTE   W24
+ BYTE   W24
+ BYTE   N24  En3  v072
+ BYTE   W24
+//  #04 //002   ----------------------------------------
+ BYTE   An3
+ BYTE   W24
+Label_0102D4B7:
+ BYTE   N48  Bn3  v072
+ BYTE   W48
+ BYTE   N24  Dn4
+ BYTE   W24
+ BYTE   PEND 
+//  #04 //003   ----------------------------------------
+ BYTE   N44  Cn4
+ BYTE   W48
+ BYTE   N12  Bn3
+ BYTE   W12
+ BYTE   An3
+ BYTE   W12
+ BYTE   VOL   54*songDA_mvl/mxv
+ BYTE   TIE  En3  v080
+ BYTE   W07
+ BYTE   VOL   54*songDA_mvl/mxv
+ BYTE   W08
+ BYTE   VOL   55*songDA_mvl/mxv
+ BYTE   W05
+ BYTE   VOL   56*songDA_mvl/mxv
+ BYTE   W06
+//  #04 //004   ----------------------------------------
+ BYTE   VOL   56*songDA_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   57*songDA_mvl/mxv
+ BYTE   W05
+ BYTE   VOL   58*songDA_mvl/mxv
+ BYTE   W03
+ BYTE   VOL   58*songDA_mvl/mxv
+ BYTE   W05
+ BYTE   VOL   59*songDA_mvl/mxv
+ BYTE   W03
+ BYTE   VOL   60*songDA_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   60*songDA_mvl/mxv
+ BYTE   W03
+ BYTE   VOL   61*songDA_mvl/mxv
+ BYTE   W03
+ BYTE   VOL   62*songDA_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   62*songDA_mvl/mxv
+ BYTE   W03
+ BYTE   VOL   64*songDA_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   64*songDA_mvl/mxv
+ BYTE   W03
+ BYTE   VOL   66*songDA_mvl/mxv
+ BYTE   W03
+ BYTE   VOL   66*songDA_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   68*songDA_mvl/mxv
+ BYTE   W03
+ BYTE   VOL   69*songDA_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   70*songDA_mvl/mxv
+ BYTE   W03
+ BYTE   VOL   73*songDA_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   72*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   71*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   70*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   70*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   69*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   68*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   67*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   66*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   66*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   64*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   63*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   62*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   61*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   60*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   58*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   57*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   56*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   54*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   52*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   50*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   49*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   47*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   45*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   43*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   40*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   38*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   36*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   32*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   29*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   26*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   22*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   18*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   15*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   10*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   4*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   0*songDA_mvl/mxv
+ BYTE   W02
+ BYTE   EOT
+ BYTE   W06
+ BYTE   VOL   73*songDA_mvl/mxv
+ BYTE   N24  En3  v072
+ BYTE   W24
+//  #04 //005   ----------------------------------------
+ BYTE   Fn3
+ BYTE   W24
+ BYTE   Gn3
+ BYTE   W24
+ BYTE   An3
+ BYTE   W24
+ BYTE   N32  Bn3
+ BYTE   W36
+//  #04 //006   ----------------------------------------
+ BYTE   N12  An3
+ BYTE   W12
+ BYTE   Gn3
+ BYTE   W12
+ BYTE   Fn3
+ BYTE   W12
+ BYTE   VOL   59*songDA_mvl/mxv
+ BYTE   TIE  En3  v080
+ BYTE   W12
+ BYTE   VOL   60*songDA_mvl/mxv
+ BYTE   W09
+ BYTE   VOL   60*songDA_mvl/mxv
+ BYTE   W10
+ BYTE   VOL   61*songDA_mvl/mxv
+ BYTE   W06
+ BYTE   VOL   62*songDA_mvl/mxv
+ BYTE   W06
+ BYTE   VOL   62*songDA_mvl/mxv
+ BYTE   W03
+ BYTE   VOL   63*songDA_mvl/mxv
+ BYTE   W07
+ BYTE   VOL   64*songDA_mvl/mxv
+ BYTE   W03
+ BYTE   VOL   64*songDA_mvl/mxv
+ BYTE   W03
+ BYTE   VOL   65*songDA_mvl/mxv
+ BYTE   W03
+//  #04 //007   ----------------------------------------
+ BYTE   VOL   66*songDA_mvl/mxv
+ BYTE   W03
+ BYTE   VOL   66*songDA_mvl/mxv
+ BYTE   W03
+ BYTE   VOL   68*songDA_mvl/mxv
+ BYTE   W03
+ BYTE   VOL   68*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   W03
+ BYTE   VOL   70*songDA_mvl/mxv
+ BYTE   W03
+ BYTE   VOL   71*songDA_mvl/mxv
+ BYTE   W03
+ BYTE   VOL   73*songDA_mvl/mxv
+ BYTE   W03
+ BYTE   VOL   74*songDA_mvl/mxv
+ BYTE   W03
+ BYTE   VOL   78*songDA_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   77*songDA_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   76*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   76*songDA_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   75*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   74*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   74*songDA_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   73*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   72*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   72*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   71*songDA_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   70*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   70*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   69*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   68*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   68*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   67*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   66*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   65*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   64*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   64*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   63*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   62*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   60*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   60*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   59*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   57*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   56*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   55*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   54*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   53*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   51*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   50*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   48*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   47*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   44*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   43*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   41*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   40*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   38*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   34*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   32*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   30*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   28*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   24*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   20*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   18*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   14*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   10*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   4*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   0*songDA_mvl/mxv
+ BYTE   W02
+ BYTE   EOT
+ BYTE   W23
+//  #04 //008   ----------------------------------------
+ BYTE   VOL   73*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   N24  En3  v072
+ BYTE   W24
+ BYTE   An3
+ BYTE   W24
+//  #04 //009   ----------------------------------------
+ BYTE   PATT
+  POIN2 Label_0102D4B7
+//  #04 //010   ----------------------------------------
+ BYTE   N32  Cn4  v072
+ BYTE   W36
+ BYTE   N12  Dn4
+ BYTE   W12
+ BYTE   Cn4
+ BYTE   W12
+ BYTE   Dn4
+ BYTE   W12
+ BYTE   VOL   51*songDA_mvl/mxv
+ BYTE   TIE  En4
+ BYTE   W08
+ BYTE   VOL   52*songDA_mvl/mxv
+ BYTE   W06
+ BYTE   VOL   52*songDA_mvl/mxv
+ BYTE   W07
+ BYTE   VOL   53*songDA_mvl/mxv
+ BYTE   W04
+//  #04 //011   ----------------------------------------
+ BYTE   VOL   54*songDA_mvl/mxv
+ BYTE   W04
+ BYTE   VOL   54*songDA_mvl/mxv
+ BYTE   W04
+ BYTE   VOL   55*songDA_mvl/mxv
+ BYTE   W04
+ BYTE   VOL   56*songDA_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   56*songDA_mvl/mxv
+ BYTE   W03
+ BYTE   VOL   57*songDA_mvl/mxv
+ BYTE   W04
+ BYTE   VOL   58*songDA_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   58*songDA_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   59*songDA_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   60*songDA_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   61*songDA_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   62*songDA_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   63*songDA_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   64*songDA_mvl/mxv
+ BYTE   W03
+ BYTE   VOL   66*songDA_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   68*songDA_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   70*songDA_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   73*songDA_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   72*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   71*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   70*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   70*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   69*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   68*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   67*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   66*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   65*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   64*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   63*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   62*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   61*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   60*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   58*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   57*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   56*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   54*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   53*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   51*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   50*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   48*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   46*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   44*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   42*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   39*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   38*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   34*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   32*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   30*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   26*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   22*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   20*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   15*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   10*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   7*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   1*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   0*songDA_mvl/mxv
+ BYTE   W06
+ BYTE   EOT
+ BYTE   W06
+ BYTE   VOL   73*songDA_mvl/mxv
+ BYTE   N24
+ BYTE   W24
+//  #04 //012   ----------------------------------------
+ BYTE   N24
+ BYTE   W24
+ BYTE   Dn4
+ BYTE   W24
+ BYTE   Cn4
+ BYTE   W24
+ BYTE   An3
+ BYTE   W24
+//  #04 //013   ----------------------------------------
+ BYTE   N21  Gn3
+ BYTE   W24
+ BYTE   N24  Cn4
+ BYTE   W24
+ BYTE   VOL   55*songDA_mvl/mxv
+ BYTE   TIE  An3
+ BYTE   W09
+ BYTE   VOL   56*songDA_mvl/mxv
+ BYTE   W10
+ BYTE   VOL   56*songDA_mvl/mxv
+ BYTE   W05
+ BYTE   VOL   57*songDA_mvl/mxv
+ BYTE   W07
+ BYTE   VOL   58*songDA_mvl/mxv
+ BYTE   W05
+ BYTE   VOL   58*songDA_mvl/mxv
+ BYTE   W03
+ BYTE   VOL   59*songDA_mvl/mxv
+ BYTE   W05
+ BYTE   VOL   60*songDA_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   60*songDA_mvl/mxv
+ BYTE   W03
+//  #04 //014   ----------------------------------------
+ BYTE   VOL   61*songDA_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   62*songDA_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   62*songDA_mvl/mxv
+ BYTE   W03
+ BYTE   VOL   63*songDA_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   64*songDA_mvl/mxv
+ BYTE   W03
+ BYTE   VOL   65*songDA_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   66*songDA_mvl/mxv
+ BYTE   W03
+ BYTE   VOL   68*songDA_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   70*songDA_mvl/mxv
+ BYTE   W03
+ BYTE   VOL   72*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   W01
+ BYTE   VOL   74*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   75*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   74*songDA_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   74*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   73*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   72*songDA_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   72*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   71*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   70*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   70*songDA_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   69*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   68*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   68*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   67*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   66*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   66*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   65*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   64*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   64*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   63*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   62*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   61*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   60*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   59*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   58*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   58*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   56*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   56*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   55*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   54*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   53*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   52*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   50*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   49*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   48*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   46*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   45*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   44*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   43*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   42*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   40*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   38*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   36*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   35*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   33*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   31*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   29*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   27*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   26*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   24*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   21*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   18*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   16*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   13*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   10*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   6*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   3*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   0*songDA_mvl/mxv
+ BYTE   W05
+ BYTE   EOT
+ BYTE   W06
+ BYTE   VOL   73*songDA_mvl/mxv
+ BYTE   W72
+//  #04 //015   ----------------------------------------
+ BYTE   W72
+ BYTE   W24
+//  #04 //016   ----------------------------------------
+ BYTE   N12  En3  v068
+ BYTE   W12
+ BYTE   Gn3
+ BYTE   W12
+ BYTE   Bn3
+ BYTE   W12
+ BYTE   En4
+ BYTE   W12
+ BYTE   En4  v028
+ BYTE   W24
+ BYTE   Dn3  v068
+ BYTE   W12
+ BYTE   Gn3
+ BYTE   W12
+//  #04 //017   ----------------------------------------
+ BYTE   Bn3
+ BYTE   W12
+ BYTE   Dn4
+ BYTE   W12
+ BYTE   Dn4  v028
+ BYTE   W24
+ BYTE   Dn3  v068
+ BYTE   W12
+ BYTE   Fn3
+ BYTE   W12
+ BYTE   An3
+ BYTE   W12
+ BYTE   Cn4
+ BYTE   W12
+//  #04 //018   ----------------------------------------
+ BYTE   Cn4  v028
+ BYTE   W24
+ BYTE   Cn3  v068
+ BYTE   W12
+ BYTE   Fn3
+ BYTE   W12
+ BYTE   Gs3
+ BYTE   W12
+ BYTE   N09  Cs4
+ BYTE   W12
+ BYTE   VOL   54*songDA_mvl/mxv
+ BYTE   TIE  En4  v044
+ BYTE   W07
+ BYTE   VOL   54*songDA_mvl/mxv
+ BYTE   W05
+ BYTE   VOL   55*songDA_mvl/mxv
+ BYTE   W05
+ BYTE   VOL   56*songDA_mvl/mxv
+ BYTE   W05
+ BYTE   VOL   56*songDA_mvl/mxv
+ BYTE   W05
+//  #04 //019   ----------------------------------------
+ BYTE   VOL   57*songDA_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   58*songDA_mvl/mxv
+ BYTE   W05
+ BYTE   VOL   58*songDA_mvl/mxv
+ BYTE   W03
+ BYTE   VOL   59*songDA_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   60*songDA_mvl/mxv
+ BYTE   W05
+ BYTE   VOL   60*songDA_mvl/mxv
+ BYTE   W03
+ BYTE   VOL   61*songDA_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   62*songDA_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   63*songDA_mvl/mxv
+ BYTE   W03
+ BYTE   VOL   64*songDA_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   64*songDA_mvl/mxv
+ BYTE   W03
+ BYTE   VOL   65*songDA_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   66*songDA_mvl/mxv
+ BYTE   W03
+ BYTE   VOL   68*songDA_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   68*songDA_mvl/mxv
+ BYTE   W03
+ BYTE   VOL   70*songDA_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   72*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   W02
+ BYTE   VOL   74*songDA_mvl/mxv
+ BYTE   W03
+ BYTE   VOL   73*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   72*songDA_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   72*songDA_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   71*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   70*songDA_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   70*songDA_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   69*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   68*songDA_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   68*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   67*songDA_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   66*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   66*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   65*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   64*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   64*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   63*songDA_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   62*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   62*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   61*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   60*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   60*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   59*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   58*songDA_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   56*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   56*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   54*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   54*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   53*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   52*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   51*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   50*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   49*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   48*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   46*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   46*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   44*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   42*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   42*songDA_mvl/mxv
+ BYTE   W01
+//  #04 //020   ----------------------------------------
+ BYTE   VOL   40*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   38*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   37*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   36*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   34*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   32*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   30*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   28*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   26*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   24*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   21*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   19*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   16*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   13*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   10*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   EOT
+ BYTE   VOL   8*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   4*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   0*songDA_mvl/mxv
+ BYTE   W04
+ BYTE   GoTo
+  POIN2 Label_0102D4A7
+ BYTE   FINE
+
+//**************** Track 5 (Midi-Chn.4) ****************//
+
+songDA_005:
+//  #05 //000   ----------------------------------------
+ BYTE   KEYSH   songDA_key+0
+ BYTE   W72
+Label_0102E59B:
+ BYTE   W72
+//  #05 //001   ----------------------------------------
+ BYTE   W72
+ BYTE   W72
+//  #05 //002   ----------------------------------------
+ BYTE   W72
+ BYTE   W72
+//  #05 //003   ----------------------------------------
+ BYTE   W72
+ BYTE   W72
+//  #05 //004   ----------------------------------------
+ BYTE   W72
+ BYTE   W72
+//  #05 //005   ----------------------------------------
+ BYTE   VOICE   4
+ BYTE   W24
+ BYTE   VOL   60*songDA_mvl/mxv
+ BYTE   W24
+ BYTE   PAN   c_v-30
+ BYTE   W24
+ BYTE   W24
+//  #05 //006   ----------------------------------------
+ BYTE   N24  En4  v060
+ BYTE   W24
+ BYTE   An4
+ BYTE   W24
+ BYTE   N48  Bn4
+ BYTE   W48
+//  #05 //007   ----------------------------------------
+ BYTE   N24  Dn5
+ BYTE   W24
+ BYTE   N36  Cn5
+ BYTE   W36
+ BYTE   N12  Dn5
+ BYTE   W12
+ BYTE   Cn5
+ BYTE   W12
+ BYTE   N09  Dn5
+ BYTE   W12
+//  #05 //008   ----------------------------------------
+ BYTE   VOL   48*songDA_mvl/mxv
+ BYTE   TIE  En5
+ BYTE   W10
+ BYTE   VOL   49*songDA_mvl/mxv
+ BYTE   W08
+ BYTE   VOL   50*songDA_mvl/mxv
+ BYTE   W07
+ BYTE   VOL   50*songDA_mvl/mxv
+ BYTE   W04
+ BYTE   VOL   51*songDA_mvl/mxv
+ BYTE   W07
+ BYTE   VOL   52*songDA_mvl/mxv
+ BYTE   W03
+ BYTE   VOL   52*songDA_mvl/mxv
+ BYTE   W04
+ BYTE   VOL   53*songDA_mvl/mxv
+ BYTE   W04
+ BYTE   VOL   54*songDA_mvl/mxv
+ BYTE   W03
+ BYTE   VOL   54*songDA_mvl/mxv
+ BYTE   W04
+ BYTE   VOL   55*songDA_mvl/mxv
+ BYTE   W04
+ BYTE   VOL   56*songDA_mvl/mxv
+ BYTE   W03
+ BYTE   VOL   57*songDA_mvl/mxv
+ BYTE   W04
+ BYTE   VOL   58*songDA_mvl/mxv
+ BYTE   W03
+ BYTE   VOL   60*songDA_mvl/mxv
+ BYTE   W04
+ BYTE   VOL   62*songDA_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   61*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   60*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   60*songDA_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   58*songDA_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   58*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   57*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   56*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   56*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   55*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   54*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   54*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   52*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   52*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   51*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   50*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   49*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   48*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   47*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   46*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   45*songDA_mvl/mxv
+ BYTE   W01
+//  #05 //009   ----------------------------------------
+ BYTE   VOL   43*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   42*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   41*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   40*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   38*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   36*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   35*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   33*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   32*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   29*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   27*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   25*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   22*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   19*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   16*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   14*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   11*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   8*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   EOT
+ BYTE   VOL   2*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   0*songDA_mvl/mxv
+ BYTE   W05
+ BYTE   VOL   60*songDA_mvl/mxv
+ BYTE   N24
+ BYTE   W24
+ BYTE   N21
+ BYTE   W24
+ BYTE   Dn5
+ BYTE   W24
+//  #05 //010   ----------------------------------------
+ BYTE   N24  Cn5
+ BYTE   W24
+ BYTE   An4
+ BYTE   W24
+ BYTE   Gn4
+ BYTE   W24
+ BYTE   Cn5
+ BYTE   W24
+//  #05 //011   ----------------------------------------
+ BYTE   VOL   51*songDA_mvl/mxv
+ BYTE   TIE  An4
+ BYTE   W11
+ BYTE   VOL   52*songDA_mvl/mxv
+ BYTE   W05
+ BYTE   VOL   52*songDA_mvl/mxv
+ BYTE   W09
+ BYTE   VOL   53*songDA_mvl/mxv
+ BYTE   W03
+ BYTE   VOL   54*songDA_mvl/mxv
+ BYTE   W05
+ BYTE   VOL   54*songDA_mvl/mxv
+ BYTE   W03
+ BYTE   VOL   55*songDA_mvl/mxv
+ BYTE   W06
+ BYTE   VOL   56*songDA_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   56*songDA_mvl/mxv
+ BYTE   W03
+ BYTE   VOL   58*songDA_mvl/mxv
+ BYTE   W03
+ BYTE   VOL   58*songDA_mvl/mxv
+ BYTE   W03
+ BYTE   VOL   60*songDA_mvl/mxv
+ BYTE   W03
+ BYTE   VOL   60*songDA_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   62*songDA_mvl/mxv
+ BYTE   W03
+ BYTE   VOL   64*songDA_mvl/mxv
+ BYTE   W03
+ BYTE   VOL   66*songDA_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   66*songDA_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   65*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   64*songDA_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   64*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   63*songDA_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   62*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   62*songDA_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   61*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   60*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   60*songDA_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   59*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   58*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   58*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   57*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   56*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   56*songDA_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   55*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   54*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   54*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   53*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   52*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   52*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   51*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   50*songDA_mvl/mxv
+ BYTE   W01
+//  #05 //012   ----------------------------------------
+ BYTE   VOL   50*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   49*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   48*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   47*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   46*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   46*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   45*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   44*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   43*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   42*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   41*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   40*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   39*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   38*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   37*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   36*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   35*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   34*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   32*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   32*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   31*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   29*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   28*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   26*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   26*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   24*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   22*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   22*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   20*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   18*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   16*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   15*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   12*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   11*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   10*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   7*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   6*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   2*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   1*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   0*songDA_mvl/mxv
+ BYTE   W03
+ BYTE   EOT
+ BYTE   W06
+ BYTE   VOL   60*songDA_mvl/mxv
+ BYTE   N21  En5
+ BYTE   W24
+ BYTE   Dn5
+ BYTE   W24
+//  #05 //013   ----------------------------------------
+ BYTE   En5
+ BYTE   W24
+ BYTE   N44  Dn5
+ BYTE   W48
+ BYTE   N21  Bn4
+ BYTE   W24
+//  #05 //014   ----------------------------------------
+ BYTE   W24
+ BYTE   N12  En5
+ BYTE   W12
+ BYTE   Dn5
+ BYTE   W12
+ BYTE   En5
+ BYTE   W12
+ BYTE   N24  Gn5
+ BYTE   W12
+Label_0102E78F:
+ BYTE   W24
+//  #05 //015   ----------------------------------------
+ BYTE   N24  Dn5  v060
+ BYTE   W24
+ BYTE   Cn5
+ BYTE   W24
+ BYTE   PEND 
+//  #05 //016   ----------------------------------------
+ BYTE   PATT
+  POIN2 Label_0102E78F
+//  #05 //017   ----------------------------------------
+ BYTE   W24
+ BYTE   N24  Cn5  v060
+ BYTE   W24
+ BYTE   N21  As4
+ BYTE   W24
+ BYTE   VOL   50*songDA_mvl/mxv
+ BYTE   TIE  Cn5
+ BYTE   W10
+ BYTE   VOL   50*songDA_mvl/mxv
+ BYTE   W05
+ BYTE   VOL   51*songDA_mvl/mxv
+ BYTE   W08
+ BYTE   VOL   52*songDA_mvl/mxv
+ BYTE   W06
+//  #05 //018   ----------------------------------------
+ BYTE   VOL   52*songDA_mvl/mxv
+ BYTE   W05
+ BYTE   VOL   53*songDA_mvl/mxv
+ BYTE   W03
+ BYTE   VOL   54*songDA_mvl/mxv
+ BYTE   W05
+ BYTE   VOL   54*songDA_mvl/mxv
+ BYTE   W03
+ BYTE   VOL   55*songDA_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   56*songDA_mvl/mxv
+ BYTE   W03
+ BYTE   VOL   56*songDA_mvl/mxv
+ BYTE   W03
+ BYTE   VOL   57*songDA_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   58*songDA_mvl/mxv
+ BYTE   W03
+ BYTE   VOL   58*songDA_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   60*songDA_mvl/mxv
+ BYTE   W03
+ BYTE   VOL   60*songDA_mvl/mxv
+ BYTE   W03
+ BYTE   VOL   62*songDA_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   63*songDA_mvl/mxv
+ BYTE   W03
+ BYTE   VOL   64*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   W02
+ BYTE   VOL   66*songDA_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   68*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   69*songDA_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   68*songDA_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   68*songDA_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   67*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   66*songDA_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   66*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   65*songDA_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   64*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   64*songDA_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   63*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   62*songDA_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   62*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   61*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   60*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   60*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   59*songDA_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   58*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   57*songDA_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   56*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   55*songDA_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   54*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   53*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   52*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   52*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   50*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   50*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   49*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   48*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   47*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   46*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   45*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   44*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   42*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   41*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   40*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   39*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   38*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   36*songDA_mvl/mxv
+ BYTE   W01
+//  #05 //019   ----------------------------------------
+ BYTE   VOL   35*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   33*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   32*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   30*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   28*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   27*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   24*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   22*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   21*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   18*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   15*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   14*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   10*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   EOT
+ BYTE   VOL   7*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   5*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   1*songDA_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   0*songDA_mvl/mxv
+ BYTE   W03
+ BYTE   GoTo
+  POIN2 Label_0102E59B
+ BYTE   FINE
+
+//**************** Track 6 (Midi-Chn.5) ****************//
+
+songDA_006:
+//  #06 //000   ----------------------------------------
+ BYTE   KEYSH   songDA_key+0
+ BYTE   VOICE   1
+ BYTE   VOL   76*songDA_mvl/mxv
+ BYTE   PAN   c_v-35
+ BYTE   N12  An1  v080
+ BYTE   W12
+ BYTE   En2
+ BYTE   W12
+ BYTE   Cn3
+ BYTE   W12
+ BYTE   Bn2
+ BYTE   W12
+ BYTE   N18  Gn2
+ BYTE   W24
+Label_569969:
+ BYTE   N12  An1  v080
+ BYTE   W12
+ BYTE   En2
+ BYTE   W12
+//  #06 //001   ----------------------------------------
+ BYTE   Cn3
+ BYTE   W12
+ BYTE   Bn2
+ BYTE   W12
+ BYTE   N18  Gn2
+ BYTE   W24
+ BYTE   PEND 
+//  #06 //002   ----------------------------------------
+ BYTE   PATT
+  POIN2 Label_569969
+//  #06 //003   ----------------------------------------
+ BYTE   PATT
+  POIN2 Label_569969
+//  #06 //004   ----------------------------------------
+ BYTE   PATT
+  POIN2 Label_569969
+//  #06 //005   ----------------------------------------
+ BYTE   PATT
+  POIN2 Label_569969
+//  #06 //006   ----------------------------------------
+ BYTE   PATT
+  POIN2 Label_569969
+//  #06 //007   ----------------------------------------
+Label_569990:
+ BYTE   N12  Dn2  v080
+ BYTE   W12
+ BYTE   An2
+ BYTE   W12
+ BYTE   Fn3
+ BYTE   W12
+ BYTE   En3
+ BYTE   W12
+ BYTE   N18  Cn3
+ BYTE   W24
+ BYTE   PEND 
+//  #06 //008   ----------------------------------------
+ BYTE   PATT
+  POIN2 Label_569990
+//  #06 //009   ----------------------------------------
+ BYTE   PATT
+  POIN2 Label_569969
+//  #06 //010   ----------------------------------------
+ BYTE   PATT
+  POIN2 Label_569969
+//  #06 //011   ----------------------------------------
+ BYTE   PATT
+  POIN2 Label_569969
+//  #06 //012   ----------------------------------------
+ BYTE   PATT
+  POIN2 Label_569969
+//  #06 //013   ----------------------------------------
+ BYTE   PATT
+  POIN2 Label_569969
+//  #06 //014   ----------------------------------------
+ BYTE   PATT
+  POIN2 Label_569969
+//  #06 //015   ----------------------------------------
+ BYTE   PATT
+  POIN2 Label_569969
+//  #06 //016   ----------------------------------------
+ BYTE   N12  As1  v080
+ BYTE   W12
+ BYTE   N09  Fn2
+ BYTE   W12
+ BYTE   N12  Dn3
+ BYTE   W12
+ BYTE   Cn3
+ BYTE   W12
+ BYTE   N18  As2
+ BYTE   W24
+ BYTE   N12  As1
+ BYTE   W12
+ BYTE   Fn2
+ BYTE   W12
+//  #06 //017   ----------------------------------------
+ BYTE   Dn3
+ BYTE   W12
+ BYTE   Cn3
+ BYTE   W12
+ BYTE   N18  As2
+ BYTE   W24
+//  #06 //018   ----------------------------------------
+ BYTE   PATT
+  POIN2 Label_569969
+//  #06 //019   ----------------------------------------
+ BYTE   PATT
+  POIN2 Label_569969
+//  #06 //020   ----------------------------------------
+ BYTE   W72
+ BYTE   W72
+//  #06 //021   ----------------------------------------
+ BYTE   W72
+ BYTE   W72
+//  #06 //022   ----------------------------------------
+ BYTE   W72
+ BYTE   W72
+//  #06 //023   ----------------------------------------
+ BYTE   W72
+ BYTE   W72
+//  #06 //024   ----------------------------------------
+ BYTE   GoTo
+  POIN2 Label_569969
+ BYTE   FINE
+
+//**************** Track 7 (Midi-Chn.6) ****************//
+
+songDA_007:
+//  #07 //000   ----------------------------------------
+ BYTE   KEYSH   songDA_key+0
+ BYTE   W72
+Label_0102D963:
+ BYTE   W72
+//  #07 //001   ----------------------------------------
+ BYTE   W72
+ BYTE   W72
+//  #07 //002   ----------------------------------------
+ BYTE   W72
+ BYTE   VOICE   0
+ BYTE   W24
+//  #07 //003   ----------------------------------------
+ BYTE   VOL   60*songDA_mvl/mxv
+ BYTE   W24
+ BYTE   PAN   c_v+0
+ BYTE   W24
+ BYTE   W24
+ BYTE   N24  FsM2  v072
+ BYTE   W48
+//  #07 //004   ----------------------------------------
+ BYTE   W72
+ BYTE   W72
+//  #07 //005   ----------------------------------------
+ BYTE   W72
+ BYTE   W24
+//  #07 //006   ----------------------------------------
+ BYTE   N24
+ BYTE   W48
+ BYTE   W72
+//  #07 //007   ----------------------------------------
+ BYTE   W72
+ BYTE   W72
+//  #07 //008   ----------------------------------------
+ BYTE   W72
+ BYTE   W24
+//  #07 //009   ----------------------------------------
+ BYTE   N24
+ BYTE   W48
+ BYTE   W72
+//  #07 //010   ----------------------------------------
+ BYTE   W72
+ BYTE   W72
+//  #07 //011   ----------------------------------------
+ BYTE   W24
+ BYTE   N24
+ BYTE   W48
+ BYTE   W72
+//  #07 //012   ----------------------------------------
+ BYTE   W72
+ BYTE   W72
+//  #07 //013   ----------------------------------------
+ BYTE   W24
+ BYTE   N24
+ BYTE   W48
+ BYTE   W72
+//  #07 //014   ----------------------------------------
+ BYTE   W24
+ BYTE   N24
+ BYTE   W48
+ BYTE   W72
+//  #07 //015   ----------------------------------------
+ BYTE   W72
+ BYTE   GoTo
+  POIN2 Label_0102D963
+ BYTE   FINE
+
+//******************************************************//
+	ALIGN 4
+
+songDA:
+	BYTE	7	// NumTrks
+	BYTE	0	// NumBlks
+	BYTE	songDA_pri	// Priority
+	BYTE	songDA_rev	// Reverb.
+    
+	POIN2	songDA_grp
+    
+	POIN2	songDA_001
+	POIN2	songDA_002
+	POIN2	songDA_003
+	POIN2	songDA_004
+	POIN2	songDA_005
+	POIN2	songDA_006
+	POIN2	songDA_007
+
+	

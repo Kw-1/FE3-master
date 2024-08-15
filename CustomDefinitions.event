@@ -1,0 +1,168 @@
+// #define FreeSpace 0xb2a610
+// #define FreeSpaceEnd 0xC00000
+#define FreeSpace 0xFE4000
+#define FreeSpaceEnd 0x2000000
+#define FreeSpaceBLRange 0x1c1ec0
+
+#define ChapterTileset(chapter, object, palette, config) "PUSH; ORG 0x8b0890 + (148* chapter) + 4; SHORT object; BYTE palette config; POP"
+#define ChapterTileAnims(chapter, anim1, anim2) "PUSH; ORG 0x8b0890 + (148* chapter) + 9; BYTE anim1 anim2; POP"
+
+#ifndef ItemTable
+  #define ItemTable 0x809B10
+#endif
+
+#ifndef DebuffTableRam
+  #define DebuffTableRam     0x0203F100
+  #define DebuffTableSize 0x00000440
+#endif
+
+#ifndef ChapterDataTable
+  #define ChapterDataTable 0x8B0890
+  #define ChapterDataTableEntSize 148
+#endif
+
+#define LunarBrace MoonBracelet
+#define SolarBrace SunBracelet
+
+// Attribute for defining items with passive stat bonuses
+#define PASSIVE_ITEM_BOOSTS_ATTR 0x00800000
+
+// Attribute for defining items with passive skills
+#define PASSIVE_ITEM_SKILL_ATTR 0x00800000
+
+// this is for if you use the legacy way of define item attributes in your table (this is for byte 3)
+#define PassiveBoosts 0x80
+
+#define StatBonus(HPB,StrB,MagB,SklB,SpdB,DefB,ResB,LckB,MovB,ConB) "BYTE HPB StrB SklB SpdB DefB ResB LckB MovB ConB MagB 0x0 0x0 0x0 0x0 0x0 0x0 0x0 0x0 0x0 0x0"
+
+#define GrowthBonus(HPB,StrB,MagB,SklB,SpdB,DefB,ResB,LckB) "BYTE 0x0 0x0 0x0 0x0 0x0 0x0 0x0 0x0 0x0 0x0 HPB StrB SklB SpdB DefB ResB LckB MagB 0x0 0x0"
+
+//item ID for skill scroll
+#define SkillScroll 0xBC
+
+#include "EngineHacks/SkillSystem/skill_definitions.event"
+
+// #define __DEBUG__ // Uncomment to get the Debug startup menu :p
+
+//Anims
+#define LordSword 0x03
+#define LordUnarmed 0x04
+#define MercenarySword 0x0B
+#define MercenaryUnarmed 0x0C
+#define HeroSword 0x0D
+#define HeroAxe 0x0E
+#define HeroHandAxe 0x0F
+#define HeroUnarmed 0x10
+#define MyrmidonSword 0x11
+#define MyrmidonUnarmed 0x12
+#define SwordmasterSword 0x15
+#define SwordmasterUnarmed 0x16
+#define BrigandAxe 0x19
+#define BrigandHandAxe 0x1A
+#define BrigandUnarmed 0x1B
+#define WarriorAxe 0x1C
+#define WarriorHandAxe 0x1D
+#define WarriorBow 0x1E
+#define WarriorUnarmed 0x1F
+#define BarbarianAxe 0x20
+#define BarbarianHandAxe 0x21
+#define BarbarianUnarmed 0x22
+#define BerserkerSword 0xA7
+#define BerserkerAxe 0x23
+#define BerserkerHandAxe 0x24
+#define BerserkerUnarmed 0x25
+#define ArcherBow 0x26
+#define ArcherUnarmed 0x27
+#define HunterBow 0x28
+#define HunterUnarmed 0x29
+#define SniperBow 0x2A
+#define SniperUnarmed 0x2B
+#define HorsemanSword 0x2E
+#define HorsemanBow 0x2F
+#define HorsemanUnarmed 0x30
+#define Cavalier_MSword 0x34
+#define Cavalier_MLance 0x35
+#define Cavalier_MUnarmed 0x36
+#define Cavalier_FSword 0x37
+#define Cavalier_FLance 0x38
+#define Cavalier_FUnarmed 0x39
+#define Paladin_MSword 0x3A
+#define Paladin_MLance 0x3B
+#define Paladin_MUnarmed 0x3C
+#define Paladin_FSword 0x3D
+#define Paladin_FLance 0x3E
+#define Paladin_FUnarmed 0x3F
+#define ArmourKnightSword 0xA8
+#define ArmourKnightLance 0x40
+#define ArmourKnightUnarmed 0x41
+#define General_MSword 0x44
+#define General_MLance 0x45
+#define General_MBow 0x46
+#define General_MUnarmed 0x48
+#define General_FSword 0x49
+#define General_FLance 0x4A
+#define General_FBow 0x4B
+#define General_FUnarmed 0x4D
+#define GreatKnight_MSword 0x4E
+#define GreatKnight_MLance 0x4F
+#define GreatKnight_MAxe 0x50
+#define GreatKnight_MHandAxe 0x51
+#define GreatKnight_MUnarmed 0x52
+#define GreatKnight_FSword 0x53
+#define GreatKnight_FLance 0x54
+#define GreatKnight_FAxe 0x55
+#define GreatKnight_FHandAxe 0x56
+#define GreatKnight_FUnarmed 0x57
+#define Dracoknight_MLance 0x5D
+#define Dracoknight_MAxe 0x5C
+#define Dracoknight_MHandAxe 0xA9
+#define Dracoknight_MUnarmed 0x5E
+#define Dracoknight_FLance 0x60
+#define Dracoknight_FAxe 0x5F
+#define Dracoknight_FHandAxe 0xAA
+#define Dracoknight_FUnarmed 0x61
+#define PegasusKnightSword 0xA0
+#define PegasusKnightLance 0x66
+#define PegasusKnightUnarmed 0x67
+#define FalcoknightSword 0x68
+#define FalcoknightLance 0x69
+#define FalcoknightUnarmed 0x6A
+#define Mage_FAnima 0x6C
+#define CurateUnarmed 0x7E
+#define CurateStaff 0x7F
+#define SisterStaff 0x80
+#define Bishop_MUnarmed 0x81
+#define Bishop_MStaff 0x82
+#define Bishop_FUnarmed 0x83
+#define Bishop_FStaff 0x84
+#define DancerSword 0xAB
+#define DancerUnarmed 0x91
+#define SoldierLance 0x98
+#define SoldierUnarmed 0x99
+#define PirateAxe 0x9A
+#define PirateHandAxe 0x9B
+#define PirateUnarmed 0x9C
+#define BallisticianBow 0x9F
+#define DivineDragonBreath 0xC4
+#define Manakete_FUnarmed 0xC5
+#define DivineDragonUnarmed 0xC6
+#define SisterUnarmed 0xC8
+#define FireDragonBreath 0xA1
+#define IceDragonBreath 0xA2
+#define MageDragonBreath 0xA3
+#define WyvernBreath 0xA4
+#define EarthDragonBreath 0xA5
+#define DarkDragonBreath 0xA6
+#define BallisticianStone 0xAC
+#define EmperorSword 0xAE
+#define EmperorLance 0xAF
+#define EmperorBow 0xB0
+#define EmperorUnarmed 0xB1
+
+//Items
+#define ArmsScroll 0x7A
+
+
+
+
+

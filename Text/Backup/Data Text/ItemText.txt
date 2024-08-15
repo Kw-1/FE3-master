@@ -1,0 +1,294 @@
+## DevilSwordNameText
+Devil Sword[X]
+
+## DevilSwordDescText
+May hurt the user.[X]
+
+## LevinSwordNameText
+Levin Sword[X]
+
+## LevinSwordDescText
+Casts Thunder.[X]
+
+## LadybladeNameText
+Ladyblade[X]
+
+## LadybladeDescText
+Effective against outlaws.[X]
+
+## SwordKillerNameText
+Sword Killer[X]
+
+## SwordKillerDescText
+Effective against sword users.[X]
+
+## MeisterschwerttNameText *
+Meisterschwert[X]
+
+## MeisterschwertDescText
+Improves critical hit rate.[X]
+
+## MercuriusNameText
+Mercurius[X]
+
+## MercuriusDescText
+One of the Regalia.[X]
+
+## FalchionNameText
+Falchion[X]
+
+## FalchionDescText
+Divine Weapon.[X]
+
+## FalchionUseText
+Restores some HP.[X]
+
+## BrokenSwordNameText
+Broken Sword[X]
+
+## GradivusNameText
+Gradivus[X]
+
+## GradivusDescText
+One of the Regalia.[X]
+
+## BrokenLanceNameText
+Broken Lance[X]
+
+## BrokenAxeNameText
+Broken Axe[X]
+
+## ParthiaNameText
+Parthia[X]
+
+## ParthiaDescText
+One of the Regalia.[X]
+
+## BrokenBowNameText
+Broken Bow[X]
+
+## ThunderboltNameText
+Thunderbolt[X]
+
+## ThunderboltDescText
+Casts Thunder.[X]
+
+## ArrowspateNameText
+Arrowspate[X]
+
+## ArrowspateDescText
+Effective against fliers.[X]
+
+## StonehoistNameText
+Stonehoist[X]
+
+## StonehoistDescText
+Long-range weapon.[X]
+
+## HoistflammeNameText
+Hoistflamme[X]
+
+## HoistflammeDescText
+Effective against fliers.[X]
+
+## PachydermNameText
+Pachyderm[X]
+
+## PachydermDescText
+Super long-range weapon.[X]
+
+## FireDescText
+Effective against ice dragons.[X]
+
+## BlizzardNameText
+Blizzard[X]
+
+## BlizzardDescText
+Effective against fire dragons.[X]
+
+## CuttingGaleNameText
+Cutting Gale[X]
+
+## CuttingGaleDescText
+Effective against fliers.[X]
+
+## ThoronNameText
+Thoron[X]
+
+## ThoronDescText
+Improves critical hit rate.[X]
+
+
+## BolganoneNameText
+Bolganone[X]
+
+## StarlightNameText
+Starlight[X]
+
+## StarlightDescText
+Negates Imhullu.[X]
+
+## ImhulluNameText
+Imhullu[X]
+
+## ImhulluDescText
+Negates attacks.[X]
+
+## DulamNameText
+Dulam[X]
+
+## DulamDescText
+Reduces HP to 1.[X]
+
+## MeteorNameText
+Meteor[X]
+
+## SwarmNameText
+Swarm[X]
+
+## SwarmDescText
+Long-range magic tome.[X]
+
+## AumNameText
+Aum[X]
+
+## AumDescText
+Revives a dead ally.[X]
+
+## ThiefStaffNameText
+Thief[X]
+
+## ThiefStaffDescText
+Unlocks chests and doors.[X]
+
+## WatchNameText
+Watch[X]
+
+## WatchDescText
+Reveals a hidden room.[X]
+
+## AnewNameText
+Anew[X]
+
+## AnewDescText
+Allows all allies[NL]
+to act again.[X]
+
+## HauteclereNameText
+Hauteclere[X]
+
+## HauteclereDescText
+A weapon of unknown origin.[X]
+
+## FireBreathNameText
+Fire Breath[X]
+
+## FireBreathDescText
+Ignores Defense.[X]
+
+## IceBreathNameText
+Ice Breath[X]
+
+## IceBreathDescText
+Ignores Defense.[X]
+
+## DarkBreathNameText
+Dark Breath[X]
+
+## DarkBreathDescText
+Ignores Defense and [NL]
+halves damage.[X]
+
+## BreathofFogNameText *
+Breath of Fog[X]
+
+## BreathofFogDescText
+Ignores Defense. [NL]
+Effective vs. dragons.[X]
+
+## FirestoneNameText
+Firestone[X]
+
+## FirestoneDescText
+Transforms the user into [NL]
+a fire dragon.[X]
+
+## IcestoneNameText
+Icestone[X]
+
+## IcestoneDescText
+Transforms the user into [NL]
+an ice dragon.[X]
+
+## WyvernstoneNameText
+Wyvernstone[X]
+
+## WyvernstoneDescText
+Transforms the user into [NL]
+a wyvern.[X]
+
+## EarthstoneNameText
+Earthstone[X]
+
+## EarthstoneDescText
+Transforms the user into [NL]
+an earth dragon.[X]
+
+## MagestoneNameText
+Magestone[X]
+
+## MagestoneDescText
+Transforms the user into [NL]
+a mage dragon.[X]
+
+## DivinestoneNameText
+Divinestone[X]
+
+## DivinestoneDescText
+Transforms the user into [NL]
+a divine dragon.[X]
+
+## ExcaliburDescText
+Effective against Fliers.[X]
+
+## IotesShieldNameText *
+Iote's Shield[X]
+
+## ArmsScrollNameText
+Arms Scroll[X]
+
+## ArmsScrollDescText
+Increases weapon level.[NL]
+Vanishes after use.[X]
+
+## ArmsScrollUseText
+Raises Weapon Rank.[X]
+
+## FellContractNameText
+Fell Contract[X]
+
+## FellContractDescText
+For use by thieves Lv.[NL] 
+10 and up.[X]
+
+## FellContractUseText
+Use this on a worthy[NL]
+thief.[X]
+
+## SkydrakeWhipNameText *
+Skydrake Whip[X]
+
+## SkydrakeWhipDescText
+For use by pegasus knights[NL] 
+Lv. 10 and up.[X]
+
+## SkydrakeWhipUseText
+Use this on a worthy[NL]
+pegasus knight.[X]
+
+
+
+
+
+
+

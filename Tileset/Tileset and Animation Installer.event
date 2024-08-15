@@ -1,0 +1,90 @@
+ALIGN 4
+RevampedFieldsPalette:
+#incbin "RevampedFieldsPalette.dmp"
+
+ALIGN 4
+RevampedFieldsObjects:
+#incext Png2Dmp "RevampedFields.png" --lz77
+
+ALIGN 4
+RevampedFieldsTiles:
+#incext compress "RevampedFields.mapchip_config"
+
+
+EventPointerTable(0x8b, RevampedFieldsObjects)
+EventPointerTable(0x8c, RevampedFieldsPalette)
+EventPointerTable(0x8d, RevampedFieldsTiles)
+EventPointerTable(0xcb, RevampedFieldsAnimation)
+
+#ifndef tilesetAnimation
+    #define tilesetAnimation(speed, size, pointer)    "BYTE speed 0; SHORT size; POIN pointer"
+#endif
+
+ALIGN 4
+RevampedFieldsAnimation0:
+#incext png2dmp "RevampedFields.mapanime1_000.png"
+ALIGN 4
+RevampedFieldsAnimation1:
+#incext png2dmp "RevampedFields.mapanime1_001.png"
+ALIGN 4
+RevampedFieldsAnimation2:
+#incext png2dmp "RevampedFields.mapanime1_002.png"
+ALIGN 4
+RevampedFieldsAnimation3:
+#incext png2dmp "RevampedFields.mapanime1_003.png"
+ALIGN 4
+RevampedFieldsAnimation4:
+#incext png2dmp "RevampedFields.mapanime1_004.png"
+ALIGN 4
+RevampedFieldsAnimation5:
+#incext png2dmp "RevampedFields.mapanime1_005.png"
+ALIGN 4
+RevampedFieldsAnimation6:
+#incext png2dmp "RevampedFields.mapanime1_006.png"
+ALIGN 4
+RevampedFieldsAnimation7:
+#incext png2dmp "RevampedFields.mapanime1_007.png"
+ALIGN 4
+RevampedFieldsAnimation8:
+#incext png2dmp "RevampedFields.mapanime1_008.png"
+ALIGN 4
+RevampedFieldsAnimation9:
+#incext png2dmp "RevampedFields.mapanime1_009.png"
+ALIGN 4
+RevampedFieldsAnimation10:
+#incext png2dmp "RevampedFields.mapanime1_010.png"
+ALIGN 4
+RevampedFieldsAnimation11:
+#incext png2dmp "RevampedFields.mapanime1_011.png"
+ALIGN 4
+RevampedFieldsAnimation12:
+#incext png2dmp "RevampedFields.mapanime1_012.png"
+ALIGN 4
+RevampedFieldsAnimation13:
+#incext png2dmp "RevampedFields.mapanime1_013.png"
+ALIGN 4
+RevampedFieldsAnimation14:
+#incext png2dmp "RevampedFields.mapanime1_014.png"
+ALIGN 4
+RevampedFieldsAnimation15:
+#incext png2dmp "RevampedFields.mapanime1_015.png"
+
+ALIGN 4
+RevampedFieldsAnimation:
+tilesetAnimation(0x1C,0x1000,RevampedFieldsAnimation0)
+tilesetAnimation(0x1C,0x1000,RevampedFieldsAnimation1)
+tilesetAnimation(0x1C,0x1000,RevampedFieldsAnimation2)
+tilesetAnimation(0x1C,0x1000,RevampedFieldsAnimation3)
+tilesetAnimation(0x1C,0x1000,RevampedFieldsAnimation4)
+tilesetAnimation(0x1C,0x1000,RevampedFieldsAnimation5)
+tilesetAnimation(0x1C,0x1000,RevampedFieldsAnimation6)
+tilesetAnimation(0x1C,0x1000,RevampedFieldsAnimation7)
+tilesetAnimation(0x1C,0x1000,RevampedFieldsAnimation8)
+tilesetAnimation(0x1C,0x1000,RevampedFieldsAnimation9)
+tilesetAnimation(0x1C,0x1000,RevampedFieldsAnimation10)
+tilesetAnimation(0x1C,0x1000,RevampedFieldsAnimation11)
+tilesetAnimation(0x1C,0x1000,RevampedFieldsAnimation12)
+tilesetAnimation(0x1C,0x1000,RevampedFieldsAnimation13)
+tilesetAnimation(0x1C,0x1000,RevampedFieldsAnimation14)
+tilesetAnimation(0x1C,0x1000,RevampedFieldsAnimation15)
+WORD 0 0

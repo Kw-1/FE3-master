@@ -1,0 +1,131 @@
+/// - Start Animation
+C00
+C00
+C00
+C00
+C00
+C100529
+C011E48
+O IceBreath_o_000.png
+B IceBreath_b_001.png
+1
+C14
+O IceBreath_o_000.png
+B IceBreath_b_002.png
+1
+O IceBreath_o_000.png
+B IceBreath_b_003.png
+1
+O IceBreath_o_000.png
+B IceBreath_b_004.png
+1
+O IceBreath_o_000.png
+B IceBreath_b_005.png
+1
+O IceBreath_o_000.png
+B IceBreath_b_006.png
+1
+O IceBreath_o_000.png
+B IceBreath_b_007.png
+1
+O IceBreath_o_000.png
+B IceBreath_b_008.png
+1
+C14
+O IceBreath_o_000.png
+B IceBreath_b_009.png
+1
+C51
+O IceBreath_o_000.png
+B IceBreath_b_010.png
+1
+C1A
+C1F
+C14
+O IceBreath_o_011.png
+B IceBreath_b_012.png
+1
+O IceBreath_o_013.png
+B IceBreath_b_014.png
+1
+O IceBreath_o_015.png
+B IceBreath_b_016.png
+1
+O IceBreath_o_017.png
+B IceBreath_b_018.png
+1
+O IceBreath_o_019.png
+B IceBreath_b_020.png
+1
+O IceBreath_o_021.png
+B IceBreath_b_022.png
+1
+O IceBreath_o_023.png
+B IceBreath_b_024.png
+1
+O IceBreath_o_025.png
+B IceBreath_b_026.png
+1
+C14
+O IceBreath_o_027.png
+B IceBreath_b_028.png
+1
+O IceBreath_o_029.png
+B IceBreath_b_030.png
+1
+O IceBreath_o_031.png
+B IceBreath_b_032.png
+1
+O IceBreath_o_033.png
+B IceBreath_b_034.png
+1
+O IceBreath_o_035.png
+B IceBreath_b_036.png
+1
+O IceBreath_o_037.png
+B IceBreath_b_038.png
+1
+O IceBreath_o_039.png
+B IceBreath_b_040.png
+1
+O IceBreath_o_041.png
+B IceBreath_b_042.png
+1
+C14
+O IceBreath_o_043.png
+B IceBreath_b_044.png
+1
+O IceBreath_o_045.png
+B IceBreath_b_044.png
+1
+O IceBreath_o_046.png
+B IceBreath_b_044.png
+1
+O IceBreath_o_047.png
+B IceBreath_b_044.png
+1
+O IceBreath_o_048.png
+B IceBreath_b_044.png
+1
+O IceBreath_o_049.png
+B IceBreath_b_044.png
+1
+O IceBreath_o_050.png
+B IceBreath_b_044.png
+1
+O IceBreath_o_051.png
+B IceBreath_b_044.png
+1
+C14
+O IceBreath_o_052.png
+B IceBreath_b_044.png
+1
+O IceBreath_o_000.png
+B IceBreath_b_044.png
+1
+C40
+O IceBreath_o_000.png
+B IceBreath_b_044.png
+20
+~~~
+/// - End of animation

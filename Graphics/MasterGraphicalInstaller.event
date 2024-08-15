@@ -1,0 +1,8 @@
+#include "MapSprites/MapSpriteInstaller.event"
+#include "ItemIcons/ItemIconInstaller.event"
+#include "BattleAnimations/BattleAnimationInstaller.event"
+#include "Portraits/PortraitsInstaller.event"
+#include "Spells/SpellAnimationInstaller.event"
+#include "ClassCards/MasterClassCardInstaller.event"
+//#include "Palettes/Palette Setup.event"
+

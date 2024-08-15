@@ -1,0 +1,381 @@
+#ifndef ClassAnimTable
+  #ifdef _FE8_
+    #define ClassAnimTable (0xc00008-0x20)
+  #endif
+  #ifdef _FE7_
+    #define ClassAnimTable (0xe00008-0x20)
+  #endif
+#endif
+
+#define AnimTableEntry(index) "ORG ClassAnimTable + (index * 0x20)"
+//#include "animationpatches.event"
+//////////////Installed animations go here:
+
+{
+#include "Lord\Sword\Sword Installer.event"
+#include "Lord\Unarmed\Unarmed Installer.event"
+#include "Cavalier_M\Sword\Sword Installer.event"
+#include "Cavalier_M\Lance\Lance Installer.event"
+#include "Cavalier_M\Unarmed\Unarmed Installer.event"
+#include "Cavalier_F\Sword\Sword Installer.event"
+#include "Cavalier_F\Lance\Lance Installer.event"
+#include "Cavalier_F\Unarmed\Unarmed Installer.event"
+#include "Paladin_M\Sword\Sword Installer.event"
+#include "Paladin_M\Lance\Lance Installer.event"
+#include "Paladin_M\Unarmed\Unarmed Installer.event"
+#include "Paladin_F\Sword\Sword Installer.event"
+#include "Paladin_F\Lance\Lance Installer.event"
+#include "Paladin_F\Unarmed\Unarmed Installer.event"
+#include "Mercenary\Sword\Sword Installer.event"
+#include "Mercenary\Unarmed\Unarmed Installer.event"
+#include "Hero\Sword\Sword Installer.event"
+#include "Hero\Axe\Axe Installer.event"
+#include "Hero\Hand Axe\Hand Axe Installer.event"
+#include "Hero\Unarmed\Unarmed Installer.event"
+#include "Myrmidon\Sword\Sword Installer.event"
+#include "Myrmidon\Unarmed\Unarmed Installer.event"
+#include "Swordmaster\Sword\Sword Installer.event"
+#include "Swordmaster\Unarmed\Unarmed Installer.event"
+#include "Brigand\Axe\Axe Installer.event"
+#include "Brigand\Hand Axe\Hand Axe Installer.event"
+#include "Brigand\Unarmed\Unarmed Installer.event"
+#include "Warrior\Axe\Axe Installer.event"
+#include "Warrior\Hand Axe\Hand Axe Installer.event"
+#include "Warrior\Bow\Bow Installer.event"
+#include "Warrior\Unarmed\Unarmed Installer.event"
+#include "Barbarian\Axe\Axe Installer.event"
+#include "Barbarian\Hand Axe\Hand Axe Installer.event"
+#include "Barbarian\Unarmed\Unarmed Installer.event"
+#include "Berserker\Sword\Sword Installer.event"
+#include "Berserker\Axe\Axe Installer.event"
+#include "Berserker\Hand Axe\Hand Axe Installer.event"
+#include "Berserker\Unarmed\Unarmed Installer.event"
+#include "Pirate\Axe\Axe Installer.event"
+#include "Pirate\Hand Axe\Hand Axe Installer.event"
+#include "Pirate\Unarmed\Unarmed Installer.event"
+#include "Archer\Bow\Bow Installer.event"
+#include "Archer\Unarmed\Unarmed Installer.event"
+#include "Hunter\Bow\Bow Installer.event"
+#include "Hunter\Unarmed\Unarmed Installer.event"
+#include "Sniper\Bow\Bow Installer.event"
+#include "Sniper\Unarmed\Unarmed Installer.event"
+#include "Horseman\Sword\Sword Installer.event"
+#include "Horseman\Bow\Bow Installer.event"
+#include "Horseman\Unarmed\Unarmed Installer.event"
+#include "Armour_Knight\Sword\Sword Installer.event"
+#include "Armour_Knight\Lance\Lance Installer.event"
+#include "Armour_Knight\Unarmed\Unarmed Installer.event"
+#include "General_M\Sword\Sword Installer.event"
+#include "General_M\Lance\Lance Installer.event"
+#include "General_M\Bow\Bow Installer.event"
+#include "General_M\Unarmed\Unarmed Installer.event"
+#include "General_F\Sword\Sword Installer.event"
+#include "General_F\Lance\Lance Installer.event"
+#include "General_F\Bow\Bow Installer.event"
+#include "General_F\Unarmed\Unarmed Installer.event"
+#include "Great_Knight_M\Sword\Sword Installer.event"
+#include "Great_Knight_M\Lance\Lance Installer.event"
+#include "Great_Knight_M\Axe\Axe Installer.event"
+#include "Great_Knight_M\Hand Axe\Hand Axe Installer.event"
+#include "Great_Knight_M\Unarmed\Unarmed Installer.event"
+#include "Great_Knight_F\Sword\Sword Installer.event"
+#include "Great_Knight_F\Lance\Lance Installer.event"
+#include "Great_Knight_F\Axe\Axe Installer.event"
+#include "Great_Knight_F\Hand Axe\Hand Axe Installer.event"
+#include "Great_Knight_F\Unarmed\Unarmed Installer.event"
+#include "Dracoknight_M\Lance\Lance Installer.event"
+#include "Dracoknight_M\Axe\Axe Installer.event"
+#include "Dracoknight_M\Hand Axe\Hand Axe Installer.event"
+#include "Dracoknight_M\Unarmed\Unarmed Installer.event"
+#include "Dracoknight_F\Lance\Lance Installer.event"
+#include "Dracoknight_F\Axe\Axe Installer.event"
+#include "Dracoknight_F\Hand Axe\Hand Axe Installer.event"
+#include "Dracoknight_F\Unarmed\Unarmed Installer.event"
+#include "Pegasus_Knight\Sword\Sword Installer.event"
+#include "Pegasus_Knight\Lance\Lance Installer.event"
+#include "Pegasus_Knight\Unarmed\Unarmed Installer.event"
+#include "Falcon_Knight\Sword\Sword Installer.event"
+#include "Falcon_Knight\Lance\Lance Installer.event"
+#include "Falcon_Knight\Unarmed\Unarmed Installer.event"
+#include "Mage_F\Anima\Anima Installer.event"
+#include "Mage_F\Unarmed\Unarmed Installer.event"
+#include "Bishop_M\Anima\Anima Installer.event"
+#include "Curate\Staff\Staff Installer.event"
+#include "Curate\Unarmed\Unarmed Installer.event"
+#include "Sister\Staff\Staff Installer.event"
+#include "Sister\Unarmed\Unarmed Installer.event"
+#include "Bishop_M\Staff\Staff Installer.event"
+#include "Bishop_M\Unarmed\Unarmed Installer.event"
+#include "Bishop_F\Anima\Anima Installer.event"
+#include "Bishop_F\Staff\Staff Installer.event"
+#include "Bishop_F\Unarmed\Unarmed Installer.event"
+#include "Dancer\Sword\Sword Installer.event"
+#include "Dancer\Unarmed\Unarmed Installer.event"
+#include "Soldier\Lance\Lance Installer.event"
+#include "Soldier\Unarmed\Unarmed Installer.event"
+#include "Ballistician\Arrowspate\Arrowspate Installer.event"
+#include "Ballistician\Thunderbolt\Thunderbolt Installer.event"
+#include "Ballistician\Hoistflamme\Hoistflamme Installer.event"
+#include "Ballistician\Stonehoist\Stonehoist Installer.event"
+#include "Ballistician\Pachyderm\Pachyderm Installer.event"
+#include "Divine_Dragon\Breath Installer.event"
+#include "Fire_Dragon\Breath Installer.event"
+#include "Ice_Dragon\Breath Installer.event"
+#include "Mage_Dragon\Breath Installer.event"
+#include "Wyvern\Breath Installer.event"
+#include "Earth_Dragon\Breath Installer.event"
+#include "Dark_Earth_Dragon\Breath Installer.event"
+#include "Emperor\Sword\Sword Installer.event"
+#include "Emperor\Lance\Lance Installer.event"
+#include "Emperor\Bow\Bow Installer.event"
+#include "Emperor\Unarmed\Unarmed Installer.event"
+} 
+
+ALIGN 4
+  
+LordAnimPointer:
+AddClassAnimation(LordSword,Sword,1)
+AddClassAnimation(LordUnarmed,Unarmed,1)
+EndClassAnimation
+
+Cavalier_MAnimPointer:
+AddClassAnimation(Cavalier_MSword,Sword,1)
+AddClassAnimation(Cavalier_MLance,Lance,1)
+AddClassAnimation(Cavalier_MUnarmed,Unarmed,1)
+EndClassAnimation
+
+Cavalier_FAnimPointer:
+AddClassAnimation(Cavalier_FSword,Sword,1)
+AddClassAnimation(Cavalier_FLance,Lance,1)
+AddClassAnimation(Cavalier_FUnarmed,Unarmed,1)
+EndClassAnimation
+
+Paladin_MAnimPointer:
+AddClassAnimation(Paladin_MSword,Sword,1)
+AddClassAnimation(Paladin_MLance,Lance,1)
+AddClassAnimation(Paladin_MUnarmed,Unarmed,1)
+EndClassAnimation
+
+Paladin_FAnimPointer:
+AddClassAnimation(Paladin_FSword,Sword,1)
+AddClassAnimation(Paladin_FLance,Lance,1)
+AddClassAnimation(Paladin_FUnarmed,Unarmed,1)
+EndClassAnimation
+
+MercenaryAnimPointer:
+AddClassAnimation(MercenarySword,Sword,1)
+AddClassAnimation(MercenaryUnarmed,Unarmed,1)
+EndClassAnimation
+ 
+HeroAnimPointer:
+AddClassAnimation(HeroSword,Sword,1)
+AddClassAnimation(HeroAxe,Axe,1)
+AddClassAnimation(HeroHandAxe,0x28,0)
+AddClassAnimation(HeroUnarmed,Unarmed,1)
+EndClassAnimation
+
+MyrmidonAnimPointer:
+AddClassAnimation(MyrmidonSword,Sword,1)
+AddClassAnimation(MyrmidonUnarmed,Unarmed,1)
+EndClassAnimation
+
+SwordmasterAnimPointer:
+AddClassAnimation(SwordmasterSword,Sword,1)
+AddClassAnimation(SwordmasterUnarmed,Unarmed,1)
+EndClassAnimation
+
+BrigandAnimPointer:
+AddClassAnimation(BrigandAxe,Axe,1)
+AddClassAnimation(BrigandHandAxe,0x28,0)
+AddClassAnimation(BrigandUnarmed,Unarmed,1)
+EndClassAnimation
+
+WarriorAnimPointer:
+AddClassAnimation(WarriorAxe,Axe,1)
+AddClassAnimation(WarriorHandAxe,0x28,0)
+AddClassAnimation(WarriorBow,Bow,1)
+AddClassAnimation(WarriorUnarmed,Unarmed,1)
+EndClassAnimation
+
+BarbarianAnimPointer:
+AddClassAnimation(BarbarianAxe,Axe,1)
+AddClassAnimation(BarbarianHandAxe,0x28,0)
+AddClassAnimation(BarbarianUnarmed,Unarmed,1)
+EndClassAnimation
+
+BerserkerAnimPointer:
+AddClassAnimation(BerserkerSword,Sword,1)
+AddClassAnimation(BerserkerAxe,Axe,1)
+AddClassAnimation(BerserkerHandAxe,0x28,0)
+AddClassAnimation(BerserkerUnarmed,Unarmed,1)
+EndClassAnimation
+
+PirateAnimPointer:
+AddClassAnimation(PirateAxe,Axe,1)
+AddClassAnimation(PirateHandAxe,0x28,0)
+AddClassAnimation(PirateUnarmed,Unarmed,1)
+EndClassAnimation
+
+ArcherAnimPointer:
+AddClassAnimation(ArcherBow,Bow,1)
+AddClassAnimation(ArcherUnarmed,Unarmed,1)
+EndClassAnimation
+
+HunterAnimPointer:
+AddClassAnimation(HunterBow,Bow,1)
+AddClassAnimation(HunterUnarmed,Unarmed,1)
+EndClassAnimation
+
+SniperAnimPointer:
+AddClassAnimation(SniperBow,Bow,1)
+AddClassAnimation(SniperUnarmed,Unarmed,1)
+EndClassAnimation
+
+HorsemanAnimPointer:
+AddClassAnimation(HorsemanSword,Sword,1)
+AddClassAnimation(HorsemanBow,Bow,1)
+AddClassAnimation(HorsemanUnarmed,Unarmed,1)
+EndClassAnimation
+
+ArmourKnightAnimPointer:
+AddClassAnimation(ArmourKnightSword,Sword,1)
+AddClassAnimation(ArmourKnightLance,Lance,1)
+AddClassAnimation(ArmourKnightUnarmed,Unarmed,1)
+EndClassAnimation
+
+General_MAnimPointer:
+AddClassAnimation(General_MSword,Sword,1)
+AddClassAnimation(General_MLance,Lance,1)
+AddClassAnimation(General_MBow,Bow,1)
+AddClassAnimation(General_MUnarmed,Unarmed,1)
+EndClassAnimation
+  
+General_FAnimPointer:
+AddClassAnimation(General_FSword,Sword,1)
+AddClassAnimation(General_FLance,Lance,1)
+AddClassAnimation(General_FBow,Bow,1)
+AddClassAnimation(General_FUnarmed,Unarmed,1)
+EndClassAnimation
+
+GreatKnight_MAnimPointer:
+AddClassAnimation(GreatKnight_MSword,Sword,1)
+AddClassAnimation(GreatKnight_MLance,Lance,1)
+AddClassAnimation(GreatKnight_MAxe,Axe,1)
+AddClassAnimation(GreatKnight_MHandAxe,0x28,0)
+AddClassAnimation(GreatKnight_MUnarmed,Unarmed,1)
+EndClassAnimation
+
+GreatKnight_FAnimPointer:
+AddClassAnimation(GreatKnight_FSword,Sword,1)
+AddClassAnimation(GreatKnight_FLance,Lance,1)
+AddClassAnimation(GreatKnight_FAxe,Axe,1)
+AddClassAnimation(GreatKnight_FHandAxe,0x28,0)
+AddClassAnimation(GreatKnight_FUnarmed,Unarmed,1)
+EndClassAnimation
+
+Dracoknight_MAnimPointer:
+AddClassAnimation(Dracoknight_MLance,Lance,1)
+AddClassAnimation(Dracoknight_MAxe,Axe,1)
+AddClassAnimation(Dracoknight_MHandAxe,0x28,0)
+AddClassAnimation(Dracoknight_MUnarmed,Unarmed,1)
+EndClassAnimation
+
+Dracoknight_FAnimPointer:
+AddClassAnimation(Dracoknight_FLance,Lance,1)
+AddClassAnimation(Dracoknight_FAxe,Axe,1)
+AddClassAnimation(Dracoknight_FHandAxe,0x28,0)
+AddClassAnimation(Dracoknight_FUnarmed,Unarmed,1)
+EndClassAnimation
+
+Pegasus_KnightAnimPointer:
+AddClassAnimation(PegasusKnightSword,Sword,1)
+AddClassAnimation(PegasusKnightLance,Lance,1)
+AddClassAnimation(PegasusKnightUnarmed,Unarmed,1)
+EndClassAnimation
+
+Falcon_KnightAnimPointer:
+AddClassAnimation(FalcoknightSword,Sword,1)
+AddClassAnimation(FalcoknightLance,Lance,1)
+AddClassAnimation(FalcoknightUnarmed,Unarmed,1)
+EndClassAnimation
+
+Mage_FAnimPointer:
+AddClassAnimation(Mage_FAnima,Anima,1)
+AddClassAnimation(Mage_FAnima,Unarmed,1)
+EndClassAnimation
+
+CurateAnimPointer:
+AddClassAnimation(CurateStaff,Staff,1)
+AddClassAnimation(CurateUnarmed,Unarmed,1)
+EndClassAnimation
+
+SisterAnimPointer:
+AddClassAnimation(SisterStaff,Staff,1)
+AddClassAnimation(SisterUnarmed,Unarmed,1)
+EndClassAnimation
+
+Bishop_MAnimPointer:
+AddClassAnimation(Bishop_MStaff,Anima,1)
+AddClassAnimation(Bishop_MStaff,Staff,1)
+AddClassAnimation(Bishop_MUnarmed,Unarmed,1)
+EndClassAnimation
+
+Bishop_FAnimPointer:
+AddClassAnimation(Bishop_FStaff,Anima,1)
+AddClassAnimation(Bishop_FStaff,Staff,1)
+AddClassAnimation(Bishop_FUnarmed,Unarmed,1)
+EndClassAnimation
+
+DancerAnimPointer:
+AddClassAnimation(DancerSword,Sword,1)
+AddClassAnimation(DancerUnarmed,Unarmed,1)
+EndClassAnimation
+
+SoldierAnimPointer:
+AddClassAnimation(SoldierLance,Lance,1)
+AddClassAnimation(SoldierUnarmed,Unarmed,1)
+EndClassAnimation
+
+BallisticianAnimPointer:
+AddClassAnimation(BallisticianBow,0x33,0)
+AddClassAnimation(BallisticianBow,0x34,0)
+AddClassAnimation(BallisticianStone,0x35,0)
+AddClassAnimation(BallisticianStone,0x36,0)
+AddClassAnimation(BallisticianStone,0x37,0)
+EndClassAnimation
+
+DivineDragonAnimPointer:
+AddClassAnimation(DivineDragonBreath,0xB0,0)
+EndClassAnimation
+
+FireDragonAnimPointer:
+AddClassAnimation(FireDragonBreath,0xAD,0)
+EndClassAnimation
+
+IceDragonAnimPointer:
+AddClassAnimation(IceDragonBreath,0xAE,0)
+EndClassAnimation
+
+MageDragonAnimPointer:
+AddClassAnimation(MageDragonBreath,0xBB,0)
+EndClassAnimation
+
+WyvernAnimPointer:
+AddClassAnimation(WyvernBreath,0x8B,0)
+EndClassAnimation
+
+EarthDragonAnimPointer:
+AddClassAnimation(EarthDragonBreath,0xBA,0)
+EndClassAnimation
+
+DarkDragonAnimPointer:
+AddClassAnimation(DarkDragonBreath,0xAF,0)
+EndClassAnimation
+
+EmperorAnimPointer:
+AddClassAnimation(EmperorSword,Sword,1)
+AddClassAnimation(EmperorLance,Lance,1)
+AddClassAnimation(EmperorBow,Bow,1)
+AddClassAnimation(EmperorUnarmed,Unarmed,1)
+EndClassAnimation
+
