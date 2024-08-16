@@ -73,10 +73,10 @@ Expedition[X]
 ## ThemeofLoveName
 Theme of Love[X]
 
-## LegendoftheDivineDragonAName *
+## LegendoftheDivineDragonAName ^
 Legend of the Divine Dragon B[X]
 
-## LegendoftheDivineDragonBName *
+## LegendoftheDivineDragonBName ^
 Legend of the Divine Dragon B[X]
 
 ## WarofHeroesName
@@ -100,7 +100,7 @@ Epilogue[X]
 ## WarriorsPreludeName
 Warrior's Prelude[X]
 
-## LegendoftheDivineDragonMusicBoxName *
+## LegendoftheDivineDragonMusicBoxName ^
 Legend of the Divine Dragon MB[X]
 
 ## DragonsAltarName
